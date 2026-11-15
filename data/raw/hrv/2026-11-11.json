@@ -1,0 +1,463 @@
+{
+ "endTimestampGMT": "2026-11-11T03:16:30.0",
+ "endTimestampLocal": "2026-11-11T05:16:30.0",
+ "hrvReadings": [
+  {
+   "hrvValue": 62,
+   "readingTimeGMT": "2026-11-10T20:06:30.0",
+   "readingTimeLocal": "2026-11-10T22:06:30.0"
+  },
+  {
+   "hrvValue": 76,
+   "readingTimeGMT": "2026-11-10T20:11:30.0",
+   "readingTimeLocal": "2026-11-10T22:11:30.0"
+  },
+  {
+   "hrvValue": 84,
+   "readingTimeGMT": "2026-11-10T20:16:30.0",
+   "readingTimeLocal": "2026-11-10T22:16:30.0"
+  },
+  {
+   "hrvValue": 74,
+   "readingTimeGMT": "2026-11-10T20:21:30.0",
+   "readingTimeLocal": "2026-11-10T22:21:30.0"
+  },
+  {
+   "hrvValue": 83,
+   "readingTimeGMT": "2026-11-10T20:26:30.0",
+   "readingTimeLocal": "2026-11-10T22:26:30.0"
+  },
+  {
+   "hrvValue": 87,
+   "readingTimeGMT": "2026-11-10T20:31:30.0",
+   "readingTimeLocal": "2026-11-10T22:31:30.0"
+  },
+  {
+   "hrvValue": 75,
+   "readingTimeGMT": "2026-11-10T20:36:30.0",
+   "readingTimeLocal": "2026-11-10T22:36:30.0"
+  },
+  {
+   "hrvValue": 70,
+   "readingTimeGMT": "2026-11-10T20:41:30.0",
+   "readingTimeLocal": "2026-11-10T22:41:30.0"
+  },
+  {
+   "hrvValue": 84,
+   "readingTimeGMT": "2026-11-10T20:46:30.0",
+   "readingTimeLocal": "2026-11-10T22:46:30.0"
+  },
+  {
+   "hrvValue": 88,
+   "readingTimeGMT": "2026-11-10T20:51:30.0",
+   "readingTimeLocal": "2026-11-10T22:51:30.0"
+  },
+  {
+   "hrvValue": 91,
+   "readingTimeGMT": "2026-11-10T20:56:30.0",
+   "readingTimeLocal": "2026-11-10T22:56:30.0"
+  },
+  {
+   "hrvValue": 96,
+   "readingTimeGMT": "2026-11-10T21:01:30.0",
+   "readingTimeLocal": "2026-11-10T23:01:30.0"
+  },
+  {
+   "hrvValue": 89,
+   "readingTimeGMT": "2026-11-10T21:06:30.0",
+   "readingTimeLocal": "2026-11-10T23:06:30.0"
+  },
+  {
+   "hrvValue": 94,
+   "readingTimeGMT": "2026-11-10T21:11:30.0",
+   "readingTimeLocal": "2026-11-10T23:11:30.0"
+  },
+  {
+   "hrvValue": 89,
+   "readingTimeGMT": "2026-11-10T21:16:30.0",
+   "readingTimeLocal": "2026-11-10T23:16:30.0"
+  },
+  {
+   "hrvValue": 83,
+   "readingTimeGMT": "2026-11-10T21:21:30.0",
+   "readingTimeLocal": "2026-11-10T23:21:30.0"
+  },
+  {
+   "hrvValue": 71,
+   "readingTimeGMT": "2026-11-10T21:26:30.0",
+   "readingTimeLocal": "2026-11-10T23:26:30.0"
+  },
+  {
+   "hrvValue": 85,
+   "readingTimeGMT": "2026-11-10T21:31:30.0",
+   "readingTimeLocal": "2026-11-10T23:31:30.0"
+  },
+  {
+   "hrvValue": 84,
+   "readingTimeGMT": "2026-11-10T21:36:30.0",
+   "readingTimeLocal": "2026-11-10T23:36:30.0"
+  },
+  {
+   "hrvValue": 91,
+   "readingTimeGMT": "2026-11-10T21:41:30.0",
+   "readingTimeLocal": "2026-11-10T23:41:30.0"
+  },
+  {
+   "hrvValue": 87,
+   "readingTimeGMT": "2026-11-10T21:46:30.0",
+   "readingTimeLocal": "2026-11-10T23:46:30.0"
+  },
+  {
+   "hrvValue": 76,
+   "readingTimeGMT": "2026-11-10T21:51:30.0",
+   "readingTimeLocal": "2026-11-10T23:51:30.0"
+  },
+  {
+   "hrvValue": 74,
+   "readingTimeGMT": "2026-11-10T21:56:30.0",
+   "readingTimeLocal": "2026-11-10T23:56:30.0"
+  },
+  {
+   "hrvValue": 71,
+   "readingTimeGMT": "2026-11-10T22:01:30.0",
+   "readingTimeLocal": "2026-11-11T00:01:30.0"
+  },
+  {
+   "hrvValue": 66,
+   "readingTimeGMT": "2026-11-10T22:06:30.0",
+   "readingTimeLocal": "2026-11-11T00:06:30.0"
+  },
+  {
+   "hrvValue": 62,
+   "readingTimeGMT": "2026-11-10T22:11:30.0",
+   "readingTimeLocal": "2026-11-11T00:11:30.0"
+  },
+  {
+   "hrvValue": 63,
+   "readingTimeGMT": "2026-11-10T22:16:30.0",
+   "readingTimeLocal": "2026-11-11T00:16:30.0"
+  },
+  {
+   "hrvValue": 74,
+   "readingTimeGMT": "2026-11-10T22:21:30.0",
+   "readingTimeLocal": "2026-11-11T00:21:30.0"
+  },
+  {
+   "hrvValue": 81,
+   "readingTimeGMT": "2026-11-10T22:26:30.0",
+   "readingTimeLocal": "2026-11-11T00:26:30.0"
+  },
+  {
+   "hrvValue": 88,
+   "readingTimeGMT": "2026-11-10T22:31:30.0",
+   "readingTimeLocal": "2026-11-11T00:31:30.0"
+  },
+  {
+   "hrvValue": 72,
+   "readingTimeGMT": "2026-11-10T22:36:30.0",
+   "readingTimeLocal": "2026-11-11T00:36:30.0"
+  },
+  {
+   "hrvValue": 57,
+   "readingTimeGMT": "2026-11-10T22:41:30.0",
+   "readingTimeLocal": "2026-11-11T00:41:30.0"
+  },
+  {
+   "hrvValue": 68,
+   "readingTimeGMT": "2026-11-10T22:46:30.0",
+   "readingTimeLocal": "2026-11-11T00:46:30.0"
+  },
+  {
+   "hrvValue": 67,
+   "readingTimeGMT": "2026-11-10T22:51:30.0",
+   "readingTimeLocal": "2026-11-11T00:51:30.0"
+  },
+  {
+   "hrvValue": 78,
+   "readingTimeGMT": "2026-11-10T22:56:30.0",
+   "readingTimeLocal": "2026-11-11T00:56:30.0"
+  },
+  {
+   "hrvValue": 61,
+   "readingTimeGMT": "2026-11-10T23:01:30.0",
+   "readingTimeLocal": "2026-11-11T01:01:30.0"
+  },
+  {
+   "hrvValue": 73,
+   "readingTimeGMT": "2026-11-10T23:06:30.0",
+   "readingTimeLocal": "2026-11-11T01:06:30.0"
+  },
+  {
+   "hrvValue": 59,
+   "readingTimeGMT": "2026-11-10T23:11:30.0",
+   "readingTimeLocal": "2026-11-11T01:11:30.0"
+  },
+  {
+   "hrvValue": 57,
+   "readingTimeGMT": "2026-11-10T23:16:30.0",
+   "readingTimeLocal": "2026-11-11T01:16:30.0"
+  },
+  {
+   "hrvValue": 60,
+   "readingTimeGMT": "2026-11-10T23:21:30.0",
+   "readingTimeLocal": "2026-11-11T01:21:30.0"
+  },
+  {
+   "hrvValue": 59,
+   "readingTimeGMT": "2026-11-10T23:26:30.0",
+   "readingTimeLocal": "2026-11-11T01:26:30.0"
+  },
+  {
+   "hrvValue": 56,
+   "readingTimeGMT": "2026-11-10T23:31:30.0",
+   "readingTimeLocal": "2026-11-11T01:31:30.0"
+  },
+  {
+   "hrvValue": 54,
+   "readingTimeGMT": "2026-11-10T23:36:30.0",
+   "readingTimeLocal": "2026-11-11T01:36:30.0"
+  },
+  {
+   "hrvValue": 78,
+   "readingTimeGMT": "2026-11-10T23:41:30.0",
+   "readingTimeLocal": "2026-11-11T01:41:30.0"
+  },
+  {
+   "hrvValue": 57,
+   "readingTimeGMT": "2026-11-10T23:46:30.0",
+   "readingTimeLocal": "2026-11-11T01:46:30.0"
+  },
+  {
+   "hrvValue": 33,
+   "readingTimeGMT": "2026-11-10T23:51:30.0",
+   "readingTimeLocal": "2026-11-11T01:51:30.0"
+  },
+  {
+   "hrvValue": 47,
+   "readingTimeGMT": "2026-11-10T23:56:30.0",
+   "readingTimeLocal": "2026-11-11T01:56:30.0"
+  },
+  {
+   "hrvValue": 42,
+   "readingTimeGMT": "2026-11-11T00:01:30.0",
+   "readingTimeLocal": "2026-11-11T02:01:30.0"
+  },
+  {
+   "hrvValue": 47,
+   "readingTimeGMT": "2026-11-11T00:06:30.0",
+   "readingTimeLocal": "2026-11-11T02:06:30.0"
+  },
+  {
+   "hrvValue": 62,
+   "readingTimeGMT": "2026-11-11T00:11:30.0",
+   "readingTimeLocal": "2026-11-11T02:11:30.0"
+  },
+  {
+   "hrvValue": 43,
+   "readingTimeGMT": "2026-11-11T00:16:30.0",
+   "readingTimeLocal": "2026-11-11T02:16:30.0"
+  },
+  {
+   "hrvValue": 59,
+   "readingTimeGMT": "2026-11-11T00:21:30.0",
+   "readingTimeLocal": "2026-11-11T02:21:30.0"
+  },
+  {
+   "hrvValue": 58,
+   "readingTimeGMT": "2026-11-11T00:26:30.0",
+   "readingTimeLocal": "2026-11-11T02:26:30.0"
+  },
+  {
+   "hrvValue": 55,
+   "readingTimeGMT": "2026-11-11T00:31:30.0",
+   "readingTimeLocal": "2026-11-11T02:31:30.0"
+  },
+  {
+   "hrvValue": 75,
+   "readingTimeGMT": "2026-11-11T00:36:30.0",
+   "readingTimeLocal": "2026-11-11T02:36:30.0"
+  },
+  {
+   "hrvValue": 78,
+   "readingTimeGMT": "2026-11-11T00:41:30.0",
+   "readingTimeLocal": "2026-11-11T02:41:30.0"
+  },
+  {
+   "hrvValue": 83,
+   "readingTimeGMT": "2026-11-11T00:46:30.0",
+   "readingTimeLocal": "2026-11-11T02:46:30.0"
+  },
+  {
+   "hrvValue": 84,
+   "readingTimeGMT": "2026-11-11T00:51:30.0",
+   "readingTimeLocal": "2026-11-11T02:51:30.0"
+  },
+  {
+   "hrvValue": 82,
+   "readingTimeGMT": "2026-11-11T00:56:30.0",
+   "readingTimeLocal": "2026-11-11T02:56:30.0"
+  },
+  {
+   "hrvValue": 74,
+   "readingTimeGMT": "2026-11-11T01:01:30.0",
+   "readingTimeLocal": "2026-11-11T03:01:30.0"
+  },
+  {
+   "hrvValue": 63,
+   "readingTimeGMT": "2026-11-11T01:06:30.0",
+   "readingTimeLocal": "2026-11-11T03:06:30.0"
+  },
+  {
+   "hrvValue": 75,
+   "readingTimeGMT": "2026-11-11T01:11:30.0",
+   "readingTimeLocal": "2026-11-11T03:11:30.0"
+  },
+  {
+   "hrvValue": 85,
+   "readingTimeGMT": "2026-11-11T01:16:30.0",
+   "readingTimeLocal": "2026-11-11T03:16:30.0"
+  },
+  {
+   "hrvValue": 88,
+   "readingTimeGMT": "2026-11-11T01:21:30.0",
+   "readingTimeLocal": "2026-11-11T03:21:30.0"
+  },
+  {
+   "hrvValue": 90,
+   "readingTimeGMT": "2026-11-11T01:26:30.0",
+   "readingTimeLocal": "2026-11-11T03:26:30.0"
+  },
+  {
+   "hrvValue": 76,
+   "readingTimeGMT": "2026-11-11T01:31:30.0",
+   "readingTimeLocal": "2026-11-11T03:31:30.0"
+  },
+  {
+   "hrvValue": 68,
+   "readingTimeGMT": "2026-11-11T01:36:30.0",
+   "readingTimeLocal": "2026-11-11T03:36:30.0"
+  },
+  {
+   "hrvValue": 59,
+   "readingTimeGMT": "2026-11-11T01:41:30.0",
+   "readingTimeLocal": "2026-11-11T03:41:30.0"
+  },
+  {
+   "hrvValue": 70,
+   "readingTimeGMT": "2026-11-11T01:46:30.0",
+   "readingTimeLocal": "2026-11-11T03:46:30.0"
+  },
+  {
+   "hrvValue": 72,
+   "readingTimeGMT": "2026-11-11T01:51:30.0",
+   "readingTimeLocal": "2026-11-11T03:51:30.0"
+  },
+  {
+   "hrvValue": 76,
+   "readingTimeGMT": "2026-11-11T01:56:30.0",
+   "readingTimeLocal": "2026-11-11T03:56:30.0"
+  },
+  {
+   "hrvValue": 66,
+   "readingTimeGMT": "2026-11-11T02:01:30.0",
+   "readingTimeLocal": "2026-11-11T04:01:30.0"
+  },
+  {
+   "hrvValue": 65,
+   "readingTimeGMT": "2026-11-11T02:06:30.0",
+   "readingTimeLocal": "2026-11-11T04:06:30.0"
+  },
+  {
+   "hrvValue": 66,
+   "readingTimeGMT": "2026-11-11T02:11:30.0",
+   "readingTimeLocal": "2026-11-11T04:11:30.0"
+  },
+  {
+   "hrvValue": 60,
+   "readingTimeGMT": "2026-11-11T02:16:30.0",
+   "readingTimeLocal": "2026-11-11T04:16:30.0"
+  },
+  {
+   "hrvValue": 67,
+   "readingTimeGMT": "2026-11-11T02:21:30.0",
+   "readingTimeLocal": "2026-11-11T04:21:30.0"
+  },
+  {
+   "hrvValue": 75,
+   "readingTimeGMT": "2026-11-11T02:26:30.0",
+   "readingTimeLocal": "2026-11-11T04:26:30.0"
+  },
+  {
+   "hrvValue": 76,
+   "readingTimeGMT": "2026-11-11T02:31:30.0",
+   "readingTimeLocal": "2026-11-11T04:31:30.0"
+  },
+  {
+   "hrvValue": 79,
+   "readingTimeGMT": "2026-11-11T02:36:30.0",
+   "readingTimeLocal": "2026-11-11T04:36:30.0"
+  },
+  {
+   "hrvValue": 65,
+   "readingTimeGMT": "2026-11-11T02:41:30.0",
+   "readingTimeLocal": "2026-11-11T04:41:30.0"
+  },
+  {
+   "hrvValue": 61,
+   "readingTimeGMT": "2026-11-11T02:46:30.0",
+   "readingTimeLocal": "2026-11-11T04:46:30.0"
+  },
+  {
+   "hrvValue": 60,
+   "readingTimeGMT": "2026-11-11T02:51:30.0",
+   "readingTimeLocal": "2026-11-11T04:51:30.0"
+  },
+  {
+   "hrvValue": 60,
+   "readingTimeGMT": "2026-11-11T02:56:30.0",
+   "readingTimeLocal": "2026-11-11T04:56:30.0"
+  },
+  {
+   "hrvValue": 51,
+   "readingTimeGMT": "2026-11-11T03:01:30.0",
+   "readingTimeLocal": "2026-11-11T05:01:30.0"
+  },
+  {
+   "hrvValue": 62,
+   "readingTimeGMT": "2026-11-11T03:06:30.0",
+   "readingTimeLocal": "2026-11-11T05:06:30.0"
+  },
+  {
+   "hrvValue": 57,
+   "readingTimeGMT": "2026-11-11T03:11:30.0",
+   "readingTimeLocal": "2026-11-11T05:11:30.0"
+  },
+  {
+   "hrvValue": 66,
+   "readingTimeGMT": "2026-11-11T03:16:30.0",
+   "readingTimeLocal": "2026-11-11T05:16:30.0"
+  }
+ ],
+ "hrvSummary": {
+  "baseline": {
+   "balancedLow": 52,
+   "balancedUpper": 72,
+   "lowUpper": 48,
+   "markerValue": 0.375
+  },
+  "calendarDate": "2026-11-11",
+  "createTimeStamp": "2026-11-11T03:21:50.365",
+  "feedbackPhrase": "HRV_BALANCED_5",
+  "lastNight5MinHigh": 96,
+  "lastNightAvg": 71,
+  "status": "BALANCED",
+  "weeklyAvg": 57
+ },
+ "sleepEndTimestampGMT": "2026-11-11T03:16:52.0",
+ "sleepEndTimestampLocal": "2026-11-11T05:16:52.0",
+ "sleepStartTimestampGMT": "2026-11-10T20:03:52.0",
+ "sleepStartTimestampLocal": "2026-11-10T22:03:52.0",
+ "startTimestampGMT": "2026-11-10T20:03:52.0",
+ "startTimestampLocal": "2026-11-10T22:03:52.0",
+ "userProfilePk": 52220659
+}

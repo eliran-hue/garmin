@@ -1,0 +1,156 @@
+{
+ "data": [
+  {
+   "bodyBattery": {
+    "activityEvents": [
+     {
+      "bodyBatteryImpact": 27,
+      "deviceId": 3497655817,
+      "durationInMillis": 22740000,
+      "eventStartTimeGmt": "2026-11-08T20:01:03.0",
+      "eventStartTimeLocal": "2026-11-08T22:01:03.0",
+      "eventType": "SLEEP",
+      "feedbackType": "NONE",
+      "shortFeedback": "NONE"
+     },
+     {
+      "bodyBatteryImpact": -15,
+      "deviceId": 3497655817,
+      "durationInMillis": 4140000,
+      "eventStartTimeGmt": "2026-11-09T03:46:38.0",
+      "eventStartTimeLocal": "2026-11-09T05:46:38.0",
+      "eventType": "ACTIVITY",
+      "feedbackType": "EXERCISE_TRAINING_EFFECT_4_GOOD_TIMING",
+      "shortFeedback": "HIGHLY_IMPROVING_VO2MAX"
+     },
+     {
+      "bodyBatteryImpact": 3,
+      "deviceId": 3497655817,
+      "durationInMillis": 2640000,
+      "eventStartTimeGmt": "2026-11-09T09:38:52.0",
+      "eventStartTimeLocal": "2026-11-09T11:38:52.0",
+      "eventType": "RECOVERY",
+      "feedbackType": "RECOVERY_BODY_BATTERY_INCREASE",
+      "shortFeedback": "BODY_BATTERY_RECHARGE"
+     },
+     {
+      "bodyBatteryImpact": 2,
+      "deviceId": 3497655817,
+      "durationInMillis": 3840000,
+      "eventStartTimeGmt": "2026-11-09T13:51:42.0",
+      "eventStartTimeLocal": "2026-11-09T15:51:42.0",
+      "eventType": "RECOVERY",
+      "feedbackType": "RECOVERY_LONG_BODY_BATTERY_INCREASE",
+      "shortFeedback": "LONG_RESTFUL_PERIOD"
+     }
+    ],
+    "chargedValue": 38,
+    "drainedValue": 51,
+    "dynamicFeedbackEvent": {
+     "bodyBatteryLevel": "HIGH",
+     "eventTimestampGmt": "2026-11-09T18:00:20.0",
+     "feedbackLongType": "SLEEP_PREPARATION_RECOVERING_AND_INTENSIVE_EXERCISE",
+     "feedbackShortType": "SLEEP_PREPARATION_RECOVERING_AND_INTENSIVE_EXERCISE"
+    },
+    "endOfDayDynamicFeedbackEvent": {
+     "bodyBatteryLevel": "HIGH",
+     "eventTimestampGmt": "2026-11-09T19:48:18.0",
+     "feedbackLongType": "SLEEP_TIME_PASSED_RECOVERING_AND_INTENSIVE_EXERCISE",
+     "feedbackShortType": "SLEEP_TIME_PASSED_RECOVERING_AND_INTENSIVE_EXERCISE"
+    },
+    "featureVersion": "3.0",
+    "latestValue": 42,
+    "maxValue": 75,
+    "minValue": 40
+   },
+   "calendarDate": "2026-11-09",
+   "calories": {
+    "burnedActive": 1039,
+    "burnedResting": 2165,
+    "burnedTotal": 3204,
+    "consumedGoal": 1880,
+    "consumedRemaining": 2919
+   },
+   "heartRate": {
+    "maxValue": 179,
+    "minValue": 52,
+    "restingValue": 55
+   },
+   "hydration": {
+    "consumedInFractionalMl": 0.0,
+    "consumedInMl": 0,
+    "goalInFractionalMl": 2976.0,
+    "goalInMl": 2976
+   },
+   "includesActivityData": true,
+   "includesWellnessData": true,
+   "intensityMinutes": {
+    "goal": 200,
+    "moderate": 3,
+    "vigorous": 69
+   },
+   "jetLag": {},
+   "movement": {
+    "floorsAscended": {
+     "distanceInMeters": 24.96,
+     "goal": 5,
+     "value": 8
+    },
+    "floorsDescended": {
+     "distanceInMeters": 23.4,
+     "value": 7
+    },
+    "pushes": {},
+    "steps": {
+     "distanceInMeters": 15124.0,
+     "goal": 2000,
+     "value": 16066
+    }
+   },
+   "pulseOx": {
+    "avgAltitudeInMeters": 44.0,
+    "avgValue": 97,
+    "latestTimestampGmt": "2026-11-09T22:00:00.0",
+    "latestTimestampLocal": "2026-11-10T00:00:00.0",
+    "latestValue": 97,
+    "minValue": 91
+   },
+   "respiration": {
+    "algorithmVersion": 200,
+    "avgValue": 14,
+    "latestTimestampGmt": "2026-11-09T22:00:00.0",
+    "latestValue": 16,
+    "maxValue": 22,
+    "minValue": 7
+   },
+   "source": "garmin",
+   "stress": {
+    "activityDurationInMillis": 11940000,
+    "activityProportion": 0.14,
+    "avgLevel": 23,
+    "highStressDurationInMillis": 120000,
+    "highStressProportion": 0.0,
+    "lowStressDurationInMillis": 15900000,
+    "lowStressProportion": 0.19,
+    "maxLevel": 84,
+    "mediumStressDurationInMillis": 3060000,
+    "mediumStressProportion": 0.04,
+    "qualifier": "balanced",
+    "restDurationInMillis": 46980000,
+    "restProportion": 0.55,
+    "totalDurationInMillis": 85440000,
+    "uncategorizedDurationInMillis": 7440000,
+    "uncategorizedProportion": 0.09
+   },
+   "userProfilePk": 52220659,
+   "uuid": "a8bb2621-ebad-49f9-911f-84ece45c3832",
+   "wellnessChronology": {
+    "endTimestampGmt": "2026-11-09T22:00:00.0",
+    "endTimestampLocal": "2026-11-10T00:00:00.0",
+    "startTimestampGmt": "2026-11-08T22:00:00.0",
+    "startTimestampLocal": "2026-11-09T00:00:00.0",
+    "totalDurationInMillis": 86400000
+   }
+  }
+ ]
+}

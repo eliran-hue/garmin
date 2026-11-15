@@ -1,0 +1,68 @@
+{
+ "availableTrainingDays": null,
+ "dateFormat": {
+  "displayFormat": "EEE, d MMM yyyy",
+  "formatId": 24,
+  "formatKey": "ddmmyyyy",
+  "groupingUsed": false,
+  "maxFraction": 0,
+  "minFraction": 0
+ },
+ "displayName": "c7fc55ac-31cf-48de-896e-0194190d4fef",
+ "firstDayOfWeek": {
+  "dayId": 2,
+  "dayName": "sunday",
+  "isPossibleFirstDay": true,
+  "sortOrder": 2
+ },
+ "golfDistanceUnit": "statute_us",
+ "golfElevationUnit": null,
+ "golfSpeedUnit": null,
+ "heartRateFormat": {
+  "displayFormat": null,
+  "formatId": 21,
+  "formatKey": "bpm",
+  "groupingUsed": false,
+  "maxFraction": 0,
+  "minFraction": 0
+ },
+ "hydrationContainers": [
+  {
+   "name": "Container 1",
+   "unit": "milliliter",
+   "volume": 100
+  },
+  {
+   "name": "Container 2",
+   "unit": "milliliter",
+   "volume": 250
+  },
+  {
+   "name": "Container 3",
+   "unit": "milliliter",
+   "volume": 500
+  }
+ ],
+ "hydrationMeasurementUnit": "milliliter",
+ "measurementSystem": "metric",
+ "numberFormat": "decimal_period",
+ "powerFormat": {
+  "displayFormat": null,
+  "formatId": 29,
+  "formatKey": "power_zones",
+  "groupingUsed": false,
+  "maxFraction": 1,
+  "minFraction": 1
+ },
+ "preferredLocale": "en",
+ "preferredLongTrainingDays": null,
+ "timeFormat": {
+  "displayFormat": "H:mm",
+  "formatId": 33,
+  "formatKey": "time_twenty_four_hr",
+  "groupingUsed": false,
+  "maxFraction": 0,
+  "minFraction": 0
+ },
+ "timeZone": "Europe/Athens"
+}

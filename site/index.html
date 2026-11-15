@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>הנתונים שלי · Garmin</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M3 18h6l3-9 5 16 4-11 2 4h6' fill='none' stroke='%232a78d6' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="viz-root">
+  <header class="top">
+    <div class="title">
+      <h1>הנתונים שלי</h1>
+      <span class="muted" id="updated">טוען…</span>
+    </div>
+    <div class="controls">
+      <div class="seg" id="range" role="group" aria-label="טווח זמן">
+        <button data-days="30">30 יום</button>
+        <button data-days="90" class="on">90 יום</button>
+        <button data-days="180">חצי שנה</button>
+        <button data-days="365">שנה</button>
+        <button data-days="0">הכול</button>
+      </div>
+      <button class="icon-btn" id="theme" title="מצב תצוגה" aria-label="החלפת מצב תצוגה"><svg width="16" height="16" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button data-tab="overview" class="on">סקירה</button>
+    <button data-tab="sleep">שינה והתאוששות</button>
+    <button data-tab="training">אימונים</button>
+    <button data-tab="weight">משקל</button>
+    <button data-tab="explorer">כל הנתונים</button>
+  </nav>
+
+  <main>
+    <section data-panel="overview" class="on">
+      <div class="tiles" id="tiles"></div>
+      <h2>תובנות</h2>
+      <div class="insights" id="insights"></div>
+    </section>
+
+    <section data-panel="sleep">
+      <div class="grid">
+        <div class="card wide"><h3>שלבי שינה (שעות בלילה)</h3><div class="chart" id="c-sleep-stages"></div></div>
+        <div class="card"><h3>ציון שינה</h3><div class="chart" id="c-sleep-score"></div></div>
+        <div class="card"><h3>HRV לילי מול טווח הבסיס</h3><div class="chart" id="c-hrv"></div></div>
+        <div class="card"><h3>דופק במנוחה</h3><div class="chart" id="c-rhr"></div></div>
+        <div class="card"><h3>Body Battery: שיא ושפל יומי</h3><div class="chart" id="c-bb"></div></div>
+        <div class="card"><h3>שעת הירדמות ושעת קימה</h3><div class="chart" id="c-bedtime"></div></div>
+        <div class="card"><h3>לחץ ממוצע ביום</h3><div class="chart" id="c-stress"></div></div>
+      </div>
+    </section>
+
+    <section data-panel="training">
+      <div class="grid">
+        <div class="card wide"><h3>נפח שבועי לפי סוג אימון (דקות)</h3><div class="chart" id="c-weekly-volume"></div></div>
+        <div class="card"><h3>עומס אימון: 7 ימים מול ממוצע 4 שבועות</h3><div class="chart" id="c-load"></div></div>
+        <div class="card"><h3>דקות פעילות עצימה בשבוע (יעד 150)</h3><div class="chart" id="c-intensity"></div></div>
+        <div class="card"><h3>צעדים ביום</h3><div class="chart" id="c-steps"></div></div>
+        <div class="card"><h3>קצב ריצה ממוצע (דקות לק״מ, נמוך = מהיר)</h3><div class="chart" id="c-run"></div></div>
+        <div class="card wide"><h3>אימונים אחרונים</h3><div class="table-wrap" id="t-activities"></div></div>
+      </div>
+    </section>
+
+    <section data-panel="weight">
+      <div class="grid">
+        <div class="card wide"><h3>משקל (ק״ג): שקילות וממוצע נע של 7 ימים</h3><div class="chart" id="c-weight"></div></div>
+        <div class="card"><h3>אחוז שומן</h3><div class="chart" id="c-fat"></div></div>
+        <div class="card"><h3>מסת שריר (ק״ג)</h3><div class="chart" id="c-muscle"></div></div>
+      </div>
+    </section>
+
+    <section data-panel="explorer">
+      <p class="muted">כל שדה מספרי שהתקבל מ-Garmin, לפי סוג נתון. אפשר לסמן כאן מה כדאי להוסיף לדשבורד.</p>
+      <div class="explorer">
+        <div class="ex-list" id="ex-list"></div>
+        <div class="card ex-view"><h3 id="ex-title">בחר שדה</h3><div class="ex-stats muted" id="ex-stats"></div><div class="chart" id="c-explorer"></div></div>
+      </div>
+      <h2>כיסוי נתונים</h2>
+      <div class="table-wrap" id="t-coverage"></div>
+    </section>
+  </main>
+  <div class="tooltip" id="tooltip" role="tooltip"></div>
+</div>
+<script src="charts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

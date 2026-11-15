@@ -1,0 +1,73 @@
+name: Garmin sync
+
+on:
+  schedule:
+    # 07:17 UTC = 09:17 Israel in winter, 10:17 in summer (after the watch syncs the night's sleep)
+    - cron: "17 7 * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "How many days back to fetch (7 for a normal run, 365 for a first backfill)"
+        default: "7"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: garmin-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch from Garmin
+        env:
+          GARMIN_API_KEY: ${{ secrets.GARMIN_API_KEY }}
+        run: python scripts/fetch_garmin.py --days "${{ github.event.inputs.days || '7' }}"
+
+      # The steps below run even if the fetch failed part-way, so a long backfill keeps what it already downloaded.
+      - name: Build dashboard data
+        if: always()
+        run: python scripts/build_dataset.py
+
+      - name: Commit data
+        if: always()
+        run: |
+          git config user.name "garmin-sync"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site/data
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -q -m "data: sync $(TZ=Asia/Jerusalem date '+%Y-%m-%d %H:%M')"
+            git pull --rebase -q
+            git push -q
+          fi
+
+  key-expiry:
+    # Set the repository variable GARMIN_KEY_EXPIRES (YYYY-MM-DD) to get a failing run, and an email, two weeks before the key expires.
+    runs-on: ubuntu-latest
+    if: vars.GARMIN_KEY_EXPIRES != ''
+    steps:
+      - name: Check API key expiry
+        env:
+          EXPIRES: ${{ vars.GARMIN_KEY_EXPIRES }}
+        run: |
+          left=$(( ( $(date -d "$EXPIRES" +%s) - $(date +%s) ) / 86400 ))
+          echo "Garmin API key expires in $left days ($EXPIRES)"
+          if [ "$left" -le 14 ]; then
+            echo "::error::Garmin API key expires in $left days. Create a new key in Garmin Connect and update the GARMIN_API_KEY secret and GARMIN_KEY_EXPIRES variable."
+            exit 1
+          fi

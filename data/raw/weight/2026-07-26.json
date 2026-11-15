@@ -1,0 +1,89 @@
+{
+ "dailyWeightSummaries": [
+  {
+   "allWeightMetrics": [
+    {
+     "bmi": null,
+     "bodyFat": null,
+     "bodyWater": null,
+     "boneMass": null,
+     "calendarDate": "2026-07-26",
+     "date": 1785048254002,
+     "metabolicAge": null,
+     "muscleMass": null,
+     "physiqueRating": null,
+     "samplePk": 1785037459117,
+     "sourceType": "MANUAL",
+     "timestampGMT": 1785037454002,
+     "visceralFat": null,
+     "weight": 80199.0,
+     "weightDelta": -399.9999999999915
+    }
+   ],
+   "latestWeight": {
+    "bmi": null,
+    "bodyFat": null,
+    "bodyWater": null,
+    "boneMass": null,
+    "calendarDate": "2026-07-26",
+    "date": 1785048254002,
+    "metabolicAge": null,
+    "muscleMass": null,
+    "physiqueRating": null,
+    "samplePk": 1785037459117,
+    "sourceType": "MANUAL",
+    "timestampGMT": 1785037454002,
+    "visceralFat": null,
+    "weight": 80199.0,
+    "weightDelta": -399.9999999999915
+   },
+   "maxWeight": 80199.0,
+   "minWeight": 80199.0,
+   "numOfWeightEntries": 1,
+   "summaryDate": "2026-07-26"
+  }
+ ],
+ "nextDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-07-28",
+  "date": 1785212980000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1785202180000,
+  "visceralFat": null,
+  "weight": 79599.0,
+  "weightDelta": -600.0000000000085
+ },
+ "previousDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-07-25",
+  "date": 1784961840000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1784951040000,
+  "visceralFat": null,
+  "weight": 80599.0,
+  "weightDelta": 599.9999999999943
+ },
+ "totalAverage": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "from": 1785024000000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "until": 1785110399999,
+  "visceralFat": null,
+  "weight": 80199.0
+ }
+}

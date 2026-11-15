@@ -1,0 +1,89 @@
+{
+ "dailyWeightSummaries": [
+  {
+   "allWeightMetrics": [
+    {
+     "bmi": null,
+     "bodyFat": null,
+     "bodyWater": null,
+     "boneMass": null,
+     "calendarDate": "2026-10-31",
+     "date": 1793483032003,
+     "metabolicAge": null,
+     "muscleMass": null,
+     "physiqueRating": null,
+     "samplePk": 1793475844821,
+     "sourceType": "MANUAL",
+     "timestampGMT": 1793475832003,
+     "visceralFat": null,
+     "weight": 81000.0,
+     "weightDelta": 0.0
+    }
+   ],
+   "latestWeight": {
+    "bmi": null,
+    "bodyFat": null,
+    "bodyWater": null,
+    "boneMass": null,
+    "calendarDate": "2026-10-31",
+    "date": 1793483032003,
+    "metabolicAge": null,
+    "muscleMass": null,
+    "physiqueRating": null,
+    "samplePk": 1793475844821,
+    "sourceType": "MANUAL",
+    "timestampGMT": 1793475832003,
+    "visceralFat": null,
+    "weight": 81000.0,
+    "weightDelta": 0.0
+   },
+   "maxWeight": 81000.0,
+   "minWeight": 81000.0,
+   "numOfWeightEntries": 1,
+   "summaryDate": "2026-10-31"
+  }
+ ],
+ "nextDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-11-01",
+  "date": 1793512500000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1793505300000,
+  "visceralFat": null,
+  "weight": 81199.0,
+  "weightDelta": 200.00000000000284
+ },
+ "previousDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-10-29",
+  "date": 1793253240000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1793246040000,
+  "visceralFat": null,
+  "weight": 81000.0,
+  "weightDelta": -200.00000000000284
+ },
+ "totalAverage": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "from": 1793404800000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "until": 1793491199999,
+  "visceralFat": null,
+  "weight": 81000.0
+ }
+}

@@ -1,0 +1,88 @@
+[
+ {
+  "bodyBatteryActivityEvent": [
+   {
+    "bodyBatteryImpact": 30,
+    "durationInMilliseconds": 17280000,
+    "eventStartTimeGmt": "2026-07-10T20:12:36.0",
+    "eventType": "SLEEP",
+    "feedbackType": "NONE",
+    "shortFeedback": "NONE",
+    "timezoneOffset": 10800000
+   },
+   {
+    "bodyBatteryImpact": -4,
+    "durationInMilliseconds": 1440000,
+    "eventStartTimeGmt": "2026-07-11T02:30:15.0",
+    "eventType": "ACTIVITY",
+    "feedbackType": "EXERCISE_TRAINING_EFFECT_2",
+    "shortFeedback": "MAINTAINING_AEROBIC",
+    "timezoneOffset": 10800000
+   },
+   {
+    "bodyBatteryImpact": 2,
+    "durationInMilliseconds": 1800000,
+    "eventStartTimeGmt": "2026-07-11T07:54:13.0",
+    "eventType": "NAP",
+    "feedbackType": "NAP_RECOVERING_BODY_BATTERY_INCREASE",
+    "shortFeedback": "RESTFUL_NAP",
+    "timezoneOffset": 10800000
+   }
+  ],
+  "bodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2026-07-11T17:57:09.0",
+   "feedbackLongType": "SLEEP_PREPARATION_BALANCED_AND_EXERCISE_AND_BB_LOW_MORNING_AND_NOW",
+   "feedbackShortType": "SLEEP_PREPARATION_BALANCED_AND_EXERCISE"
+  },
+  "bodyBatteryValueDescriptorDTOList": [
+   {
+    "bodyBatteryValueDescriptorIndex": 0,
+    "bodyBatteryValueDescriptorKey": "timestamp"
+   },
+   {
+    "bodyBatteryValueDescriptorIndex": 1,
+    "bodyBatteryValueDescriptorKey": "bodyBatteryLevel"
+   }
+  ],
+  "bodyBatteryValuesArray": [
+   [
+    1783717200000,
+    6
+   ],
+   [
+    1783731600000,
+    35
+   ],
+   [
+    1783746000000,
+    28
+   ],
+   [
+    1783773000000,
+    14
+   ],
+   [
+    1783774800000,
+    14
+   ],
+   [
+    1783789380000,
+    5
+   ]
+  ],
+  "charged": 32,
+  "date": "2026-07-11",
+  "drained": 33,
+  "endOfDayBodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2026-07-11T18:56:35.0",
+   "feedbackLongType": "SLEEP_TIME_PASSED_BALANCED_AND_EXERCISE_AND_BB_LOW_MORNING_AND_NOW",
+   "feedbackShortType": "SLEEP_TIME_PASSED_BALANCED_AND_EXERCISE"
+  },
+  "endTimestampGMT": "2026-07-11T21:00:00.0",
+  "endTimestampLocal": "2026-07-12T00:00:00.0",
+  "startTimestampGMT": "2026-07-10T21:00:00.0",
+  "startTimestampLocal": "2026-07-11T00:00:00.0"
+ }
+]

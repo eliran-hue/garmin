@@ -1,0 +1,139 @@
+[
+ {
+  "ageGroup": "ADULT",
+  "autoSleepEndTimestampGMT": null,
+  "autoSleepStartTimestampGMT": null,
+  "averageRespirationValue": 13.0,
+  "averageSpO2HRSleep": 57.0,
+  "averageSpO2Value": 96.0,
+  "avgHeartRate": 58.0,
+  "avgSleepStress": 14.0,
+  "awakeCount": 0,
+  "awakeSleepSeconds": 60,
+  "breathingDisruptionSeverity": "NONE",
+  "calendarDate": "2026-08-11",
+  "deepSleepSeconds": 6780,
+  "deviceRemCapable": true,
+  "highestRespirationValue": 17.0,
+  "highestSpO2Value": 99,
+  "id": 1786393451000,
+  "lightSleepSeconds": 9840,
+  "lowestRespirationValue": 7.0,
+  "lowestSpO2Value": 88,
+  "napTimeSeconds": 0,
+  "nextSleepNeed": {
+   "actual": 460,
+   "baseline": 420,
+   "calendarDate": "2026-08-12",
+   "deviceId": 3497655817,
+   "displayedForTheDay": true,
+   "feedback": "INCREASED",
+   "hrvAdjustment": "NO_CHANGE",
+   "napAdjustment": "NO_CHANGE",
+   "preferredActivityTracker": true,
+   "recommendedBedtimeEndMins": 1350,
+   "recommendedBedtimeStartMins": 1290,
+   "sleepHistoryAdjustment": "INCREASING",
+   "timestampGmt": "2026-08-11T04:38:18",
+   "trainingFeedback": "CHRONIC",
+   "userProfilePk": 52220659
+  },
+  "remSleepSeconds": 4920,
+  "retro": false,
+  "sleepAlignment": {
+   "calendarDate": "2026-08-11",
+   "deviceId": 3497655817,
+   "isPreferredActivityTracker": true,
+   "lastSleepMidpointMins": 144,
+   "optimalSleepWindowEndMins": 300,
+   "optimalSleepWindowMidpointMins": 90,
+   "optimalSleepWindowStartMins": -120,
+   "sleepNeedBaselineMins": 420,
+   "status": "ALIGNED",
+   "userId": 52220659
+  },
+  "sleepEndTimestampGMT": 1786415051000,
+  "sleepEndTimestampLocal": 1786425851000,
+  "sleepFromDevice": true,
+  "sleepNeed": {
+   "actual": 480,
+   "baseline": 420,
+   "calendarDate": "2026-08-11",
+   "deviceId": 3497655817,
+   "displayedForTheDay": true,
+   "feedback": "HIGHLY_INCREASED",
+   "hrvAdjustment": "NO_CHANGE",
+   "napAdjustment": "NO_CHANGE",
+   "preferredActivityTracker": true,
+   "recommendedBedtimeEndMins": 1350,
+   "recommendedBedtimeStartMins": 1270,
+   "sleepHistoryAdjustment": "INCREASING",
+   "timestampGmt": "2026-08-10T04:22:15",
+   "trainingFeedback": "TODAYS_LOAD_AND_CHRONIC",
+   "userProfilePk": 52220659
+  },
+  "sleepQualityTypePK": null,
+  "sleepResultTypePK": null,
+  "sleepScoreFeedback": "POSITIVE_DEEP",
+  "sleepScoreInsight": "NONE",
+  "sleepScorePersonalizedInsight": "HARD_EXERCISE_POS_EXCELLENT_OR_GOOD_SLEEP_HARD_DURING_DAY",
+  "sleepScores": {
+   "awakeCount": {
+    "optimalEnd": 1.0,
+    "optimalStart": 0.0,
+    "qualifierKey": "EXCELLENT"
+   },
+   "deepPercentage": {
+    "idealEndInSeconds": 7108.2,
+    "idealStartInSeconds": 3446.4,
+    "optimalEnd": 33.0,
+    "optimalStart": 16.0,
+    "qualifierKey": "EXCELLENT",
+    "value": 31
+   },
+   "lightPercentage": {
+    "idealEndInSeconds": 13785.6,
+    "idealStartInSeconds": 6462.0,
+    "optimalEnd": 64.0,
+    "optimalStart": 30.0,
+    "qualifierKey": "EXCELLENT",
+    "value": 46
+   },
+   "overall": {
+    "qualifierKey": "GOOD",
+    "value": 83
+   },
+   "remPercentage": {
+    "idealEndInSeconds": 6677.4,
+    "idealStartInSeconds": 4523.4,
+    "optimalEnd": 31.0,
+    "optimalStart": 21.0,
+    "qualifierKey": "EXCELLENT",
+    "value": 23
+   },
+   "restlessness": {
+    "optimalEnd": 5.0,
+    "optimalStart": 0.0,
+    "qualifierKey": "EXCELLENT"
+   },
+   "stress": {
+    "optimalEnd": 15.0,
+    "optimalStart": 0.0,
+    "qualifierKey": "GOOD"
+   },
+   "totalDuration": {
+    "optimalEnd": 25200.0,
+    "optimalStart": 25200.0,
+    "qualifierKey": "FAIR"
+   }
+  },
+  "sleepStartTimestampGMT": 1786393451000,
+  "sleepStartTimestampLocal": 1786404251000,
+  "sleepTimeSeconds": 21540,
+  "sleepVersion": 2,
+  "sleepWindowConfirmationType": "enhanced_confirmed_final",
+  "sleepWindowConfirmed": true,
+  "unmeasurableSleepSeconds": 0,
+  "userProfilePK": 52220659
+ }
+]

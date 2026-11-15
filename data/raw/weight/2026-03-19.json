@@ -1,0 +1,46 @@
+{
+ "dailyWeightSummaries": [],
+ "nextDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-03-25",
+  "date": 1774419230005,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1774412030005,
+  "visceralFat": null,
+  "weight": 80599.0,
+  "weightDelta": -600.0000000000085
+ },
+ "previousDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-02-28",
+  "date": 1772258520000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1772251320000,
+  "visceralFat": null,
+  "weight": 81199.0,
+  "weightDelta": 299.99999999999716
+ },
+ "totalAverage": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "from": 1773878400000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "until": 1773964799999,
+  "visceralFat": null,
+  "weight": null
+ }
+}

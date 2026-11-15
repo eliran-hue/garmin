@@ -1,0 +1,14 @@
+{
+ "calendarDate": "2025-11-17",
+ "endTimestampGMT": "2025-11-17T22:00:00.0",
+ "endTimestampLocal": "2025-11-18T00:00:00.0",
+ "heartRateValueDescriptors": null,
+ "heartRateValues": null,
+ "lastSevenDaysAvgRestingHeartRate": 53,
+ "maxHeartRate": null,
+ "minHeartRate": null,
+ "restingHeartRate": 53,
+ "startTimestampGMT": "2025-11-16T22:00:00.0",
+ "startTimestampLocal": "2025-11-17T00:00:00.0",
+ "userProfilePK": 52220659
+}

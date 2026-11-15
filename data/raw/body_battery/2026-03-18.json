@@ -1,0 +1,79 @@
+[
+ {
+  "bodyBatteryActivityEvent": [
+   {
+    "bodyBatteryImpact": 22,
+    "durationInMilliseconds": 10560000,
+    "eventStartTimeGmt": "2026-03-18T00:20:17.0",
+    "eventType": "SLEEP",
+    "feedbackType": "NONE",
+    "shortFeedback": "NONE",
+    "timezoneOffset": 7200000
+   },
+   {
+    "bodyBatteryImpact": -16,
+    "durationInMilliseconds": 3240000,
+    "eventStartTimeGmt": "2026-03-18T04:15:53.0",
+    "eventType": "ACTIVITY",
+    "feedbackType": "EXERCISE_TRAINING_EFFECT_4_GOOD_TIMING",
+    "shortFeedback": "HIGHLY_IMPROVING_VO2MAX",
+    "timezoneOffset": 7200000
+   }
+  ],
+  "bodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2026-03-18T19:25:20.0",
+   "feedbackLongType": "SLEEP_PREPARATION_STRESSFUL_AND_ACTIVE_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_PREPARATION_STRESSFUL_AND_ACTIVE_AND_INTENSIVE_EXERCISE"
+  },
+  "bodyBatteryValueDescriptorDTOList": [
+   {
+    "bodyBatteryValueDescriptorIndex": 0,
+    "bodyBatteryValueDescriptorKey": "timestamp"
+   },
+   {
+    "bodyBatteryValueDescriptorIndex": 1,
+    "bodyBatteryValueDescriptorKey": "bodyBatteryLevel"
+   }
+  ],
+  "bodyBatteryValuesArray": [
+   [
+    1773792000001,
+    null
+   ],
+   [
+    1773792000002,
+    null
+   ],
+   [
+    1773792000003,
+    null
+   ],
+   [
+    1773792000004,
+    null
+   ],
+   [
+    1773792000005,
+    null
+   ],
+   [
+    1773792000006,
+    null
+   ]
+  ],
+  "charged": 48,
+  "date": "2026-03-18",
+  "drained": 63,
+  "endOfDayBodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2026-03-18T20:16:39.0",
+   "feedbackLongType": "SLEEP_TIME_PASSED_STRESSFUL_AND_ACTIVE_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_TIME_PASSED_STRESSFUL_AND_ACTIVE_AND_INTENSIVE_EXERCISE"
+  },
+  "endTimestampGMT": "2026-03-18T22:00:00.0",
+  "endTimestampLocal": "2026-03-19T00:00:00.0",
+  "startTimestampGMT": "2026-03-17T22:00:00.0",
+  "startTimestampLocal": "2026-03-18T00:00:00.0"
+ }
+]

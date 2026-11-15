@@ -1,0 +1,79 @@
+[
+ {
+  "bodyBatteryActivityEvent": [
+   {
+    "bodyBatteryImpact": 22,
+    "durationInMilliseconds": 13500000,
+    "eventStartTimeGmt": "2026-09-11T20:14:47.0",
+    "eventType": "SLEEP",
+    "feedbackType": "NONE",
+    "shortFeedback": "NONE",
+    "timezoneOffset": 10800000
+   },
+   {
+    "bodyBatteryImpact": -25,
+    "durationInMilliseconds": 14280000,
+    "eventStartTimeGmt": "2026-09-12T01:16:15.0",
+    "eventType": "ACTIVITY",
+    "feedbackType": "EXERCISE_TRAINING_EFFECT_5_GOOD_TIMING",
+    "shortFeedback": "OVERREACHING_LACTATE_THRESHOLD",
+    "timezoneOffset": 10800000
+   }
+  ],
+  "bodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2026-09-12T16:15:25.0",
+   "feedbackLongType": "DAY_NOT_STRESS_DATA_AND_HARD_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "DAY_NOT_STRESS_DATA_AND_INTENSIVE_EXERCISE"
+  },
+  "bodyBatteryValueDescriptorDTOList": [
+   {
+    "bodyBatteryValueDescriptorIndex": 0,
+    "bodyBatteryValueDescriptorKey": "timestamp"
+   },
+   {
+    "bodyBatteryValueDescriptorIndex": 1,
+    "bodyBatteryValueDescriptorKey": "bodyBatteryLevel"
+   }
+  ],
+  "bodyBatteryValuesArray": [
+   [
+    1789171740000,
+    36
+   ],
+   [
+    1789188300000,
+    10
+   ],
+   [
+    1789189200000,
+    10
+   ],
+   [
+    1789198560000,
+    5
+   ],
+   [
+    1789218000000,
+    5
+   ],
+   [
+    1789218000000,
+    5
+   ]
+  ],
+  "charged": 22,
+  "date": "2026-09-12",
+  "drained": 33,
+  "endOfDayBodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2026-09-12T18:55:33.0",
+   "feedbackLongType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INTENSIVE_EXERCISE"
+  },
+  "endTimestampGMT": "2026-09-12T21:00:00.0",
+  "endTimestampLocal": "2026-09-13T00:00:00.0",
+  "startTimestampGMT": "2026-09-11T21:00:00.0",
+  "startTimestampLocal": "2026-09-12T00:00:00.0"
+ }
+]

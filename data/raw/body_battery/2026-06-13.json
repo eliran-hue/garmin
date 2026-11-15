@@ -1,0 +1,79 @@
+[
+ {
+  "bodyBatteryActivityEvent": [
+   {
+    "bodyBatteryImpact": 29,
+    "durationInMilliseconds": 17400000,
+    "eventStartTimeGmt": "2026-06-12T20:40:19.0",
+    "eventType": "SLEEP",
+    "feedbackType": "NONE",
+    "shortFeedback": "NONE",
+    "timezoneOffset": 10800000
+   },
+   {
+    "bodyBatteryImpact": -22,
+    "durationInMilliseconds": 6960000,
+    "eventStartTimeGmt": "2026-06-13T03:03:00.0",
+    "eventType": "ACTIVITY",
+    "feedbackType": "EXERCISE_TRAINING_EFFECT_5_GOOD_TIMING",
+    "shortFeedback": "OVERREACHING_LACTATE_THRESHOLD",
+    "timezoneOffset": 10800000
+   }
+  ],
+  "bodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2026-06-13T18:27:46.0",
+   "feedbackLongType": "SLEEP_PREPARATION_STRESSFUL_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_PREPARATION_STRESSFUL_AND_INTENSIVE_EXERCISE"
+  },
+  "bodyBatteryValueDescriptorDTOList": [
+   {
+    "bodyBatteryValueDescriptorIndex": 0,
+    "bodyBatteryValueDescriptorKey": "timestamp"
+   },
+   {
+    "bodyBatteryValueDescriptorIndex": 1,
+    "bodyBatteryValueDescriptorKey": "bodyBatteryLevel"
+   }
+  ],
+  "bodyBatteryValuesArray": [
+   [
+    1781308800001,
+    null
+   ],
+   [
+    1781308800002,
+    null
+   ],
+   [
+    1781308800003,
+    null
+   ],
+   [
+    1781308800004,
+    null
+   ],
+   [
+    1781308800005,
+    null
+   ],
+   [
+    1781308800006,
+    null
+   ]
+  ],
+  "charged": 30,
+  "date": "2026-06-13",
+  "drained": 38,
+  "endOfDayBodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2026-06-13T18:39:03.0",
+   "feedbackLongType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INTENSIVE_EXERCISE"
+  },
+  "endTimestampGMT": "2026-06-13T21:00:00.0",
+  "endTimestampLocal": "2026-06-14T00:00:00.0",
+  "startTimestampGMT": "2026-06-12T21:00:00.0",
+  "startTimestampLocal": "2026-06-13T00:00:00.0"
+ }
+]

@@ -1,0 +1,168 @@
+{
+ "details": {
+  "accessControlRuleDTO": {
+   "typeId": 3,
+   "typeKey": "subscribers"
+  },
+  "activityId": 21195702554,
+  "activityName": "Indoor Cycling",
+  "activityTypeDTO": {
+   "parentTypeId": 2,
+   "typeId": 25,
+   "typeKey": "indoor_cycling"
+  },
+  "activityUUID": {
+   "uuid": "5a8c973a-33ec-4dee-bdae-dfa1c1c22c65"
+  },
+  "eventTypeDTO": {
+   "typeId": 9,
+   "typeKey": "uncategorized"
+  },
+  "isMultiSportParent": false,
+  "metadataDTO": {
+   "activityImages": [],
+   "autoCalcCalories": false,
+   "calendarEventInfo": null,
+   "childActivityTypes": [],
+   "childIds": [],
+   "elevationCorrected": false,
+   "favorite": false,
+   "fileFormat": {
+    "formatId": 7,
+    "formatKey": "fit"
+   },
+   "gcj02": false,
+   "hasMultiDayActivities": false,
+   "hasRunPowerWindData": null,
+   "isOriginal": true,
+   "lapCount": 1,
+   "lastUpdateDate": "2025-12-07T17:51:22.0",
+   "manualActivity": false,
+   "manufacturer": "GARMIN",
+   "personalRecord": false,
+   "runPowerWindDataEnabled": null,
+   "sensors": null,
+   "trimmed": false,
+   "uploadedDate": "2025-12-07T17:51:22.0",
+   "userInfoDto": {
+    "displayname": "c7fc55ac-31cf-48de-896e-0194190d4fef",
+    "fullname": "Eli.Run🏃🏼‍♂️",
+    "profileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prof.png",
+    "profileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prfr.png",
+    "profileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prth.png",
+    "userPro": false,
+    "userProfilePk": 52220659
+   },
+   "videoUrl": null
+  },
+  "summaryDTO": {
+   "activityTrainingLoad": 11.59716796875,
+   "aerobicTrainingEffectMessage": "RECOVERY_5",
+   "anaerobicTrainingEffect": 0.0,
+   "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+   "averageHR": 115.0,
+   "averageSpeed": 0.0,
+   "beginPotentialStamina": 99.0,
+   "bmrCalories": 39.0,
+   "calories": 206.0,
+   "differenceBodyBattery": -2,
+   "distance": 0.0,
+   "duration": 1501.508,
+   "elapsedDuration": 1501.508,
+   "endPotentialStamina": 96.0,
+   "maxHR": 126.0,
+   "minActivityLapDuration": 1501.508,
+   "minAvailableStamina": 96.0,
+   "minHR": 84.0,
+   "moderateIntensityMinutes": 21,
+   "movingDuration": 0.0,
+   "startTimeGMT": "2025-12-07T17:26:10.0",
+   "startTimeLocal": "2025-12-07T19:26:10.0",
+   "trainingEffect": 0.8999999761581421,
+   "trainingEffectLabel": "RECOVERY",
+   "vigorousIntensityMinutes": 1,
+   "waterEstimated": 224.0
+  },
+  "timeZoneUnitDTO": {
+   "timeZone": "Europe/Athens"
+  },
+  "userProfileId": 52220659
+ },
+ "summary": {
+  "activityId": 21195702554,
+  "activityName": "Indoor Cycling",
+  "activityTrainingLoad": 11.59716796875,
+  "activityType": {
+   "parentTypeId": 2,
+   "typeId": 25,
+   "typeKey": "indoor_cycling"
+  },
+  "activityUUID": "5a8c973a-33ec-4dee-bdae-dfa1c1c22c65",
+  "aerobicTrainingEffect": 0.8999999761581421,
+  "aerobicTrainingEffectMessage": "RECOVERY_5",
+  "anaerobicTrainingEffect": 0.0,
+  "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+  "autoCalcCalories": false,
+  "averageHR": 115.0,
+  "averageSpeed": 0.0,
+  "beginTimestamp": 1765128370000,
+  "bmrCalories": 39.0,
+  "calories": 206.0,
+  "decoDive": false,
+  "differenceBodyBattery": -2,
+  "distance": 0.0,
+  "duration": 1501.508056640625,
+  "elapsedDuration": 1501.508056640625,
+  "elevationCorrected": false,
+  "endTimeGMT": "2025-12-07 17:51:11",
+  "eventType": {
+   "typeId": 9,
+   "typeKey": "uncategorized"
+  },
+  "favorite": false,
+  "hasImages": false,
+  "hasVideo": false,
+  "hrTimeInZone_1": 1002.003,
+  "hrTimeInZone_2": 481.077,
+  "hrTimeInZone_3": 0.0,
+  "hrTimeInZone_4": 0.0,
+  "hrTimeInZone_5": 0.0,
+  "isAutoCalcCalories": false,
+  "isDecoDive": false,
+  "isElevationCorrected": false,
+  "isFavorite": false,
+  "isManualActivity": false,
+  "isPR": false,
+  "isParent": false,
+  "lapCount": 1,
+  "manualActivity": false,
+  "manufacturer": "GARMIN",
+  "maxHR": 126.0,
+  "minActivityLapDuration": 1501.508056640625,
+  "moderateIntensityMinutes": 21,
+  "movingDuration": 0.0,
+  "ownerDisplayName": "c7fc55ac-31cf-48de-896e-0194190d4fef",
+  "ownerFullName": "Eli.Run🏃🏼‍♂️",
+  "ownerId": 52220659,
+  "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prof.png",
+  "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prfr.png",
+  "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prth.png",
+  "parent": false,
+  "pr": false,
+  "privacy": {
+   "typeId": 3,
+   "typeKey": "subscribers"
+  },
+  "qualifyingDive": false,
+  "splitSummaries": [],
+  "sportTypeId": 2,
+  "startTimeGMT": "2025-12-07 17:26:10",
+  "startTimeLocal": "2025-12-07 19:26:10",
+  "summarizedDiveInfo": {
+   "summarizedDiveGases": []
+  },
+  "trainingEffectLabel": "RECOVERY",
+  "vigorousIntensityMinutes": 1,
+  "waterEstimated": 224.0
+ }
+}

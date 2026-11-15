@@ -1,0 +1,27 @@
+{
+ "endTimestampGMT": "2025-12-15T02:12:12.0",
+ "endTimestampLocal": "2025-12-15T04:12:12.0",
+ "hrvReadings": [],
+ "hrvSummary": {
+  "baseline": {
+   "balancedLow": 56,
+   "balancedUpper": 73,
+   "lowUpper": 53,
+   "markerValue": 0.33822632
+  },
+  "calendarDate": "2025-12-15",
+  "createTimeStamp": "2025-12-15T03:49:13.46",
+  "feedbackPhrase": "HRV_BALANCED_6",
+  "lastNight5MinHigh": 77,
+  "lastNightAvg": 58,
+  "status": "BALANCED",
+  "weeklyAvg": 59
+ },
+ "sleepEndTimestampGMT": null,
+ "sleepEndTimestampLocal": null,
+ "sleepStartTimestampGMT": null,
+ "sleepStartTimestampLocal": null,
+ "startTimestampGMT": "2025-12-14T21:13:42.0",
+ "startTimestampLocal": "2025-12-14T23:13:42.0",
+ "userProfilePk": 52220659
+}

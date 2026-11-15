@@ -1,0 +1,35 @@
+{
+ "achievableFitnessAge": 35.38654477840031,
+ "chronologicalAge": 41,
+ "components": {
+  "bmi": {
+   "improvementValue": 2.3,
+   "lastMeasurementDate": "2026-04-20",
+   "potentialAge": 36.05963270617803,
+   "priority": 1,
+   "stale": false,
+   "targetValue": 21.3,
+   "value": 23.6
+  },
+  "rhr": {
+   "stale": false,
+   "value": 57
+  },
+  "vigorousDaysAvg": {
+   "numOfWeeksForIm": 6,
+   "potentialAge": 36.302223133794264,
+   "priority": 2,
+   "stale": false,
+   "targetValue": 3,
+   "value": 2.0
+  },
+  "vigorousMinutesAvg": {
+   "numOfWeeksForIm": 6,
+   "stale": false,
+   "value": 137.3
+  }
+ },
+ "fitnessAge": 36.054355750204216,
+ "lastUpdated": "2026-04-20T00:00:00.0",
+ "previousFitnessAge": 36.075841349053675
+}

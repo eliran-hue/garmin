@@ -1,0 +1,89 @@
+{
+ "dailyWeightSummaries": [
+  {
+   "allWeightMetrics": [
+    {
+     "bmi": null,
+     "bodyFat": null,
+     "bodyWater": null,
+     "boneMass": null,
+     "calendarDate": "2026-07-25",
+     "date": 1784961840000,
+     "metabolicAge": null,
+     "muscleMass": null,
+     "physiqueRating": null,
+     "samplePk": 1785037452713,
+     "sourceType": "MANUAL",
+     "timestampGMT": 1784951040000,
+     "visceralFat": null,
+     "weight": 80599.0,
+     "weightDelta": 599.9999999999943
+    }
+   ],
+   "latestWeight": {
+    "bmi": null,
+    "bodyFat": null,
+    "bodyWater": null,
+    "boneMass": null,
+    "calendarDate": "2026-07-25",
+    "date": 1784961840000,
+    "metabolicAge": null,
+    "muscleMass": null,
+    "physiqueRating": null,
+    "samplePk": 1785037452713,
+    "sourceType": "MANUAL",
+    "timestampGMT": 1784951040000,
+    "visceralFat": null,
+    "weight": 80599.0,
+    "weightDelta": 599.9999999999943
+   },
+   "maxWeight": 80599.0,
+   "minWeight": 80599.0,
+   "numOfWeightEntries": 1,
+   "summaryDate": "2026-07-25"
+  }
+ ],
+ "nextDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-07-26",
+  "date": 1785048254002,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1785037454002,
+  "visceralFat": null,
+  "weight": 80199.0,
+  "weightDelta": -399.9999999999915
+ },
+ "previousDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-07-23",
+  "date": 1784789148005,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1784778348005,
+  "visceralFat": null,
+  "weight": 80000.0,
+  "weightDelta": 799.9999999999972
+ },
+ "totalAverage": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "from": 1784937600000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "until": 1785023999999,
+  "visceralFat": null,
+  "weight": 80599.0
+ }
+}

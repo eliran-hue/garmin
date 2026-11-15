@@ -1,0 +1,89 @@
+{
+ "dailyWeightSummaries": [
+  {
+   "allWeightMetrics": [
+    {
+     "bmi": null,
+     "bodyFat": null,
+     "bodyWater": null,
+     "boneMass": null,
+     "calendarDate": "2026-10-09",
+     "date": 1791522631007,
+     "metabolicAge": null,
+     "muscleMass": null,
+     "physiqueRating": null,
+     "samplePk": 1791511837392,
+     "sourceType": "MANUAL",
+     "timestampGMT": 1791511831007,
+     "visceralFat": null,
+     "weight": 80598.0,
+     "weightDelta": 0.0
+    }
+   ],
+   "latestWeight": {
+    "bmi": null,
+    "bodyFat": null,
+    "bodyWater": null,
+    "boneMass": null,
+    "calendarDate": "2026-10-09",
+    "date": 1791522631007,
+    "metabolicAge": null,
+    "muscleMass": null,
+    "physiqueRating": null,
+    "samplePk": 1791511837392,
+    "sourceType": "MANUAL",
+    "timestampGMT": 1791511831007,
+    "visceralFat": null,
+    "weight": 80598.0,
+    "weightDelta": 0.0
+   },
+   "maxWeight": 80598.0,
+   "minWeight": 80598.0,
+   "numOfWeightEntries": 1,
+   "summaryDate": "2026-10-09"
+  }
+ ],
+ "nextDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-10-10",
+  "date": 1791622157006,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1791611357006,
+  "visceralFat": null,
+  "weight": 80800.0,
+  "weightDelta": 200.00000000000284
+ },
+ "previousDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-10-08",
+  "date": 1791442259002,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1791431459002,
+  "visceralFat": null,
+  "weight": 80599.0,
+  "weightDelta": 599.9999999999943
+ },
+ "totalAverage": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "from": 1791504000000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "until": 1791590399999,
+  "visceralFat": null,
+  "weight": 80598.0
+ }
+}

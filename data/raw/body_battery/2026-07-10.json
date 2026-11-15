@@ -1,0 +1,88 @@
+[
+ {
+  "bodyBatteryActivityEvent": [
+   {
+    "bodyBatteryImpact": 32,
+    "durationInMilliseconds": 27360000,
+    "eventStartTimeGmt": "2026-07-09T19:58:13.0",
+    "eventType": "SLEEP",
+    "feedbackType": "NONE",
+    "shortFeedback": "NONE",
+    "timezoneOffset": 10800000
+   },
+   {
+    "bodyBatteryImpact": -5,
+    "durationInMilliseconds": 2520000,
+    "eventStartTimeGmt": "2026-07-10T04:42:13.0",
+    "eventType": "ACTIVITY",
+    "feedbackType": "EXERCISE_TRAINING_EFFECT_3",
+    "shortFeedback": "IMPROVING_AEROBIC_BASE",
+    "timezoneOffset": 10800000
+   },
+   {
+    "bodyBatteryImpact": 0,
+    "durationInMilliseconds": 2100000,
+    "eventStartTimeGmt": "2026-07-10T13:11:36.0",
+    "eventType": "NAP",
+    "feedbackType": "NAP_NOT_RECOVERING_BODY_BATTERY_MAINTAIN",
+    "shortFeedback": "NAP",
+    "timezoneOffset": 10800000
+   }
+  ],
+  "bodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2026-07-10T19:28:07.0",
+   "feedbackLongType": "SLEEP_PREPARATION_STRESSFUL_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_PREPARATION_STRESSFUL_AND_INTENSIVE_EXERCISE"
+  },
+  "bodyBatteryValueDescriptorDTOList": [
+   {
+    "bodyBatteryValueDescriptorIndex": 0,
+    "bodyBatteryValueDescriptorKey": "timestamp"
+   },
+   {
+    "bodyBatteryValueDescriptorIndex": 1,
+    "bodyBatteryValueDescriptorKey": "bodyBatteryLevel"
+   }
+  ],
+  "bodyBatteryValuesArray": [
+   [
+    1783630800000,
+    5
+   ],
+   [
+    1783654380000,
+    37
+   ],
+   [
+    1783659600000,
+    32
+   ],
+   [
+    1783685880000,
+    15
+   ],
+   [
+    1783688400000,
+    15
+   ],
+   [
+    1783705680000,
+    5
+   ]
+  ],
+  "charged": 34,
+  "date": "2026-07-10",
+  "drained": 33,
+  "endOfDayBodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "LOW",
+   "eventTimestampGmt": "2026-07-10T20:56:00.0",
+   "feedbackLongType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INTENSIVE_EXERCISE"
+  },
+  "endTimestampGMT": "2026-07-10T21:00:00.0",
+  "endTimestampLocal": "2026-07-11T00:00:00.0",
+  "startTimestampGMT": "2026-07-09T21:00:00.0",
+  "startTimestampLocal": "2026-07-10T00:00:00.0"
+ }
+]

@@ -1,0 +1,89 @@
+{
+ "dailyWeightSummaries": [
+  {
+   "allWeightMetrics": [
+    {
+     "bmi": null,
+     "bodyFat": null,
+     "bodyWater": null,
+     "boneMass": null,
+     "calendarDate": "2026-02-06",
+     "date": 1770357600000,
+     "metabolicAge": null,
+     "muscleMass": null,
+     "physiqueRating": null,
+     "samplePk": 1770380704473,
+     "sourceType": "MANUAL",
+     "timestampGMT": 1770350400000,
+     "visceralFat": null,
+     "weight": 82100.0,
+     "weightDelta": 500.0
+    }
+   ],
+   "latestWeight": {
+    "bmi": null,
+    "bodyFat": null,
+    "bodyWater": null,
+    "boneMass": null,
+    "calendarDate": "2026-02-06",
+    "date": 1770357600000,
+    "metabolicAge": null,
+    "muscleMass": null,
+    "physiqueRating": null,
+    "samplePk": 1770380704473,
+    "sourceType": "MANUAL",
+    "timestampGMT": 1770350400000,
+    "visceralFat": null,
+    "weight": 82100.0,
+    "weightDelta": 500.0
+   },
+   "maxWeight": 82100.0,
+   "minWeight": 82100.0,
+   "numOfWeightEntries": 1,
+   "summaryDate": "2026-02-06"
+  }
+ ],
+ "nextDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-02-07",
+  "date": 1770446700000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1770439500000,
+  "visceralFat": null,
+  "weight": 82300.0,
+  "weightDelta": 200.00000000000284
+ },
+ "previousDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-02-05",
+  "date": 1770269400000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1770262200000,
+  "visceralFat": null,
+  "weight": 81600.0,
+  "weightDelta": -1000.0
+ },
+ "totalAverage": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "from": 1770336000000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "until": 1770422399999,
+  "visceralFat": null,
+  "weight": 82100.0
+ }
+}

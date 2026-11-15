@@ -1,0 +1,124 @@
+{
+ "ageGroup": "ADULT",
+ "autoSleepEndTimestampGMT": null,
+ "autoSleepStartTimestampGMT": null,
+ "averageRespirationValue": 14.0,
+ "averageSpO2HRSleep": 59.0,
+ "averageSpO2Value": 97.0,
+ "avgHeartRate": 59.0,
+ "avgSleepStress": 16.0,
+ "awakeCount": 1,
+ "awakeSleepSeconds": 840,
+ "calendarDate": "2025-12-07",
+ "deepSleepSeconds": 6480,
+ "deviceRemCapable": true,
+ "highestRespirationValue": 19.0,
+ "highestSpO2Value": 100,
+ "id": 1765054713000,
+ "lightSleepSeconds": 11580,
+ "lowestRespirationValue": 8.0,
+ "lowestSpO2Value": 87,
+ "napTimeSeconds": 0,
+ "nextSleepNeed": {
+  "actual": 510,
+  "baseline": 470,
+  "calendarDate": "2025-12-08",
+  "deviceId": 3497655817,
+  "displayedForTheDay": true,
+  "feedback": "INCREASED",
+  "hrvAdjustment": "NO_CHANGE",
+  "napAdjustment": "NO_CHANGE",
+  "preferredActivityTracker": true,
+  "recommendedBedtimeEndMins": 1310,
+  "recommendedBedtimeStartMins": 1250,
+  "sleepHistoryAdjustment": "INCREASING",
+  "timestampGmt": "2025-12-07T17:51:18",
+  "trainingFeedback": "CHRONIC",
+  "userProfilePk": 52220659
+ },
+ "remSleepSeconds": 4980,
+ "retro": false,
+ "sleepEndTimestampGMT": 1765078557000,
+ "sleepEndTimestampLocal": 1765085757000,
+ "sleepFromDevice": true,
+ "sleepNeed": {
+  "actual": 520,
+  "baseline": 470,
+  "calendarDate": "2025-12-07",
+  "deviceId": 3497655817,
+  "displayedForTheDay": true,
+  "feedback": "HIGHLY_INCREASED",
+  "hrvAdjustment": "NO_CHANGE",
+  "napAdjustment": "NO_CHANGE",
+  "preferredActivityTracker": true,
+  "recommendedBedtimeEndMins": 1310,
+  "recommendedBedtimeStartMins": 1240,
+  "sleepHistoryAdjustment": "INCREASING",
+  "timestampGmt": "2025-12-06T04:43:33",
+  "trainingFeedback": "CHRONIC",
+  "userProfilePk": 52220659
+ },
+ "sleepQualityTypePK": null,
+ "sleepResultTypePK": null,
+ "sleepScoreFeedback": "POSITIVE_DEEP",
+ "sleepScoreInsight": "POSITIVE_RESTFUL_DAY",
+ "sleepScorePersonalizedInsight": "STRESS_POS_EXCELLENT_OR_GOOD_SLEEP_VERY_RESTFUL_DAY",
+ "sleepScores": {
+  "awakeCount": {
+   "optimalEnd": 1.0,
+   "optimalStart": 0.0,
+   "qualifierKey": "GOOD"
+  },
+  "deepPercentage": {
+   "idealEndInSeconds": 7591.32,
+   "idealStartInSeconds": 3680.64,
+   "optimalEnd": 33.0,
+   "optimalStart": 16.0,
+   "qualifierKey": "EXCELLENT",
+   "value": 28
+  },
+  "lightPercentage": {
+   "idealEndInSeconds": 14722.56,
+   "idealStartInSeconds": 6901.2,
+   "optimalEnd": 64.0,
+   "optimalStart": 30.0,
+   "qualifierKey": "EXCELLENT",
+   "value": 50
+  },
+  "overall": {
+   "qualifierKey": "GOOD",
+   "value": 81
+  },
+  "remPercentage": {
+   "idealEndInSeconds": 7131.24,
+   "idealStartInSeconds": 4830.84,
+   "optimalEnd": 31.0,
+   "optimalStart": 21.0,
+   "qualifierKey": "GOOD",
+   "value": 22
+  },
+  "restlessness": {
+   "optimalEnd": 5.0,
+   "optimalStart": 0.0,
+   "qualifierKey": "GOOD"
+  },
+  "stress": {
+   "optimalEnd": 15.0,
+   "optimalStart": 0.0,
+   "qualifierKey": "FAIR"
+  },
+  "totalDuration": {
+   "optimalEnd": 28200.0,
+   "optimalStart": 28200.0,
+   "qualifierKey": "FAIR"
+  }
+ },
+ "sleepStartTimestampGMT": 1765054713000,
+ "sleepStartTimestampLocal": 1765061913000,
+ "sleepTimeSeconds": 23004,
+ "sleepVersion": 2,
+ "sleepWindowConfirmationType": "enhanced_confirmed_final",
+ "sleepWindowConfirmed": true,
+ "unmeasurableSleepSeconds": 0,
+ "userProfilePK": 52220659
+}

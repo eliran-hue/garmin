@@ -1,0 +1,146 @@
+{
+ "data": [
+  {
+   "bodyBattery": {
+    "activityEvents": [
+     {
+      "bodyBatteryImpact": 39,
+      "deviceId": 3497655817,
+      "durationInMillis": 20880000,
+      "eventStartTimeGmt": "2025-12-17T21:54:35.0",
+      "eventStartTimeLocal": "2025-12-17T23:54:35.0",
+      "eventType": "SLEEP",
+      "feedbackType": "NONE",
+      "shortFeedback": "NONE"
+     },
+     {
+      "bodyBatteryImpact": -3,
+      "deviceId": 3497655817,
+      "durationInMillis": 2820000,
+      "eventStartTimeGmt": "2025-12-18T05:12:11.0",
+      "eventStartTimeLocal": "2025-12-18T07:12:11.0",
+      "eventType": "ACTIVITY",
+      "feedbackType": "EXERCISE_TRAINING_EFFECT_BELOW_2",
+      "shortFeedback": "EASY_AEROBIC_BASE"
+     },
+     {
+      "bodyBatteryImpact": 2,
+      "deviceId": 3497655817,
+      "durationInMillis": 900000,
+      "eventStartTimeGmt": "2025-12-18T18:55:33.0",
+      "eventStartTimeLocal": "2025-12-18T20:55:33.0",
+      "eventType": "RECOVERY",
+      "feedbackType": "RECOVERY_EVENING",
+      "shortFeedback": "RESTFUL_PERIOD"
+     }
+    ],
+    "chargedValue": 41,
+    "drainedValue": 62,
+    "dynamicFeedbackEvent": {
+     "bodyBatteryLevel": "LOW",
+     "eventTimestampGmt": "2025-12-18T18:00:13.0",
+     "feedbackLongType": "SLEEP_PREPARATION_STRESSFUL_AND_EXERCISE_AND_BB_LOW",
+     "feedbackShortType": "SLEEP_PREPARATION_STRESSFUL_AND_EXERCISE"
+    },
+    "endOfDayDynamicFeedbackEvent": {
+     "bodyBatteryLevel": "LOW",
+     "eventTimestampGmt": "2025-12-18T20:42:47.0",
+     "feedbackLongType": "SLEEP_TIME_PASSED_STRESSFUL_AND_EXERCISE_AND_BB_LOW",
+     "feedbackShortType": "SLEEP_TIME_PASSED_STRESSFUL_AND_EXERCISE"
+    },
+    "featureVersion": "3.0",
+    "latestValue": 7,
+    "maxValue": 67,
+    "minValue": 7
+   },
+   "calendarDate": "2025-12-18",
+   "calories": {
+    "burnedActive": 807,
+    "burnedResting": 2203,
+    "burnedTotal": 3010,
+    "consumedGoal": 1880,
+    "consumedRemaining": 2687
+   },
+   "heartRate": {
+    "maxValue": 148,
+    "minValue": 55,
+    "restingValue": 56
+   },
+   "hydration": {
+    "consumedInFractionalMl": 0.0,
+    "consumedInMl": 0,
+    "goalInFractionalMl": 2955.0,
+    "goalInMl": 2955
+   },
+   "includesActivityData": true,
+   "includesWellnessData": true,
+   "intensityMinutes": {
+    "goal": 200,
+    "moderate": 47,
+    "vigorous": 36
+   },
+   "jetLag": {},
+   "movement": {
+    "floorsAscended": {
+     "distanceInMeters": 3.05,
+     "goal": 5,
+     "value": 1
+    },
+    "floorsDescended": {
+     "distanceInMeters": 6.58,
+     "value": 2
+    },
+    "pushes": {},
+    "steps": {
+     "distanceInMeters": 12177.0,
+     "goal": 2000,
+     "value": 13526
+    }
+   },
+   "pulseOx": {
+    "avgAltitudeInMeters": 28.0,
+    "avgValue": 95,
+    "latestTimestampGmt": "2025-12-18T21:59:00.0",
+    "latestTimestampLocal": "2025-12-18T23:59:00.0",
+    "latestValue": 95,
+    "minValue": 85
+   },
+   "respiration": {
+    "algorithmVersion": 200,
+    "avgValue": 14,
+    "latestTimestampGmt": "2025-12-18T21:59:00.0",
+    "latestValue": 14,
+    "maxValue": 22,
+    "minValue": 8
+   },
+   "source": "garmin",
+   "stress": {
+    "activityDurationInMillis": 14640000,
+    "activityProportion": 0.17,
+    "avgLevel": 39,
+    "highStressDurationInMillis": 2880000,
+    "highStressProportion": 0.03,
+    "lowStressDurationInMillis": 21780000,
+    "lowStressProportion": 0.25,
+    "maxLevel": 96,
+    "mediumStressDurationInMillis": 16140000,
+    "mediumStressProportion": 0.19,
+    "qualifier": "stressful",
+    "restDurationInMillis": 23340000,
+    "restProportion": 0.27,
+    "totalDurationInMillis": 85740000,
+    "uncategorizedDurationInMillis": 6960000,
+    "uncategorizedProportion": 0.08
+   },
+   "userProfilePk": 52220659,
+   "uuid": "1d052dc1-b21f-4dc6-bf4f-5e04412171a3",
+   "wellnessChronology": {
+    "endTimestampGmt": "2025-12-18T22:00:00.0",
+    "endTimestampLocal": "2025-12-19T00:00:00.0",
+    "startTimestampGmt": "2025-12-17T22:00:00.0",
+    "startTimestampLocal": "2025-12-18T00:00:00.0",
+    "totalDurationInMillis": 86400000
+   }
+  }
+ ]
+}

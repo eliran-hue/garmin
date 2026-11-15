@@ -1,0 +1,89 @@
+{
+ "dailyWeightSummaries": [
+  {
+   "allWeightMetrics": [
+    {
+     "bmi": null,
+     "bodyFat": null,
+     "bodyWater": null,
+     "boneMass": null,
+     "calendarDate": "2026-08-07",
+     "date": 1786081140000,
+     "metabolicAge": null,
+     "muscleMass": null,
+     "physiqueRating": null,
+     "samplePk": 1786415952489,
+     "sourceType": "MANUAL",
+     "timestampGMT": 1786070340000,
+     "visceralFat": null,
+     "weight": 79800.0,
+     "weightDelta": 0.0
+    }
+   ],
+   "latestWeight": {
+    "bmi": null,
+    "bodyFat": null,
+    "bodyWater": null,
+    "boneMass": null,
+    "calendarDate": "2026-08-07",
+    "date": 1786081140000,
+    "metabolicAge": null,
+    "muscleMass": null,
+    "physiqueRating": null,
+    "samplePk": 1786415952489,
+    "sourceType": "MANUAL",
+    "timestampGMT": 1786070340000,
+    "visceralFat": null,
+    "weight": 79800.0,
+    "weightDelta": 0.0
+   },
+   "maxWeight": 79800.0,
+   "minWeight": 79800.0,
+   "numOfWeightEntries": 1,
+   "summaryDate": "2026-08-07"
+  }
+ ],
+ "nextDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-08-08",
+  "date": 1786167540000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1786156740000,
+  "visceralFat": null,
+  "weight": 80400.0,
+  "weightDelta": 600.0000000000085
+ },
+ "previousDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-08-04",
+  "date": 1785829197007,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1785818397007,
+  "visceralFat": null,
+  "weight": 79800.0,
+  "weightDelta": -799.9999999999972
+ },
+ "totalAverage": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "from": 1786060800000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "until": 1786147199999,
+  "visceralFat": null,
+  "weight": 79800.0
+ }
+}

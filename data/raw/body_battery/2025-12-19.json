@@ -1,0 +1,79 @@
+[
+ {
+  "bodyBatteryActivityEvent": [
+   {
+    "bodyBatteryImpact": 38,
+    "durationInMilliseconds": 18480000,
+    "eventStartTimeGmt": "2025-12-18T21:42:48.0",
+    "eventType": "SLEEP",
+    "feedbackType": "NONE",
+    "shortFeedback": "NONE",
+    "timezoneOffset": 7200000
+   },
+   {
+    "bodyBatteryImpact": -14,
+    "durationInMilliseconds": 5340000,
+    "eventStartTimeGmt": "2025-12-19T04:34:09.0",
+    "eventType": "ACTIVITY",
+    "feedbackType": "EXERCISE_TRAINING_EFFECT_4_GOOD_TIMING",
+    "shortFeedback": "HIGHLY_IMPROVING_VO2MAX",
+    "timezoneOffset": 7200000
+   }
+  ],
+  "bodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2025-12-19T18:00:18.0",
+   "feedbackLongType": "SLEEP_PREPARATION_STRESSFUL_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_PREPARATION_STRESSFUL_AND_INTENSIVE_EXERCISE"
+  },
+  "bodyBatteryValueDescriptorDTOList": [
+   {
+    "bodyBatteryValueDescriptorIndex": 0,
+    "bodyBatteryValueDescriptorKey": "timestamp"
+   },
+   {
+    "bodyBatteryValueDescriptorIndex": 1,
+    "bodyBatteryValueDescriptorKey": "bodyBatteryLevel"
+   }
+  ],
+  "bodyBatteryValuesArray": [
+   [
+    1766102400001,
+    null
+   ],
+   [
+    1766102400002,
+    null
+   ],
+   [
+    1766102400003,
+    null
+   ],
+   [
+    1766102400004,
+    null
+   ],
+   [
+    1766102400005,
+    null
+   ],
+   [
+    1766102400006,
+    null
+   ]
+  ],
+  "charged": 42,
+  "date": "2025-12-19",
+  "drained": 44,
+  "endOfDayBodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2025-12-19T20:39:11.0",
+   "feedbackLongType": "SLEEP_TIME_PASSED_BALANCED_AND_INTENSIVE_EXERCISE_AND_BB_LOW_MORNING_AND_NOW",
+   "feedbackShortType": "SLEEP_TIME_PASSED_BALANCED_AND_INTENSIVE_EXERCISE"
+  },
+  "endTimestampGMT": "2025-12-19T22:00:00.0",
+  "endTimestampLocal": "2025-12-20T00:00:00.0",
+  "startTimestampGMT": "2025-12-18T22:00:00.0",
+  "startTimestampLocal": "2025-12-19T00:00:00.0"
+ }
+]

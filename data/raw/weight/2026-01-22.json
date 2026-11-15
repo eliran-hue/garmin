@@ -1,0 +1,89 @@
+{
+ "dailyWeightSummaries": [
+  {
+   "allWeightMetrics": [
+    {
+     "bmi": null,
+     "bodyFat": null,
+     "bodyWater": null,
+     "boneMass": null,
+     "calendarDate": "2026-01-22",
+     "date": 1769059800000,
+     "metabolicAge": null,
+     "muscleMass": null,
+     "physiqueRating": null,
+     "samplePk": 1769175924387,
+     "sourceType": "MANUAL",
+     "timestampGMT": 1769052600000,
+     "visceralFat": null,
+     "weight": 82697.0,
+     "weightDelta": 0.0
+    }
+   ],
+   "latestWeight": {
+    "bmi": null,
+    "bodyFat": null,
+    "bodyWater": null,
+    "boneMass": null,
+    "calendarDate": "2026-01-22",
+    "date": 1769059800000,
+    "metabolicAge": null,
+    "muscleMass": null,
+    "physiqueRating": null,
+    "samplePk": 1769175924387,
+    "sourceType": "MANUAL",
+    "timestampGMT": 1769052600000,
+    "visceralFat": null,
+    "weight": 82697.0,
+    "weightDelta": 0.0
+   },
+   "maxWeight": 82697.0,
+   "minWeight": 82697.0,
+   "numOfWeightEntries": 1,
+   "summaryDate": "2026-01-22"
+  }
+ ],
+ "nextDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-01-23",
+  "date": 1769144400000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1769137200000,
+  "visceralFat": null,
+  "weight": 82698.0,
+  "weightDelta": 0.0
+ },
+ "previousDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-01-21",
+  "date": 1768975200000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1768968000000,
+  "visceralFat": null,
+  "weight": 82699.0,
+  "weightDelta": -399.9999999999915
+ },
+ "totalAverage": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "from": 1769040000000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "until": 1769126399999,
+  "visceralFat": null,
+  "weight": 82697.0
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "details": {
+  "accessControlRuleDTO": {
+   "typeId": 3,
+   "typeKey": "subscribers"
+  },
+  "activityId": 21630835129,
+  "activityName": "Elliptical ",
+  "activityTypeDTO": {
+   "parentTypeId": 29,
+   "typeId": 160,
+   "typeKey": "pilates"
+  },
+  "activityUUID": {
+   "uuid": "bd5a0f4b-0e6f-49a2-8292-7c334b03a8ad"
+  },
+  "eventTypeDTO": {
+   "typeId": 9,
+   "typeKey": "uncategorized"
+  },
+  "isMultiSportParent": false,
+  "metadataDTO": {
+   "activityImages": [],
+   "autoCalcCalories": true,
+   "calendarEventInfo": null,
+   "childActivityTypes": [],
+   "childIds": [],
+   "elevationCorrected": false,
+   "favorite": false,
+   "fileFormat": {
+    "formatId": 7,
+    "formatKey": "fit"
+   },
+   "gcj02": false,
+   "hasMultiDayActivities": false,
+   "hasRunPowerWindData": null,
+   "isOriginal": true,
+   "lapCount": 1,
+   "lastUpdateDate": "2026-08-08T08:24:26.0",
+   "manualActivity": true,
+   "manufacturer": "GARMIN",
+   "personalRecord": false,
+   "runPowerWindDataEnabled": null,
+   "sensors": null,
+   "trimmed": false,
+   "uploadedDate": "2026-01-22T16:12:59.0",
+   "userInfoDto": {
+    "displayname": "c7fc55ac-31cf-48de-896e-0194190d4fef",
+    "fullname": "Eli.Run🏃🏼‍♂️",
+    "profileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prof.png",
+    "profileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prfr.png",
+    "profileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prth.png",
+    "userPro": false,
+    "userProfilePk": 52220659
+   },
+   "videoUrl": null
+  },
+  "summaryDTO": {
+   "averageSpeed": 0.0,
+   "avgStress": 0.0,
+   "avgVerticalSpeed": 0.0,
+   "bmrCalories": 34.0,
+   "calories": 103.0,
+   "decoDive": false,
+   "distance": 0.0,
+   "duration": 1500.0,
+   "elapsedDuration": 1500.0,
+   "floorsClimbed": 0.0,
+   "floorsDescended": 0.0,
+   "isDecoDive": false,
+   "jumpCount": -1,
+   "maxStress": 0.0,
+   "minActivityLapDuration": 1500.0,
+   "startTimeGMT": "2026-01-22T15:45:00.0",
+   "startTimeLocal": "2026-01-22T17:45:00.0",
+   "surfaceInterval": 0.0
+  },
+  "timeZoneUnitDTO": {
+   "timeZone": "Europe/Athens"
+  },
+  "userProfileId": 52220659
+ },
+ "summary": {
+  "activityId": 21630835129,
+  "activityName": "Elliptical ",
+  "activityType": {
+   "parentTypeId": 29,
+   "typeId": 160,
+   "typeKey": "pilates"
+  },
+  "activityUUID": "bd5a0f4b-0e6f-49a2-8292-7c334b03a8ad",
+  "autoCalcCalories": true,
+  "averageSpeed": 0.0,
+  "avgStress": 0.0,
+  "avgVerticalSpeed": 0.0,
+  "beginTimestamp": 1769096700000,
+  "bmrCalories": 34.0,
+  "calories": 103.0,
+  "decoDive": false,
+  "distance": 0.0,
+  "duration": 1500.0,
+  "elapsedDuration": 1500.0,
+  "elevationCorrected": false,
+  "endTimeGMT": "2026-01-22 16:10:00",
+  "eventType": {
+   "typeId": 9,
+   "typeKey": "uncategorized"
+  },
+  "favorite": false,
+  "floorsClimbed": 0.0,
+  "floorsDescended": 0.0,
+  "hasImages": false,
+  "hasVideo": false,
+  "isAutoCalcCalories": true,
+  "isDecoDive": false,
+  "isElevationCorrected": false,
+  "isFavorite": false,
+  "isManualActivity": true,
+  "isPR": false,
+  "isParent": false,
+  "jumpCount": -1,
+  "lapCount": 1,
+  "manualActivity": true,
+  "manufacturer": "GARMIN",
+  "maxStress": 0.0,
+  "minActivityLapDuration": 1500.0,
+  "ownerDisplayName": "c7fc55ac-31cf-48de-896e-0194190d4fef",
+  "ownerFullName": "Eli.Run🏃🏼‍♂️",
+  "ownerId": 52220659,
+  "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prof.png",
+  "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prfr.png",
+  "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prth.png",
+  "parent": false,
+  "pr": false,
+  "privacy": {
+   "typeId": 3,
+   "typeKey": "subscribers"
+  },
+  "qualifyingDive": false,
+  "splitSummaries": [],
+  "sportTypeId": 4,
+  "startTimeGMT": "2026-01-22 15:45:00",
+  "startTimeLocal": "2026-01-22 17:45:00",
+  "summarizedDiveInfo": {
+   "summarizedDiveGases": []
+  },
+  "surfaceInterval": 0.0
+ }
+}

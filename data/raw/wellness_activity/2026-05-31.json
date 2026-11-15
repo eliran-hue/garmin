@@ -1,0 +1,90 @@
+[
+ {
+  "activityName": "Health Snapshot - Night",
+  "activityUuid": {
+   "uuid": "8524176c-0ec0-46f5-82d7-1860cc0a8ed9"
+  },
+  "calendarDate": "2026-05-31",
+  "deviceMetaData": {
+   "deviceId": 3497655817,
+   "deviceName": null,
+   "deviceTypeId": 37161,
+   "deviceVersion": "22.35",
+   "deviceVersionId": 1011698
+  },
+  "endTimestampGMT": "2026-05-31T18:23:57.155",
+  "endTimestampLocal": "2026-05-31T21:23:57.155",
+  "notes": null,
+  "rulePK": 2,
+  "startTimestampGMT": "2026-05-31T18:21:57.0",
+  "startTimestampLocal": "2026-05-31T21:21:57.0",
+  "summaryTypeDataList": [
+   {
+    "avgValue": 67.0,
+    "maxValue": 77.0,
+    "minValue": 60.0,
+    "summaryType": "HEART_RATE"
+   },
+   {
+    "avgValue": 15.010000228881836,
+    "maxValue": 20.0,
+    "minValue": 9.0,
+    "summaryType": "RESPIRATION"
+   },
+   {
+    "avgValue": 23.0,
+    "maxValue": 34.0,
+    "minValue": 15.0,
+    "summaryType": "STRESS"
+   },
+   {
+    "avgValue": 98.0,
+    "maxValue": 98.0,
+    "minValue": 97.0,
+    "summaryType": "SPO2"
+   },
+   {
+    "avgValue": 61.0,
+    "summaryType": "RMSSD_HRV"
+   },
+   {
+    "avgValue": 75.0,
+    "summaryType": "SDRR_HRV"
+   }
+  ],
+  "timeInZoneList": [
+   {
+    "millisInZone": 120000,
+    "zoneLowBoundary": 0,
+    "zoneNumber": 0
+   },
+   {
+    "millisInZone": 0,
+    "zoneLowBoundary": 94,
+    "zoneNumber": 1
+   },
+   {
+    "millisInZone": 0,
+    "zoneLowBoundary": 117,
+    "zoneNumber": 2
+   },
+   {
+    "millisInZone": 0,
+    "zoneLowBoundary": 134,
+    "zoneNumber": 3
+   },
+   {
+    "millisInZone": 0,
+    "zoneLowBoundary": 156,
+    "zoneNumber": 4
+   },
+   {
+    "millisInZone": 0,
+    "zoneLowBoundary": 173,
+    "zoneNumber": 5
+   }
+  ],
+  "userProfilePk": 52220659,
+  "wellnessActivityType": "HEALTH_MONITORING"
+ }
+]

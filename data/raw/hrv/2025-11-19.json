@@ -1,0 +1,22 @@
+{
+ "endTimestampGMT": "2025-11-19T03:09:07.0",
+ "endTimestampLocal": "2025-11-19T05:09:07.0",
+ "hrvReadings": [],
+ "hrvSummary": {
+  "baseline": null,
+  "calendarDate": "2025-11-19",
+  "createTimeStamp": "2025-11-19T15:30:49.572",
+  "feedbackPhrase": "ONBOARDING_1",
+  "lastNight5MinHigh": 80,
+  "lastNightAvg": 64,
+  "status": "NONE",
+  "weeklyAvg": 65
+ },
+ "sleepEndTimestampGMT": null,
+ "sleepEndTimestampLocal": null,
+ "sleepStartTimestampGMT": null,
+ "sleepStartTimestampLocal": null,
+ "startTimestampGMT": "2025-11-18T21:33:13.0",
+ "startTimestampLocal": "2025-11-18T23:33:13.0",
+ "userProfilePk": 52220659
+}

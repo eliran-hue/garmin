@@ -1,0 +1,231 @@
+{
+ "details": {
+  "accessControlRuleDTO": {
+   "typeId": 3,
+   "typeKey": "subscribers"
+  },
+  "activityId": 23147812379,
+  "activityName": "Relax and Focus (Short)",
+  "activityTypeDTO": {
+   "parentTypeId": 4,
+   "typeId": 164,
+   "typeKey": "breathwork"
+  },
+  "activityUUID": {
+   "uuid": "38f154be-bd24-4e47-a205-96f89bb62471"
+  },
+  "eventTypeDTO": {
+   "typeId": 9,
+   "typeKey": "uncategorized"
+  },
+  "isMultiSportParent": false,
+  "metadataDTO": {
+   "activityImages": [],
+   "autoCalcCalories": false,
+   "calendarEventInfo": null,
+   "childActivityTypes": [],
+   "childIds": [],
+   "elevationCorrected": false,
+   "favorite": false,
+   "fileFormat": {
+    "formatId": 7,
+    "formatKey": "fit"
+   },
+   "gcj02": false,
+   "hasMultiDayActivities": false,
+   "hasRunPowerWindData": null,
+   "isOriginal": true,
+   "lapCount": 77,
+   "lastUpdateDate": "2026-06-06T08:21:09.0",
+   "manualActivity": false,
+   "manufacturer": "GARMIN",
+   "personalRecord": false,
+   "runPowerWindDataEnabled": null,
+   "sensors": null,
+   "trimmed": false,
+   "uploadedDate": "2026-06-06T08:21:09.0",
+   "userInfoDto": {
+    "displayname": "c7fc55ac-31cf-48de-896e-0194190d4fef",
+    "fullname": "Eli.Run🏃🏼‍♂️",
+    "profileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prof.png",
+    "profileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prfr.png",
+    "profileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prth.png",
+    "userPro": false,
+    "userProfilePk": 52220659
+   },
+   "videoUrl": null
+  },
+  "splitSummaries": [
+   {
+    "averageHR": 59.0,
+    "avgStress": 14.0,
+    "duration": 151.938,
+    "maxHR": 76.0,
+    "maxStress": 25.0,
+    "movingDuration": 0.0,
+    "noOfSplits": 38,
+    "splitType": "INTERVAL_RECOVERY",
+    "totalExerciseReps": 0
+   },
+   {
+    "averageHR": 63.0,
+    "avgStress": 13.0,
+    "duration": 30.0,
+    "maxHR": 82.0,
+    "maxStress": 16.0,
+    "movingDuration": 0.0,
+    "noOfSplits": 1,
+    "splitType": "INTERVAL_WARMUP",
+    "totalExerciseReps": 0
+   },
+   {
+    "averageHR": 59.0,
+    "avgStress": 14.0,
+    "duration": 152.0,
+    "maxHR": 77.0,
+    "maxStress": 25.0,
+    "movingDuration": 0.0,
+    "noOfSplits": 38,
+    "splitType": "INTERVAL_ACTIVE",
+    "totalExerciseReps": 0
+   }
+  ],
+  "summaryDTO": {
+   "activityTrainingLoad": 0.011383056640625,
+   "aerobicTrainingEffectMessage": "NO_AEROBIC_BENEFIT_18",
+   "anaerobicTrainingEffect": 0.0,
+   "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+   "averageHR": 59.0,
+   "avgElevation": -500.0,
+   "avgRespirationRate": 6.28000020980835,
+   "avgStress": 14.0,
+   "differenceBodyBattery": 0,
+   "differenceStress": 15.0,
+   "duration": 334.0,
+   "elapsedDuration": 334.0,
+   "endStress": 25.0,
+   "maxHR": 82.0,
+   "maxRespirationRate": 18.0,
+   "maxStress": 25.0,
+   "minActivityLapDuration": 4.0,
+   "minHR": 51.0,
+   "minRespirationRate": 4.0,
+   "movingDuration": 0.0,
+   "startStress": 10.0,
+   "startTimeGMT": "2026-06-06T08:15:16.0",
+   "startTimeLocal": "2026-06-06T11:15:16.0",
+   "trainingEffect": 0.0,
+   "trainingEffectLabel": "UNKNOWN",
+   "waterEstimated": 42.0
+  },
+  "timeZoneUnitDTO": {
+   "timeZone": "Europe/Athens"
+  },
+  "userProfileId": 52220659
+ },
+ "summary": {
+  "activityId": 23147812379,
+  "activityName": "Relax and Focus (Short)",
+  "activityTrainingLoad": 0.011383056640625,
+  "activityType": {
+   "parentTypeId": 4,
+   "typeId": 164,
+   "typeKey": "breathwork"
+  },
+  "activityUUID": "38f154be-bd24-4e47-a205-96f89bb62471",
+  "aerobicTrainingEffect": 0.0,
+  "aerobicTrainingEffectMessage": "NO_AEROBIC_BENEFIT_18",
+  "anaerobicTrainingEffect": 0.0,
+  "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+  "autoCalcCalories": false,
+  "averageHR": 59.0,
+  "avgElevation": -500.0,
+  "avgRespirationRate": 6.28000020980835,
+  "avgStress": 14.0,
+  "beginTimestamp": 1780733716000,
+  "decoDive": false,
+  "differenceBodyBattery": 0,
+  "differenceStress": 15.0,
+  "duration": 334.0,
+  "elapsedDuration": 334.0,
+  "elevationCorrected": false,
+  "endStress": 25.0,
+  "endTimeGMT": "2026-06-06 08:20:50",
+  "eventType": {
+   "typeId": 9,
+   "typeKey": "uncategorized"
+  },
+  "favorite": false,
+  "hasImages": false,
+  "hasVideo": false,
+  "hrTimeInZone_1": 0.0,
+  "hrTimeInZone_2": 0.0,
+  "hrTimeInZone_3": 0.0,
+  "hrTimeInZone_4": 0.0,
+  "hrTimeInZone_5": 0.0,
+  "isAutoCalcCalories": false,
+  "isDecoDive": false,
+  "isElevationCorrected": false,
+  "isFavorite": false,
+  "isManualActivity": false,
+  "isPR": false,
+  "isParent": false,
+  "lapCount": 77,
+  "manualActivity": false,
+  "manufacturer": "GARMIN",
+  "maxHR": 82.0,
+  "maxRespirationRate": 18.0,
+  "maxStress": 25.0,
+  "minActivityLapDuration": 4.0,
+  "minRespirationRate": 4.0,
+  "movingDuration": 0.0,
+  "ownerDisplayName": "c7fc55ac-31cf-48de-896e-0194190d4fef",
+  "ownerFullName": "Eli.Run🏃🏼‍♂️",
+  "ownerId": 52220659,
+  "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prof.png",
+  "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prfr.png",
+  "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prth.png",
+  "parent": false,
+  "pr": false,
+  "privacy": {
+   "typeId": 3,
+   "typeKey": "subscribers"
+  },
+  "qualifyingDive": false,
+  "splitSummaries": [
+   {
+    "avgStress": 14.0,
+    "duration": 151.93800354003906,
+    "noOfSplits": 38,
+    "numClimbSends": 0,
+    "numFalls": 0,
+    "splitType": "INTERVAL_RECOVERY"
+   },
+   {
+    "avgStress": 13.0,
+    "duration": 30.0,
+    "noOfSplits": 1,
+    "numClimbSends": 0,
+    "numFalls": 0,
+    "splitType": "INTERVAL_WARMUP"
+   },
+   {
+    "avgStress": 14.0,
+    "duration": 152.0,
+    "noOfSplits": 38,
+    "numClimbSends": 0,
+    "numFalls": 0,
+    "splitType": "INTERVAL_ACTIVE"
+   }
+  ],
+  "sportTypeId": 10,
+  "startStress": 10.0,
+  "startTimeGMT": "2026-06-06 08:15:16",
+  "startTimeLocal": "2026-06-06 11:15:16",
+  "summarizedDiveInfo": {
+   "summarizedDiveGases": []
+  },
+  "trainingEffectLabel": "UNKNOWN",
+  "waterEstimated": 42.0
+ }
+}

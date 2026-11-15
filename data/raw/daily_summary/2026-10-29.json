@@ -1,0 +1,146 @@
+{
+ "data": [
+  {
+   "bodyBattery": {
+    "activityEvents": [
+     {
+      "bodyBatteryImpact": 67,
+      "deviceId": 3497655817,
+      "durationInMillis": 23040000,
+      "eventStartTimeGmt": "2026-10-28T21:11:34.0",
+      "eventStartTimeLocal": "2026-10-28T23:11:34.0",
+      "eventType": "SLEEP",
+      "feedbackType": "NONE",
+      "shortFeedback": "NONE"
+     },
+     {
+      "bodyBatteryImpact": 0,
+      "deviceId": 3497655817,
+      "durationInMillis": 2220000,
+      "eventStartTimeGmt": "2026-10-29T15:04:50.0",
+      "eventStartTimeLocal": "2026-10-29T17:04:50.0",
+      "eventType": "RECOVERY",
+      "feedbackType": "RECOVERY_BODY_BATTERY_NOT_INCREASE",
+      "shortFeedback": "RESTFUL_PERIOD"
+     },
+     {
+      "bodyBatteryImpact": -2,
+      "deviceId": 3497655817,
+      "durationInMillis": 2100000,
+      "eventStartTimeGmt": "2026-10-29T16:20:28.0",
+      "eventStartTimeLocal": "2026-10-29T18:20:28.0",
+      "eventType": "ACTIVITY",
+      "feedbackType": "EXERCISE_TRAINING_EFFECT_BELOW_2",
+      "shortFeedback": "EASY_AEROBIC_BASE"
+     }
+    ],
+    "chargedValue": 75,
+    "drainedValue": 71,
+    "dynamicFeedbackEvent": {
+     "bodyBatteryLevel": "HIGH",
+     "eventTimestampGmt": "2026-10-29T18:51:58.0",
+     "feedbackLongType": "SLEEP_PREPARATION_BALANCED_AND_EXERCISE",
+     "feedbackShortType": "SLEEP_PREPARATION_BALANCED_AND_EXERCISE"
+    },
+    "endOfDayDynamicFeedbackEvent": {
+     "bodyBatteryLevel": "HIGH",
+     "eventTimestampGmt": "2026-10-29T20:35:46.0",
+     "feedbackLongType": "SLEEP_TIME_PASSED_BALANCED_AND_EXERCISE",
+     "feedbackShortType": "SLEEP_TIME_PASSED_BALANCED_AND_EXERCISE"
+    },
+    "featureVersion": "3.0",
+    "latestValue": 37,
+    "maxValue": 95,
+    "minValue": 26
+   },
+   "calendarDate": "2026-10-29",
+   "calories": {
+    "burnedActive": 283,
+    "burnedResting": 2150,
+    "burnedTotal": 2433,
+    "consumedGoal": 1880,
+    "consumedRemaining": 2163
+   },
+   "heartRate": {
+    "maxValue": 106,
+    "minValue": 51,
+    "restingValue": 54
+   },
+   "hydration": {
+    "consumedInFractionalMl": 0.0,
+    "consumedInMl": 0,
+    "goalInFractionalMl": 2301.0,
+    "goalInMl": 2301
+   },
+   "includesActivityData": true,
+   "includesWellnessData": true,
+   "intensityMinutes": {
+    "goal": 200,
+    "moderate": 6,
+    "vigorous": 0
+   },
+   "jetLag": {},
+   "movement": {
+    "floorsAscended": {
+     "distanceInMeters": 18.29,
+     "goal": 5,
+     "value": 6
+    },
+    "floorsDescended": {
+     "distanceInMeters": 16.68,
+     "value": 5
+    },
+    "pushes": {},
+    "steps": {
+     "distanceInMeters": 8835.0,
+     "goal": 2000,
+     "value": 10436
+    }
+   },
+   "pulseOx": {
+    "avgAltitudeInMeters": 327.0,
+    "avgValue": 97,
+    "latestTimestampGmt": "2026-10-29T21:59:00.0",
+    "latestTimestampLocal": "2026-10-29T23:59:00.0",
+    "latestValue": 97,
+    "minValue": 93
+   },
+   "respiration": {
+    "algorithmVersion": 200,
+    "avgValue": 15,
+    "latestTimestampGmt": "2026-10-29T21:59:00.0",
+    "latestValue": 13,
+    "maxValue": 24,
+    "minValue": 7
+   },
+   "source": "garmin",
+   "stress": {
+    "activityDurationInMillis": 16860000,
+    "activityProportion": 0.2,
+    "avgLevel": 25,
+    "highStressDurationInMillis": 960000,
+    "highStressProportion": 0.01,
+    "lowStressDurationInMillis": 14160000,
+    "lowStressProportion": 0.16,
+    "maxLevel": 84,
+    "mediumStressDurationInMillis": 6480000,
+    "mediumStressProportion": 0.08,
+    "qualifier": "balanced",
+    "restDurationInMillis": 39540000,
+    "restProportion": 0.46,
+    "totalDurationInMillis": 86340000,
+    "uncategorizedDurationInMillis": 8340000,
+    "uncategorizedProportion": 0.1
+   },
+   "userProfilePk": 52220659,
+   "uuid": "b7c1ba92-11cc-4485-9c97-52f1b55a9bdb",
+   "wellnessChronology": {
+    "endTimestampGmt": "2026-10-29T22:00:00.0",
+    "endTimestampLocal": "2026-10-30T00:00:00.0",
+    "startTimestampGmt": "2026-10-28T22:00:00.0",
+    "startTimestampLocal": "2026-10-29T00:00:00.0",
+    "totalDurationInMillis": 86400000
+   }
+  }
+ ]
+}

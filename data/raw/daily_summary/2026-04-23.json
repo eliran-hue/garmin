@@ -1,0 +1,141 @@
+{
+ "data": [
+  {
+   "bodyBattery": {
+    "activityEvents": [
+     {
+      "bodyBatteryImpact": 26,
+      "deviceId": 3497655817,
+      "durationInMillis": 19680000,
+      "eventStartTimeGmt": "2026-04-22T20:56:48.0",
+      "eventStartTimeLocal": "2026-04-22T23:56:48.0",
+      "eventType": "SLEEP",
+      "feedbackType": "NONE",
+      "shortFeedback": "NONE"
+     },
+     {
+      "bodyBatteryImpact": 2,
+      "deviceId": 3497655817,
+      "durationInMillis": 1080000,
+      "eventStartTimeGmt": "2026-04-23T14:36:17.0",
+      "eventStartTimeLocal": "2026-04-23T17:36:17.0",
+      "eventType": "RECOVERY",
+      "feedbackType": "RECOVERY_BODY_BATTERY_INCREASE",
+      "shortFeedback": "BODY_BATTERY_RECHARGE"
+     },
+     {
+      "bodyBatteryImpact": 3,
+      "deviceId": 3497655817,
+      "durationInMillis": 4080000,
+      "eventStartTimeGmt": "2026-04-23T15:23:17.0",
+      "eventStartTimeLocal": "2026-04-23T18:23:17.0",
+      "eventType": "RECOVERY",
+      "feedbackType": "RECOVERY_LONG_BODY_BATTERY_INCREASE",
+      "shortFeedback": "LONG_RESTFUL_PERIOD"
+     }
+    ],
+    "chargedValue": 35,
+    "drainedValue": 28,
+    "dynamicFeedbackEvent": {
+     "bodyBatteryLevel": "LOW",
+     "eventTimestampGmt": "2026-04-23T17:00:11.0",
+     "feedbackLongType": "SLEEP_PREPARATION_RECOVERING_AND_INACTIVE_AND_BB_LOW_MORNING_AND_NOW",
+     "feedbackShortType": "SLEEP_PREPARATION_RECOVERING_AND_INACTIVE"
+    },
+    "endOfDayDynamicFeedbackEvent": {
+     "bodyBatteryLevel": "LOW",
+     "eventTimestampGmt": "2026-04-23T19:25:00.0",
+     "feedbackLongType": "SLEEP_TIME_PASSED_RECOVERING_AND_INACTIVE_AND_BB_LOW_MORNING_AND_NOW",
+     "feedbackShortType": "SLEEP_TIME_PASSED_RECOVERING_AND_INACTIVE"
+    },
+    "featureVersion": "3.0",
+    "latestValue": 12,
+    "maxValue": 32,
+    "minValue": 5
+   },
+   "calendarDate": "2026-04-23",
+   "calories": {
+    "burnedActive": 114,
+    "burnedResting": 2159,
+    "burnedTotal": 2273,
+    "consumedGoal": 1880,
+    "consumedRemaining": 1994
+   },
+   "heartRate": {
+    "maxValue": 105,
+    "minValue": 52,
+    "restingValue": 59
+   },
+   "hydration": {},
+   "includesActivityData": false,
+   "includesWellnessData": true,
+   "intensityMinutes": {
+    "goal": 200,
+    "moderate": 0,
+    "vigorous": 0
+   },
+   "jetLag": {},
+   "movement": {
+    "floorsAscended": {
+     "distanceInMeters": 16.0,
+     "goal": 5,
+     "value": 5
+    },
+    "floorsDescended": {
+     "distanceInMeters": 19.79,
+     "value": 6
+    },
+    "pushes": {},
+    "steps": {
+     "distanceInMeters": 4885.0,
+     "goal": 2000,
+     "value": 5769
+    }
+   },
+   "pulseOx": {
+    "avgAltitudeInMeters": 63.0,
+    "avgValue": 97,
+    "latestTimestampGmt": "2026-04-23T21:00:00.0",
+    "latestTimestampLocal": "2026-04-24T00:00:00.0",
+    "latestValue": 96,
+    "minValue": 89
+   },
+   "respiration": {
+    "algorithmVersion": 200,
+    "avgValue": 16,
+    "latestTimestampGmt": "2026-04-23T21:00:00.0",
+    "latestValue": 14,
+    "maxValue": 23,
+    "minValue": 7
+   },
+   "source": "garmin",
+   "stress": {
+    "activityDurationInMillis": 9600000,
+    "activityProportion": 0.11,
+    "avgLevel": 33,
+    "highStressDurationInMillis": 2100000,
+    "highStressProportion": 0.02,
+    "lowStressDurationInMillis": 29040000,
+    "lowStressProportion": 0.34,
+    "maxLevel": 91,
+    "mediumStressDurationInMillis": 8760000,
+    "mediumStressProportion": 0.1,
+    "qualifier": "stressful",
+    "restDurationInMillis": 31500000,
+    "restProportion": 0.37,
+    "totalDurationInMillis": 86100000,
+    "uncategorizedDurationInMillis": 5100000,
+    "uncategorizedProportion": 0.06
+   },
+   "userProfilePk": 52220659,
+   "uuid": "3e1ef563-495b-431d-93f5-a10f1adf67e5",
+   "wellnessChronology": {
+    "endTimestampGmt": "2026-04-23T21:00:00.0",
+    "endTimestampLocal": "2026-04-24T00:00:00.0",
+    "startTimestampGmt": "2026-04-22T21:00:00.0",
+    "startTimestampLocal": "2026-04-23T00:00:00.0",
+    "totalDurationInMillis": 86400000
+   }
+  }
+ ]
+}

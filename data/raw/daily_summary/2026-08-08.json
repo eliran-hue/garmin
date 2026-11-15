@@ -1,0 +1,166 @@
+{
+ "data": [
+  {
+   "bodyBattery": {
+    "activityEvents": [
+     {
+      "bodyBatteryImpact": 47,
+      "deviceId": 3497655817,
+      "durationInMillis": 22500000,
+      "eventStartTimeGmt": "2026-08-07T22:22:47.0",
+      "eventStartTimeLocal": "2026-08-08T01:22:47.0",
+      "eventType": "SLEEP",
+      "feedbackType": "NONE",
+      "shortFeedback": "NONE"
+     },
+     {
+      "bodyBatteryImpact": -3,
+      "deviceId": 3497655817,
+      "durationInMillis": 2340000,
+      "eventStartTimeGmt": "2026-08-08T06:19:32.0",
+      "eventStartTimeLocal": "2026-08-08T09:19:32.0",
+      "eventType": "ACTIVITY",
+      "feedbackType": "EXERCISE_TRAINING_EFFECT_BELOW_2",
+      "shortFeedback": "EASY_AEROBIC_BASE"
+     },
+     {
+      "bodyBatteryImpact": -4,
+      "deviceId": 3497655817,
+      "durationInMillis": 2580000,
+      "eventStartTimeGmt": "2026-08-08T12:24:35.0",
+      "eventStartTimeLocal": "2026-08-08T15:24:35.0",
+      "eventType": "STRESS",
+      "feedbackType": "STRESS",
+      "shortFeedback": "STRESSFUL_PERIOD"
+     },
+     {
+      "bodyBatteryImpact": -5,
+      "deviceId": 3497655817,
+      "durationInMillis": 3420000,
+      "eventStartTimeGmt": "2026-08-08T13:31:35.0",
+      "eventStartTimeLocal": "2026-08-08T16:31:35.0",
+      "eventType": "STRESS",
+      "feedbackType": "STRESS",
+      "shortFeedback": "STRESSFUL_PERIOD"
+     },
+     {
+      "bodyBatteryImpact": -5,
+      "deviceId": 3497655817,
+      "durationInMillis": 2580000,
+      "eventStartTimeGmt": "2026-08-08T16:52:51.0",
+      "eventStartTimeLocal": "2026-08-08T19:52:51.0",
+      "eventType": "ACTIVITY",
+      "feedbackType": "EXERCISE_TRAINING_EFFECT_3",
+      "shortFeedback": "IMPROVING_TEMPO"
+     }
+    ],
+    "chargedValue": 58,
+    "drainedValue": 49,
+    "dynamicFeedbackEvent": {
+     "bodyBatteryLevel": "LOW",
+     "eventTimestampGmt": "2026-08-08T18:31:27.0",
+     "feedbackLongType": "SLEEP_PREPARATION_BALANCED_AND_INTENSIVE_EXERCISE_AND_BB_LOW_MORNING_AND_NOW",
+     "feedbackShortType": "SLEEP_PREPARATION_BALANCED_AND_INTENSIVE_EXERCISE"
+    },
+    "endOfDayDynamicFeedbackEvent": {
+     "bodyBatteryLevel": "LOW",
+     "eventTimestampGmt": "2026-08-08T20:30:17.0",
+     "feedbackLongType": "SLEEP_TIME_PASSED_BALANCED_AND_INTENSIVE_EXERCISE_AND_BB_LOW_MORNING_AND_NOW",
+     "feedbackShortType": "SLEEP_TIME_PASSED_BALANCED_AND_INTENSIVE_EXERCISE"
+    },
+    "featureVersion": "3.0",
+    "latestValue": 14,
+    "maxValue": 55,
+    "minValue": 5
+   },
+   "calendarDate": "2026-08-08",
+   "calories": {
+    "burnedActive": 729,
+    "burnedResting": 2141,
+    "burnedTotal": 2870,
+    "consumedGoal": 1880,
+    "consumedRemaining": 2609
+   },
+   "heartRate": {
+    "maxValue": 160,
+    "minValue": 54,
+    "restingValue": 57
+   },
+   "hydration": {
+    "consumedInFractionalMl": 0.0,
+    "consumedInMl": 0,
+    "goalInFractionalMl": 3046.0,
+    "goalInMl": 3046
+   },
+   "includesActivityData": true,
+   "includesWellnessData": true,
+   "intensityMinutes": {
+    "goal": 200,
+    "moderate": 11,
+    "vigorous": 44
+   },
+   "jetLag": {},
+   "movement": {
+    "floorsAscended": {
+     "distanceInMeters": 52.86,
+     "goal": 5,
+     "value": 17
+    },
+    "floorsDescended": {
+     "distanceInMeters": 52.53,
+     "value": 17
+    },
+    "pushes": {},
+    "steps": {
+     "distanceInMeters": 12116.0,
+     "goal": 2000,
+     "value": 13201
+    }
+   },
+   "pulseOx": {
+    "avgAltitudeInMeters": 57.0,
+    "avgValue": 97,
+    "latestTimestampGmt": "2026-08-08T20:59:00.0",
+    "latestTimestampLocal": "2026-08-08T23:59:00.0",
+    "latestValue": 99,
+    "minValue": 90
+   },
+   "respiration": {
+    "algorithmVersion": 200,
+    "avgValue": 16,
+    "latestTimestampGmt": "2026-08-08T20:59:00.0",
+    "latestValue": 11,
+    "maxValue": 22,
+    "minValue": 8
+   },
+   "source": "garmin",
+   "stress": {
+    "activityDurationInMillis": 14460000,
+    "activityProportion": 0.17,
+    "avgLevel": 32,
+    "highStressDurationInMillis": 4320000,
+    "highStressProportion": 0.05,
+    "lowStressDurationInMillis": 16320000,
+    "lowStressProportion": 0.19,
+    "maxLevel": 90,
+    "mediumStressDurationInMillis": 6540000,
+    "mediumStressProportion": 0.08,
+    "qualifier": "balanced",
+    "restDurationInMillis": 30780000,
+    "restProportion": 0.36,
+    "totalDurationInMillis": 85980000,
+    "uncategorizedDurationInMillis": 13560000,
+    "uncategorizedProportion": 0.16
+   },
+   "userProfilePk": 52220659,
+   "uuid": "d14627e2-4a4c-4a00-b788-164da9d3d15f",
+   "wellnessChronology": {
+    "endTimestampGmt": "2026-08-08T21:00:00.0",
+    "endTimestampLocal": "2026-08-09T00:00:00.0",
+    "startTimestampGmt": "2026-08-07T21:00:00.0",
+    "startTimestampLocal": "2026-08-08T00:00:00.0",
+    "totalDurationInMillis": 86400000
+   }
+  }
+ ]
+}

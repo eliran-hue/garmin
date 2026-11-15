@@ -1,0 +1,97 @@
+[
+ {
+  "bodyBatteryActivityEvent": [
+   {
+    "bodyBatteryImpact": 41,
+    "durationInMilliseconds": 17580000,
+    "eventStartTimeGmt": "2026-08-27T19:10:37.0",
+    "eventType": "SLEEP",
+    "feedbackType": "NONE",
+    "shortFeedback": "NONE",
+    "timezoneOffset": 10800000
+   },
+   {
+    "bodyBatteryImpact": -45,
+    "durationInMilliseconds": 13740000,
+    "eventStartTimeGmt": "2026-08-28T01:12:41.0",
+    "eventType": "ACTIVITY",
+    "feedbackType": "EXERCISE_TRAINING_EFFECT_5_GOOD_TIMING",
+    "shortFeedback": "OVERREACHING_VO2MAX",
+    "timezoneOffset": 10800000
+   },
+   {
+    "bodyBatteryImpact": 0,
+    "durationInMilliseconds": 1200000,
+    "eventStartTimeGmt": "2026-08-28T08:56:32.0",
+    "eventType": "NAP",
+    "feedbackType": "NAP_NOT_RECOVERING_BODY_BATTERY_MAINTAIN",
+    "shortFeedback": "NAP",
+    "timezoneOffset": 10800000
+   },
+   {
+    "bodyBatteryImpact": -1,
+    "durationInMilliseconds": 3600000,
+    "eventStartTimeGmt": "2026-08-28T14:01:11.0",
+    "eventType": "NAP",
+    "feedbackType": "NONE",
+    "shortFeedback": "NONE",
+    "timezoneOffset": 10800000
+   }
+  ],
+  "bodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2026-08-28T17:00:21.0",
+   "feedbackLongType": "SLEEP_PREPARATION_STRESSFUL_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_PREPARATION_STRESSFUL_AND_INTENSIVE_EXERCISE"
+  },
+  "bodyBatteryValueDescriptorDTOList": [
+   {
+    "bodyBatteryValueDescriptorIndex": 0,
+    "bodyBatteryValueDescriptorKey": "timestamp"
+   },
+   {
+    "bodyBatteryValueDescriptorIndex": 1,
+    "bodyBatteryValueDescriptorKey": "bodyBatteryLevel"
+   }
+  ],
+  "bodyBatteryValuesArray": [
+   [
+    1787875020000,
+    81
+   ],
+   [
+    1787893020000,
+    32
+   ],
+   [
+    1787893200000,
+    32
+   ],
+   [
+    1787920740000,
+    10
+   ],
+   [
+    1787922000000,
+    9
+   ],
+   [
+    1787926860000,
+    5
+   ]
+  ],
+  "charged": 38,
+  "date": "2026-08-28",
+  "drained": 79,
+  "endOfDayBodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "LOW",
+   "eventTimestampGmt": "2026-08-28T20:41:01.0",
+   "feedbackLongType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INTENSIVE_EXERCISE"
+  },
+  "endTimestampGMT": "2026-08-28T21:00:00.0",
+  "endTimestampLocal": "2026-08-29T00:00:00.0",
+  "startTimestampGMT": "2026-08-27T21:00:00.0",
+  "startTimestampLocal": "2026-08-28T00:00:00.0"
+ }
+]

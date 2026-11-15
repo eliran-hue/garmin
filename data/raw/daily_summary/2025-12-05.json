@@ -1,0 +1,146 @@
+{
+ "data": [
+  {
+   "bodyBattery": {
+    "activityEvents": [
+     {
+      "bodyBatteryImpact": 58,
+      "deviceId": 3436621144,
+      "durationInMillis": 23880000,
+      "eventStartTimeGmt": "2025-12-04T19:58:34.0",
+      "eventStartTimeLocal": "2025-12-04T21:58:34.0",
+      "eventType": "SLEEP",
+      "feedbackType": "NONE",
+      "shortFeedback": "NONE"
+     },
+     {
+      "bodyBatteryImpact": -21,
+      "deviceId": 3436621144,
+      "durationInMillis": 5580000,
+      "eventStartTimeGmt": "2025-12-05T04:19:52.0",
+      "eventStartTimeLocal": "2025-12-05T06:19:52.0",
+      "eventType": "ACTIVITY",
+      "feedbackType": "EXERCISE_TRAINING_EFFECT_5_GOOD_TIMING",
+      "shortFeedback": "OVERREACHING_VO2MAX"
+     },
+     {
+      "bodyBatteryImpact": 2,
+      "deviceId": 3497655817,
+      "durationInMillis": 5460000,
+      "eventStartTimeGmt": "2025-12-05T14:41:45.0",
+      "eventStartTimeLocal": "2025-12-05T16:41:45.0",
+      "eventType": "NAP",
+      "feedbackType": "NAP_NOT_RECOVERING_BODY_BATTERY_INCREASE",
+      "shortFeedback": "NAP"
+     }
+    ],
+    "chargedValue": 43,
+    "drainedValue": 74,
+    "dynamicFeedbackEvent": {
+     "bodyBatteryLevel": "LOW",
+     "eventTimestampGmt": "2025-12-05T18:11:18.0",
+     "feedbackLongType": "SLEEP_PREPARATION_STRESSFUL_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+     "feedbackShortType": "SLEEP_PREPARATION_STRESSFUL_AND_INTENSIVE_EXERCISE"
+    },
+    "endOfDayDynamicFeedbackEvent": {
+     "bodyBatteryLevel": "LOW",
+     "eventTimestampGmt": "2025-12-05T19:37:01.0",
+     "feedbackLongType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+     "feedbackShortType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INTENSIVE_EXERCISE"
+    },
+    "featureVersion": "3.0",
+    "latestValue": 8,
+    "maxValue": 80,
+    "minValue": 8
+   },
+   "calendarDate": "2025-12-05",
+   "calories": {
+    "burnedActive": 1474,
+    "burnedResting": 2210,
+    "burnedTotal": 3684,
+    "consumedGoal": 1880,
+    "consumedRemaining": 3354
+   },
+   "heartRate": {
+    "maxValue": 183,
+    "minValue": 51,
+    "restingValue": 53
+   },
+   "hydration": {
+    "consumedInFractionalMl": 0.0,
+    "consumedInMl": 0,
+    "goalInFractionalMl": 3464.0,
+    "goalInMl": 3464
+   },
+   "includesActivityData": true,
+   "includesWellnessData": true,
+   "intensityMinutes": {
+    "goal": 200,
+    "moderate": 15,
+    "vigorous": 94
+   },
+   "jetLag": {},
+   "movement": {
+    "floorsAscended": {
+     "distanceInMeters": 66.23,
+     "goal": 5,
+     "value": 21
+    },
+    "floorsDescended": {
+     "distanceInMeters": 60.76,
+     "value": 19
+    },
+    "pushes": {},
+    "steps": {
+     "distanceInMeters": 18363.0,
+     "goal": 2000,
+     "value": 18956
+    }
+   },
+   "pulseOx": {
+    "avgAltitudeInMeters": 57.0,
+    "avgValue": 96,
+    "latestTimestampGmt": "2025-12-05T22:00:00.0",
+    "latestTimestampLocal": "2025-12-06T00:00:00.0",
+    "latestValue": 89,
+    "minValue": 87
+   },
+   "respiration": {
+    "algorithmVersion": 200,
+    "avgValue": 15,
+    "latestTimestampGmt": "2025-12-05T21:48:00.0",
+    "latestValue": 12,
+    "maxValue": 22,
+    "minValue": 8
+   },
+   "source": "garmin",
+   "stress": {
+    "activityDurationInMillis": 17460000,
+    "activityProportion": 0.21,
+    "avgLevel": 42,
+    "highStressDurationInMillis": 5040000,
+    "highStressProportion": 0.06,
+    "lowStressDurationInMillis": 11280000,
+    "lowStressProportion": 0.14,
+    "maxLevel": 99,
+    "mediumStressDurationInMillis": 15000000,
+    "mediumStressProportion": 0.18,
+    "qualifier": "stressful",
+    "restDurationInMillis": 18120000,
+    "restProportion": 0.22,
+    "totalDurationInMillis": 83220000,
+    "uncategorizedDurationInMillis": 16320000,
+    "uncategorizedProportion": 0.2
+   },
+   "userProfilePk": 52220659,
+   "uuid": "30c52d22-e3fd-4350-9314-b4cde459589d",
+   "wellnessChronology": {
+    "endTimestampGmt": "2025-12-05T22:00:00.0",
+    "endTimestampLocal": "2025-12-06T00:00:00.0",
+    "startTimestampGmt": "2025-12-04T22:00:00.0",
+    "startTimestampLocal": "2025-12-05T00:00:00.0",
+    "totalDurationInMillis": 86400000
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "calendarDate": "2026-04-01",
+ "endTimestampGMT": "2026-04-01T21:00:00.0",
+ "endTimestampLocal": "2026-04-02T00:00:00.0",
+ "heartRateValueDescriptors": null,
+ "heartRateValues": null,
+ "lastSevenDaysAvgRestingHeartRate": 58,
+ "maxHeartRate": null,
+ "minHeartRate": null,
+ "restingHeartRate": 59,
+ "startTimestampGMT": "2026-03-31T21:00:00.0",
+ "startTimestampLocal": "2026-04-01T00:00:00.0",
+ "userProfilePK": 52220659
+}

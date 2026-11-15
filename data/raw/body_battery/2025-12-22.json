@@ -1,0 +1,79 @@
+[
+ {
+  "bodyBatteryActivityEvent": [
+   {
+    "bodyBatteryImpact": 17,
+    "durationInMilliseconds": 13920000,
+    "eventStartTimeGmt": "2025-12-21T22:39:21.0",
+    "eventType": "SLEEP",
+    "feedbackType": "NONE",
+    "shortFeedback": "NONE",
+    "timezoneOffset": 7200000
+   },
+   {
+    "bodyBatteryImpact": -8,
+    "durationInMilliseconds": 4380000,
+    "eventStartTimeGmt": "2025-12-22T03:47:41.0",
+    "eventType": "ACTIVITY",
+    "feedbackType": "EXERCISE_TRAINING_EFFECT_4_GOOD_TIMING",
+    "shortFeedback": "HIGHLY_IMPROVING_LACTATE_THRESHOLD",
+    "timezoneOffset": 7200000
+   }
+  ],
+  "bodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2025-12-22T18:00:14.0",
+   "feedbackLongType": "SLEEP_PREPARATION_NOT_STRESS_DATA_AND_HARD_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_PREPARATION_NOT_STRESS_DATA_AND_INTENSIVE_EXERCISE"
+  },
+  "bodyBatteryValueDescriptorDTOList": [
+   {
+    "bodyBatteryValueDescriptorIndex": 0,
+    "bodyBatteryValueDescriptorKey": "timestamp"
+   },
+   {
+    "bodyBatteryValueDescriptorIndex": 1,
+    "bodyBatteryValueDescriptorKey": "bodyBatteryLevel"
+   }
+  ],
+  "bodyBatteryValuesArray": [
+   [
+    1766361600001,
+    null
+   ],
+   [
+    1766361600002,
+    null
+   ],
+   [
+    1766361600003,
+    null
+   ],
+   [
+    1766361600004,
+    null
+   ],
+   [
+    1766361600005,
+    null
+   ],
+   [
+    1766361600006,
+    null
+   ]
+  ],
+  "charged": 17,
+  "date": "2025-12-22",
+  "drained": 17,
+  "endOfDayBodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2025-12-22T19:32:51.0",
+   "feedbackLongType": "SLEEP_TIME_PASSED_BALANCED_AND_INTENSIVE_EXERCISE_AND_BB_LOW_MORNING_AND_NOW",
+   "feedbackShortType": "SLEEP_TIME_PASSED_BALANCED_AND_INTENSIVE_EXERCISE"
+  },
+  "endTimestampGMT": "2025-12-22T22:00:00.0",
+  "endTimestampLocal": "2025-12-23T00:00:00.0",
+  "startTimestampGMT": "2025-12-21T22:00:00.0",
+  "startTimestampLocal": "2025-12-22T00:00:00.0"
+ }
+]

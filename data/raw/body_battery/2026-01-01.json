@@ -1,0 +1,88 @@
+[
+ {
+  "bodyBatteryActivityEvent": [
+   {
+    "bodyBatteryImpact": 37,
+    "durationInMilliseconds": 18540000,
+    "eventStartTimeGmt": "2025-12-31T22:30:49.0",
+    "eventType": "SLEEP",
+    "feedbackType": "NONE",
+    "shortFeedback": "NONE",
+    "timezoneOffset": 7200000
+   },
+   {
+    "bodyBatteryImpact": -2,
+    "durationInMilliseconds": 2700000,
+    "eventStartTimeGmt": "2026-01-01T14:44:42.0",
+    "eventType": "ACTIVITY",
+    "feedbackType": "EXERCISE_TRAINING_EFFECT_BELOW_2",
+    "shortFeedback": "EASY_AEROBIC_BASE",
+    "timezoneOffset": 7200000
+   },
+   {
+    "bodyBatteryImpact": -1,
+    "durationInMilliseconds": 1200000,
+    "eventStartTimeGmt": "2026-01-01T15:32:28.0",
+    "eventType": "ACTIVITY",
+    "feedbackType": "EXERCISE_TRAINING_EFFECT_BELOW_2",
+    "shortFeedback": "EASY_RECOVERY",
+    "timezoneOffset": 7200000
+   }
+  ],
+  "bodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "VERY_LOW",
+   "eventTimestampGmt": "2026-01-01T18:00:11.0",
+   "feedbackLongType": "SLEEP_PREPARATION_STRESSFUL_AND_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_PREPARATION_STRESSFUL_AND_EXERCISE"
+  },
+  "bodyBatteryValueDescriptorDTOList": [
+   {
+    "bodyBatteryValueDescriptorIndex": 0,
+    "bodyBatteryValueDescriptorKey": "timestamp"
+   },
+   {
+    "bodyBatteryValueDescriptorIndex": 1,
+    "bodyBatteryValueDescriptorKey": "bodyBatteryLevel"
+   }
+  ],
+  "bodyBatteryValuesArray": [
+   [
+    1767225600001,
+    null
+   ],
+   [
+    1767225600002,
+    null
+   ],
+   [
+    1767225600003,
+    null
+   ],
+   [
+    1767225600004,
+    null
+   ],
+   [
+    1767225600005,
+    null
+   ],
+   [
+    1767225600006,
+    null
+   ]
+  ],
+  "charged": 45,
+  "date": "2026-01-01",
+  "drained": 37,
+  "endOfDayBodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "LOW",
+   "eventTimestampGmt": "2026-01-01T20:49:49.0",
+   "feedbackLongType": "SLEEP_TIME_PASSED_STRESSFUL_AND_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_TIME_PASSED_STRESSFUL_AND_EXERCISE"
+  },
+  "endTimestampGMT": "2026-01-01T22:00:00.0",
+  "endTimestampLocal": "2026-01-02T00:00:00.0",
+  "startTimestampGMT": "2025-12-31T22:00:00.0",
+  "startTimestampLocal": "2026-01-01T00:00:00.0"
+ }
+]

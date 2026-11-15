@@ -1,0 +1,89 @@
+{
+ "dailyWeightSummaries": [
+  {
+   "allWeightMetrics": [
+    {
+     "bmi": null,
+     "bodyFat": null,
+     "bodyWater": null,
+     "boneMass": null,
+     "calendarDate": "2026-10-08",
+     "date": 1791442259002,
+     "metabolicAge": null,
+     "muscleMass": null,
+     "physiqueRating": null,
+     "samplePk": 1791431465696,
+     "sourceType": "MANUAL",
+     "timestampGMT": 1791431459002,
+     "visceralFat": null,
+     "weight": 80599.0,
+     "weightDelta": 599.9999999999943
+    }
+   ],
+   "latestWeight": {
+    "bmi": null,
+    "bodyFat": null,
+    "bodyWater": null,
+    "boneMass": null,
+    "calendarDate": "2026-10-08",
+    "date": 1791442259002,
+    "metabolicAge": null,
+    "muscleMass": null,
+    "physiqueRating": null,
+    "samplePk": 1791431465696,
+    "sourceType": "MANUAL",
+    "timestampGMT": 1791431459002,
+    "visceralFat": null,
+    "weight": 80599.0,
+    "weightDelta": 599.9999999999943
+   },
+   "maxWeight": 80599.0,
+   "minWeight": 80599.0,
+   "numOfWeightEntries": 1,
+   "summaryDate": "2026-10-08"
+  }
+ ],
+ "nextDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-10-09",
+  "date": 1791522631007,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1791511831007,
+  "visceralFat": null,
+  "weight": 80598.0,
+  "weightDelta": 0.0
+ },
+ "previousDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-10-07",
+  "date": 1791348358002,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1791337558002,
+  "visceralFat": null,
+  "weight": 80000.0,
+  "weightDelta": -799.9999999999972
+ },
+ "totalAverage": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "from": 1791417600000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "until": 1791503999999,
+  "visceralFat": null,
+  "weight": 80599.0
+ }
+}

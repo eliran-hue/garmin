@@ -1,0 +1,146 @@
+{
+ "data": [
+  {
+   "bodyBattery": {
+    "activityEvents": [
+     {
+      "bodyBatteryImpact": 43,
+      "deviceId": 3497655817,
+      "durationInMillis": 20940000,
+      "eventStartTimeGmt": "2026-03-14T21:45:29.0",
+      "eventStartTimeLocal": "2026-03-14T23:45:29.0",
+      "eventType": "SLEEP",
+      "feedbackType": "NONE",
+      "shortFeedback": "NONE"
+     },
+     {
+      "bodyBatteryImpact": -6,
+      "deviceId": 3497655817,
+      "durationInMillis": 1980000,
+      "eventStartTimeGmt": "2026-03-15T05:32:18.0",
+      "eventStartTimeLocal": "2026-03-15T07:32:18.0",
+      "eventType": "STRESS",
+      "feedbackType": "STRESS",
+      "shortFeedback": "STRESSFUL_PERIOD"
+     },
+     {
+      "bodyBatteryImpact": -13,
+      "deviceId": 3497655817,
+      "durationInMillis": 3900000,
+      "eventStartTimeGmt": "2026-03-15T15:33:58.0",
+      "eventStartTimeLocal": "2026-03-15T17:33:58.0",
+      "eventType": "ACTIVITY",
+      "feedbackType": "EXERCISE_TRAINING_EFFECT_5",
+      "shortFeedback": "OVERREACHING_LACTATE_THRESHOLD"
+     }
+    ],
+    "chargedValue": 43,
+    "drainedValue": 60,
+    "dynamicFeedbackEvent": {
+     "bodyBatteryLevel": "VERY_LOW",
+     "eventTimestampGmt": "2026-03-15T20:00:38.0",
+     "feedbackLongType": "SLEEP_PREPARATION_BALANCED_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+     "feedbackShortType": "SLEEP_PREPARATION_BALANCED_AND_INTENSIVE_EXERCISE"
+    },
+    "endOfDayDynamicFeedbackEvent": {
+     "bodyBatteryLevel": "VERY_LOW",
+     "eventTimestampGmt": "2026-03-15T21:33:19.0",
+     "feedbackLongType": "SLEEP_TIME_PASSED_BALANCED_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+     "feedbackShortType": "SLEEP_TIME_PASSED_BALANCED_AND_INTENSIVE_EXERCISE"
+    },
+    "featureVersion": "3.0",
+    "latestValue": 5,
+    "maxValue": 65,
+    "minValue": 5
+   },
+   "calendarDate": "2026-03-15",
+   "calories": {
+    "burnedActive": 1266,
+    "burnedResting": 2158,
+    "burnedTotal": 3424,
+    "consumedGoal": 1880,
+    "consumedRemaining": 3146
+   },
+   "heartRate": {
+    "maxValue": 179,
+    "minValue": 54,
+    "restingValue": 58
+   },
+   "hydration": {
+    "consumedInFractionalMl": 0.0,
+    "consumedInMl": 0,
+    "goalInFractionalMl": 3072.0,
+    "goalInMl": 3072
+   },
+   "includesActivityData": true,
+   "includesWellnessData": true,
+   "intensityMinutes": {
+    "goal": 200,
+    "moderate": 15,
+    "vigorous": 64
+   },
+   "jetLag": {},
+   "movement": {
+    "floorsAscended": {
+     "distanceInMeters": 93.76,
+     "goal": 5,
+     "value": 30
+    },
+    "floorsDescended": {
+     "distanceInMeters": 94.5,
+     "value": 31
+    },
+    "pushes": {},
+    "steps": {
+     "distanceInMeters": 18244.0,
+     "goal": 2000,
+     "value": 20313
+    }
+   },
+   "pulseOx": {
+    "avgAltitudeInMeters": 259.0,
+    "avgValue": 98,
+    "latestTimestampGmt": "2026-03-15T21:59:00.0",
+    "latestTimestampLocal": "2026-03-15T23:59:00.0",
+    "latestValue": 98,
+    "minValue": 88
+   },
+   "respiration": {
+    "algorithmVersion": 200,
+    "avgValue": 17,
+    "latestTimestampGmt": "2026-03-15T21:59:00.0",
+    "latestValue": 15,
+    "maxValue": 42,
+    "minValue": 8
+   },
+   "source": "garmin",
+   "stress": {
+    "activityDurationInMillis": 10860000,
+    "activityProportion": 0.14,
+    "avgLevel": 34,
+    "highStressDurationInMillis": 2580000,
+    "highStressProportion": 0.03,
+    "lowStressDurationInMillis": 16800000,
+    "lowStressProportion": 0.21,
+    "maxLevel": 99,
+    "mediumStressDurationInMillis": 11880000,
+    "mediumStressProportion": 0.15,
+    "qualifier": "balanced",
+    "restDurationInMillis": 29400000,
+    "restProportion": 0.37,
+    "totalDurationInMillis": 80100000,
+    "uncategorizedDurationInMillis": 8580000,
+    "uncategorizedProportion": 0.11
+   },
+   "userProfilePk": 52220659,
+   "uuid": "712803b1-93d0-4750-bcaa-bd7da45b14d0",
+   "wellnessChronology": {
+    "endTimestampGmt": "2026-03-15T22:00:00.0",
+    "endTimestampLocal": "2026-03-16T00:00:00.0",
+    "startTimestampGmt": "2026-03-14T22:00:00.0",
+    "startTimestampLocal": "2026-03-15T00:00:00.0",
+    "totalDurationInMillis": 86400000
+   }
+  }
+ ]
+}

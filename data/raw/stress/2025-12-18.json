@@ -1,0 +1,12 @@
+[
+ {
+  "calendarDate": "2025-12-18",
+  "values": {
+   "highStressDuration": 2880,
+   "lowStressDuration": 21780,
+   "mediumStressDuration": 16140,
+   "overallStressLevel": 39,
+   "restStressDuration": 23340
+  }
+ }
+]

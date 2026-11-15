@@ -1,0 +1,27 @@
+{
+ "endTimestampGMT": "2026-03-22T03:45:56.0",
+ "endTimestampLocal": "2026-03-22T05:45:56.0",
+ "hrvReadings": [],
+ "hrvSummary": {
+  "baseline": {
+   "balancedLow": 50,
+   "balancedUpper": 64,
+   "lowUpper": 47,
+   "markerValue": 0.46427917
+  },
+  "calendarDate": "2026-03-22",
+  "createTimeStamp": "2026-03-22T03:52:32.639",
+  "feedbackPhrase": "HRV_BALANCED_7",
+  "lastNight5MinHigh": 83,
+  "lastNightAvg": 65,
+  "status": "BALANCED",
+  "weeklyAvg": 56
+ },
+ "sleepEndTimestampGMT": null,
+ "sleepEndTimestampLocal": null,
+ "sleepStartTimestampGMT": null,
+ "sleepStartTimestampLocal": null,
+ "startTimestampGMT": "2026-03-21T23:19:56.0",
+ "startTimestampLocal": "2026-03-22T01:19:56.0",
+ "userProfilePk": 52220659
+}

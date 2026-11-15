@@ -1,0 +1,183 @@
+{
+ "details": {
+  "accessControlRuleDTO": {
+   "typeId": 3,
+   "typeKey": "subscribers"
+  },
+  "activityId": 21195473542,
+  "activityName": "Strength",
+  "activityTypeDTO": {
+   "parentTypeId": 29,
+   "typeId": 13,
+   "typeKey": "strength_training"
+  },
+  "activityUUID": {
+   "uuid": "d768091e-0210-47ac-b9a9-f1578dc83e98"
+  },
+  "eventTypeDTO": {
+   "typeId": 9,
+   "typeKey": "uncategorized"
+  },
+  "isMultiSportParent": false,
+  "metadataDTO": {
+   "activityImages": [],
+   "autoCalcCalories": false,
+   "calendarEventInfo": null,
+   "childActivityTypes": [],
+   "childIds": [],
+   "elevationCorrected": false,
+   "favorite": false,
+   "fileFormat": {
+    "formatId": 7,
+    "formatKey": "fit"
+   },
+   "gcj02": false,
+   "hasMultiDayActivities": false,
+   "hasRunPowerWindData": null,
+   "isOriginal": true,
+   "lapCount": 1,
+   "lastUpdateDate": "2025-12-07T17:20:23.0",
+   "manualActivity": false,
+   "manufacturer": "GARMIN",
+   "personalRecord": false,
+   "runPowerWindDataEnabled": null,
+   "sensors": null,
+   "trimmed": false,
+   "uploadedDate": "2025-12-07T17:20:23.0",
+   "userInfoDto": {
+    "displayname": "c7fc55ac-31cf-48de-896e-0194190d4fef",
+    "fullname": "Eli.Run🏃🏼‍♂️",
+    "profileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prof.png",
+    "profileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prfr.png",
+    "profileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prth.png",
+    "userPro": false,
+    "userProfilePk": 52220659
+   },
+   "videoUrl": null
+  },
+  "summaryDTO": {
+   "activeSets": 1,
+   "activityTrainingLoad": 3.9659576416015625,
+   "aerobicTrainingEffectMessage": "NO_AEROBIC_BENEFIT_18",
+   "anaerobicTrainingEffect": 0.0,
+   "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+   "averageHR": 95.0,
+   "averageMovingSpeed": 0.0,
+   "averageSpeed": 0.0,
+   "bmrCalories": 74.0,
+   "calories": 241.0,
+   "differenceBodyBattery": -2,
+   "distance": 0.0,
+   "duration": 2873.347,
+   "elapsedDuration": 2873.347,
+   "maxHR": 121.0,
+   "minActivityLapDuration": 2873.347,
+   "minHR": 75.0,
+   "moderateIntensityMinutes": 30,
+   "movingDuration": 2873.347,
+   "startTimeGMT": "2025-12-07T16:32:07.0",
+   "startTimeLocal": "2025-12-07T18:32:07.0",
+   "steps": 14,
+   "totalExerciseReps": 7,
+   "trainingEffect": 0.30000001192092896,
+   "trainingEffectLabel": "UNKNOWN",
+   "vigorousIntensityMinutes": 0,
+   "waterEstimated": 410.0
+  },
+  "timeZoneUnitDTO": {
+   "timeZone": "Europe/Athens"
+  },
+  "userProfileId": 52220659
+ },
+ "summary": {
+  "activeSets": 1,
+  "activityId": 21195473542,
+  "activityName": "Strength",
+  "activityTrainingLoad": 3.9659576416015625,
+  "activityType": {
+   "parentTypeId": 29,
+   "typeId": 13,
+   "typeKey": "strength_training"
+  },
+  "activityUUID": "d768091e-0210-47ac-b9a9-f1578dc83e98",
+  "aerobicTrainingEffect": 0.30000001192092896,
+  "aerobicTrainingEffectMessage": "NO_AEROBIC_BENEFIT_18",
+  "anaerobicTrainingEffect": 0.0,
+  "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+  "autoCalcCalories": false,
+  "averageHR": 95.0,
+  "averageSpeed": 0.0,
+  "beginTimestamp": 1765125127000,
+  "bmrCalories": 74.0,
+  "calories": 241.0,
+  "decoDive": false,
+  "differenceBodyBattery": -2,
+  "distance": 0.0,
+  "duration": 2873.346923828125,
+  "elapsedDuration": 2873.346923828125,
+  "elevationCorrected": false,
+  "endTimeGMT": "2025-12-07 17:20:00",
+  "eventType": {
+   "typeId": 9,
+   "typeKey": "uncategorized"
+  },
+  "favorite": false,
+  "hasImages": false,
+  "hasVideo": false,
+  "hrTimeInZone_1": 1461.377,
+  "hrTimeInZone_2": 30.998,
+  "hrTimeInZone_3": 0.0,
+  "hrTimeInZone_4": 0.0,
+  "hrTimeInZone_5": 0.0,
+  "isAutoCalcCalories": false,
+  "isDecoDive": false,
+  "isElevationCorrected": false,
+  "isFavorite": false,
+  "isManualActivity": false,
+  "isPR": false,
+  "isParent": false,
+  "lapCount": 1,
+  "manualActivity": false,
+  "manufacturer": "GARMIN",
+  "maxHR": 121.0,
+  "minActivityLapDuration": 2873.346923828125,
+  "moderateIntensityMinutes": 30,
+  "movingDuration": 2873.346923828125,
+  "ownerDisplayName": "c7fc55ac-31cf-48de-896e-0194190d4fef",
+  "ownerFullName": "Eli.Run🏃🏼‍♂️",
+  "ownerId": 52220659,
+  "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prof.png",
+  "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prfr.png",
+  "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/b1796230-8201-496b-9822-490cfb16c771-prth.png",
+  "parent": false,
+  "pr": false,
+  "privacy": {
+   "typeId": 3,
+   "typeKey": "subscribers"
+  },
+  "qualifyingDive": false,
+  "splitSummaries": [],
+  "sportTypeId": 4,
+  "startTimeGMT": "2025-12-07 16:32:07",
+  "startTimeLocal": "2025-12-07 18:32:07",
+  "steps": 14,
+  "summarizedDiveInfo": {
+   "summarizedDiveGases": []
+  },
+  "summarizedExerciseSets": [
+   {
+    "category": "TRICEPS_EXTENSION",
+    "duration": 2873346.923828125,
+    "maxWeight": 0,
+    "reps": 7,
+    "sets": 1,
+    "volume": 0
+   }
+  ],
+  "totalReps": 7,
+  "totalSets": 1,
+  "trainingEffectLabel": "UNKNOWN",
+  "vigorousIntensityMinutes": 0,
+  "waterEstimated": 410.0
+ }
+}

@@ -1,0 +1,88 @@
+[
+ {
+  "bodyBatteryActivityEvent": [
+   {
+    "bodyBatteryImpact": 58,
+    "durationInMilliseconds": 23880000,
+    "eventStartTimeGmt": "2025-12-04T19:58:34.0",
+    "eventType": "SLEEP",
+    "feedbackType": "NONE",
+    "shortFeedback": "NONE",
+    "timezoneOffset": 7200000
+   },
+   {
+    "bodyBatteryImpact": -21,
+    "durationInMilliseconds": 5580000,
+    "eventStartTimeGmt": "2025-12-05T04:19:52.0",
+    "eventType": "ACTIVITY",
+    "feedbackType": "EXERCISE_TRAINING_EFFECT_5_GOOD_TIMING",
+    "shortFeedback": "OVERREACHING_VO2MAX",
+    "timezoneOffset": 7200000
+   },
+   {
+    "bodyBatteryImpact": 2,
+    "durationInMilliseconds": 5460000,
+    "eventStartTimeGmt": "2025-12-05T14:41:45.0",
+    "eventType": "NAP",
+    "feedbackType": "NAP_NOT_RECOVERING_BODY_BATTERY_INCREASE",
+    "shortFeedback": "NAP",
+    "timezoneOffset": 7200000
+   }
+  ],
+  "bodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "LOW",
+   "eventTimestampGmt": "2025-12-05T18:11:18.0",
+   "feedbackLongType": "SLEEP_PREPARATION_STRESSFUL_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_PREPARATION_STRESSFUL_AND_INTENSIVE_EXERCISE"
+  },
+  "bodyBatteryValueDescriptorDTOList": [
+   {
+    "bodyBatteryValueDescriptorIndex": 0,
+    "bodyBatteryValueDescriptorKey": "timestamp"
+   },
+   {
+    "bodyBatteryValueDescriptorIndex": 1,
+    "bodyBatteryValueDescriptorKey": "bodyBatteryLevel"
+   }
+  ],
+  "bodyBatteryValuesArray": [
+   [
+    1764892800001,
+    null
+   ],
+   [
+    1764892800002,
+    null
+   ],
+   [
+    1764892800003,
+    null
+   ],
+   [
+    1764892800004,
+    null
+   ],
+   [
+    1764892800005,
+    null
+   ],
+   [
+    1764892800006,
+    null
+   ]
+  ],
+  "charged": 43,
+  "date": "2025-12-05",
+  "drained": 74,
+  "endOfDayBodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "LOW",
+   "eventTimestampGmt": "2025-12-05T19:37:01.0",
+   "feedbackLongType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INTENSIVE_EXERCISE_AND_BB_LOW",
+   "feedbackShortType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INTENSIVE_EXERCISE"
+  },
+  "endTimestampGMT": "2025-12-05T22:00:00.0",
+  "endTimestampLocal": "2025-12-06T00:00:00.0",
+  "startTimestampGMT": "2025-12-04T22:00:00.0",
+  "startTimestampLocal": "2025-12-05T00:00:00.0"
+ }
+]

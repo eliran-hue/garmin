@@ -1,0 +1,27 @@
+{
+ "chronologicalAge": 41,
+ "components": {
+  "bmi": {
+   "lastMeasurementDate": "2026-08-31",
+   "stale": false,
+   "value": 23.5
+  },
+  "rhr": {
+   "stale": false,
+   "value": 54
+  },
+  "vigorousDaysAvg": {
+   "numOfWeeksForIm": 6,
+   "stale": false,
+   "value": 3.3
+  },
+  "vigorousMinutesAvg": {
+   "numOfWeeksForIm": 6,
+   "stale": false,
+   "value": 387.8
+  }
+ },
+ "fitnessAge": 34.87568191579722,
+ "lastUpdated": "2026-09-04T00:00:00.0",
+ "previousFitnessAge": 34.87568191579722
+}

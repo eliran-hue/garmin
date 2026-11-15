@@ -1,0 +1,151 @@
+{
+ "data": [
+  {
+   "bodyBattery": {
+    "activityEvents": [
+     {
+      "bodyBatteryImpact": 61,
+      "deviceId": 3497655817,
+      "durationInMillis": 24960000,
+      "eventStartTimeGmt": "2026-05-25T20:49:32.0",
+      "eventStartTimeLocal": "2026-05-25T23:49:32.0",
+      "eventType": "SLEEP",
+      "feedbackType": "NONE",
+      "shortFeedback": "NONE"
+     },
+     {
+      "bodyBatteryImpact": -1,
+      "deviceId": 3497655817,
+      "durationInMillis": 2280000,
+      "eventStartTimeGmt": "2026-05-26T05:34:03.0",
+      "eventStartTimeLocal": "2026-05-26T08:34:03.0",
+      "eventType": "RECOVERY",
+      "feedbackType": "RECOVERY_BODY_BATTERY_NOT_INCREASE",
+      "shortFeedback": "RESTFUL_PERIOD"
+     },
+     {
+      "bodyBatteryImpact": 0,
+      "deviceId": 3497655817,
+      "durationInMillis": 3360000,
+      "eventStartTimeGmt": "2026-05-26T09:46:18.0",
+      "eventStartTimeLocal": "2026-05-26T12:46:18.0",
+      "eventType": "RECOVERY",
+      "feedbackType": "RECOVERY_BODY_BATTERY_NOT_INCREASE",
+      "shortFeedback": "RESTFUL_PERIOD"
+     },
+     {
+      "bodyBatteryImpact": -1,
+      "deviceId": 3497655817,
+      "durationInMillis": 2940000,
+      "eventStartTimeGmt": "2026-05-26T12:03:58.0",
+      "eventStartTimeLocal": "2026-05-26T15:03:58.0",
+      "eventType": "NAP",
+      "feedbackType": "NAP_NOT_RECOVERING_BODY_BATTERY_DECREASE",
+      "shortFeedback": "NAP"
+     }
+    ],
+    "chargedValue": 67,
+    "drainedValue": 56,
+    "dynamicFeedbackEvent": {
+     "bodyBatteryLevel": "HIGH",
+     "eventTimestampGmt": "2026-05-26T20:00:17.0",
+     "feedbackLongType": "SLEEP_PREPARATION_RECOVERING_AND_INACTIVE",
+     "feedbackShortType": "SLEEP_PREPARATION_RECOVERING_AND_INACTIVE"
+    },
+    "endOfDayDynamicFeedbackEvent": {
+     "bodyBatteryLevel": "HIGH",
+     "eventTimestampGmt": "2026-05-26T20:30:12.0",
+     "feedbackLongType": "SLEEP_TIME_PASSED_RECOVERING_AND_INACTIVE",
+     "feedbackShortType": "SLEEP_TIME_PASSED_RECOVERING_AND_INACTIVE"
+    },
+    "featureVersion": "3.0",
+    "latestValue": 29,
+    "maxValue": 77,
+    "minValue": 18
+   },
+   "calendarDate": "2026-05-26",
+   "calories": {
+    "burnedActive": 66,
+    "burnedResting": 2163,
+    "burnedTotal": 2229,
+    "consumedGoal": 1880,
+    "consumedRemaining": 1946
+   },
+   "heartRate": {
+    "maxValue": 105,
+    "minValue": 52,
+    "restingValue": 55
+   },
+   "hydration": {},
+   "includesActivityData": false,
+   "includesWellnessData": true,
+   "intensityMinutes": {
+    "goal": 200,
+    "moderate": 0,
+    "vigorous": 0
+   },
+   "jetLag": {},
+   "movement": {
+    "floorsAscended": {
+     "distanceInMeters": 9.14,
+     "goal": 5,
+     "value": 3
+    },
+    "floorsDescended": {
+     "distanceInMeters": 6.82,
+     "value": 2
+    },
+    "pushes": {},
+    "steps": {
+     "distanceInMeters": 2911.0,
+     "goal": 2000,
+     "value": 3429
+    }
+   },
+   "pulseOx": {
+    "avgAltitudeInMeters": 64.0,
+    "avgValue": 98,
+    "latestTimestampGmt": "2026-05-26T21:00:00.0",
+    "latestTimestampLocal": "2026-05-27T00:00:00.0",
+    "latestValue": 96,
+    "minValue": 91
+   },
+   "respiration": {
+    "algorithmVersion": 200,
+    "avgValue": 15,
+    "latestTimestampGmt": "2026-05-26T21:00:00.0",
+    "latestValue": 13,
+    "maxValue": 23,
+    "minValue": 7
+   },
+   "source": "garmin",
+   "stress": {
+    "activityDurationInMillis": 7020000,
+    "activityProportion": 0.08,
+    "avgLevel": 27,
+    "highStressDurationInMillis": 720000,
+    "highStressProportion": 0.01,
+    "lowStressDurationInMillis": 22800000,
+    "lowStressProportion": 0.26,
+    "maxLevel": 87,
+    "mediumStressDurationInMillis": 5640000,
+    "mediumStressProportion": 0.07,
+    "qualifier": "balanced",
+    "restDurationInMillis": 44160000,
+    "restProportion": 0.51,
+    "totalDurationInMillis": 86400000,
+    "uncategorizedDurationInMillis": 6060000,
+    "uncategorizedProportion": 0.07
+   },
+   "userProfilePk": 52220659,
+   "uuid": "2e54567b-0c20-4afa-bd8d-66776db49920",
+   "wellnessChronology": {
+    "endTimestampGmt": "2026-05-26T21:00:00.0",
+    "endTimestampLocal": "2026-05-27T00:00:00.0",
+    "startTimestampGmt": "2026-05-25T21:00:00.0",
+    "startTimestampLocal": "2026-05-26T00:00:00.0",
+    "totalDurationInMillis": 86400000
+   }
+  }
+ ]
+}

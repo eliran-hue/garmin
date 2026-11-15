@@ -1,0 +1,12 @@
+[
+ {
+  "calendarDate": "2026-07-18",
+  "values": {
+   "highStressDuration": 2460,
+   "lowStressDuration": 15480,
+   "mediumStressDuration": 7860,
+   "overallStressLevel": 27,
+   "restStressDuration": 36000
+  }
+ }
+]

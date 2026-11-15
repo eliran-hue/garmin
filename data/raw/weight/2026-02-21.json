@@ -1,0 +1,89 @@
+{
+ "dailyWeightSummaries": [
+  {
+   "allWeightMetrics": [
+    {
+     "bmi": null,
+     "bodyFat": null,
+     "bodyWater": null,
+     "boneMass": null,
+     "calendarDate": "2026-02-21",
+     "date": 1771660320000,
+     "metabolicAge": null,
+     "muscleMass": null,
+     "physiqueRating": null,
+     "samplePk": 1771653170714,
+     "sourceType": "MANUAL",
+     "timestampGMT": 1771653120000,
+     "visceralFat": null,
+     "weight": 80500.0,
+     "weightDelta": -1500.0
+    }
+   ],
+   "latestWeight": {
+    "bmi": null,
+    "bodyFat": null,
+    "bodyWater": null,
+    "boneMass": null,
+    "calendarDate": "2026-02-21",
+    "date": 1771660320000,
+    "metabolicAge": null,
+    "muscleMass": null,
+    "physiqueRating": null,
+    "samplePk": 1771653170714,
+    "sourceType": "MANUAL",
+    "timestampGMT": 1771653120000,
+    "visceralFat": null,
+    "weight": 80500.0,
+    "weightDelta": -1500.0
+   },
+   "maxWeight": 80500.0,
+   "minWeight": 80500.0,
+   "numOfWeightEntries": 1,
+   "summaryDate": "2026-02-21"
+  }
+ ],
+ "nextDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-02-22",
+  "date": 1771738200000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1771731000000,
+  "visceralFat": null,
+  "weight": 80599.0,
+  "weightDelta": 99.99999999999432
+ },
+ "previousDateWeight": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "calendarDate": "2026-02-19",
+  "date": 1771483362001,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "timestampGMT": 1771476162001,
+  "visceralFat": null,
+  "weight": 82000.0,
+  "weightDelta": 0.0
+ },
+ "totalAverage": {
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "from": 1771632000000,
+  "metabolicAge": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "until": 1771718399999,
+  "visceralFat": null,
+  "weight": 80500.0
+ }
+}

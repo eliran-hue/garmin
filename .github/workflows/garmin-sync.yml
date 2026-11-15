@@ -22,6 +22,8 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 300
+    env:
+      HAS_CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -55,6 +57,13 @@ jobs:
             git pull --rebase -q
             git push -q
           fi
+
+      - name: Deploy to Cloudflare
+        if: always() && env.HAS_CF_TOKEN == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@4 deploy
 
   key-expiry:
     # Set the repository variable GARMIN_KEY_EXPIRES (YYYY-MM-DD) to get a failing run, and an email, two weeks before the key expires.

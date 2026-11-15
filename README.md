@@ -36,6 +36,11 @@ Garmin Personal API ──(כל בוקר)──▶ GitHub Actions ──commit�
 2. Framework preset: **None**. Build command: ריק. **Build output directory: `site`**
 3. Save and Deploy. כל commit של הריצה היומית יעדכן את האתר אוטומטית.
 
+### 3א. פריסה אוטומטית מה-Action (מומלץ)
+כדי שכל ריצה יומית תפרוס את האתר מיד, הוסף שני secrets ב-GitHub:
+- `CLOUDFLARE_API_TOKEN`: ב-Cloudflare: **My Profile → API Tokens → Create Token → Edit Cloudflare Workers** (תבנית מוכנה) → Create.
+- `CLOUDFLARE_ACCOUNT_ID`: מופיע בעמוד **Workers & Pages** בצד ימין (Account ID), או בכתובת של הדשבורד אחרי `dash.cloudflare.com/`.
+
 ### 4. נעילת האתר עם Cloudflare Access (חובה, אלה נתוני בריאות)
 1. ב-Cloudflare: **Zero Trust → Access → Applications → Add an application → Self-hosted**
 2. Application domain: הכתובת של האתר (`<project>.pages.dev`). הוסף אפליקציה נוספת גם ל-`*.<project>.pages.dev` כדי לכסות את ה-preview deployments.

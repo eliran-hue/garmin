@@ -37,9 +37,17 @@
 
   <main>
     <section data-panel="overview" class="on">
-      <div class="tiles" id="tiles"></div>
-      <h2>תובנות</h2>
-      <div class="insights" id="insights"></div>
+      <div class="today" id="today"></div>
+      <div class="group-label">התאוששות</div>
+      <div class="tiles" id="tiles-rec"></div>
+      <div class="group-label">פעילות וגוף</div>
+      <div class="tiles" id="tiles-act"></div>
+      <div class="group-label">תובנות</div>
+      <div class="ins-list" id="insights"></div>
+      <details class="more" id="more-wrap">
+        <summary>קשרים בנתונים ומידע נוסף <span class="muted" id="more-count"></span></summary>
+        <div class="ins-list" id="insights-more"></div>
+      </details>
     </section>
 
     <section data-panel="sleep">

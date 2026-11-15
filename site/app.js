@@ -84,10 +84,10 @@
     "שינה אמש": "סך זמן השינה בלילה האחרון לפי השעון, בלי זמן הערות. <b>ציון השינה</b> (0–100) של Garmin לוקח בחשבון את משך השינה, את חלוקתה לשלבים (עמוקה, REM, קלה), את רמת הלחץ בשינה ואת ההתעוררויות. הממוצע של 7 לילות מאפשר להשוות ללילה בודד.<br><br><b>איך לקרוא:</b> למבוגרים מומלצות 7–9 שעות. ציון 80 ומעלה נחשב טוב, ומתחת ל-60 חלש.",
     "HRV לילי": "<b>שונות קצב הלב</b> (Heart Rate Variability): כמה משתנה הזמן בין פעימות הלב, במילישניות, בממוצע לאורך הלילה. HRV גבוה מעיד בדרך כלל על מערכת עצבים רגועה ועל התאוששות טובה. HRV נמוך מעיד על עומס, לחץ, מחלה או אלכוהול.<br><br><b>טווח הבסיס</b> מחושב על ידי Garmin מ-3 השבועות האחרונים שלך. <b>משווים רק לעצמך:</b> הערך המוחלט שונה מאוד בין אנשים.",
     "דופק במנוחה": "הדופק הנמוך ביותר ביממה, בדרך כלל בשינה. לאורך חודשים, ירידה בו מעידה על שיפור בכושר האירובי.<br><br><b>ההשוואה:</b> הערך של היום מול הממוצע של 4 השבועות שלפני 3 הימים האחרונים, כדי שעלייה של ימים אחרונים לא תסתיר את עצמה.<br><br><b>איך לקרוא:</b> 3 פעימות ומעלה מעל הממוצע שלך הן סימן מוקדם לעייפות מצטברת, מחלה בתחילתה, אלכוהול או חוסר שינה.",
-    "Body Battery שיא היום": "מדד של Garmin (0–100) לאנרגיה הזמינה לך. הוא מחושב מ-HRV, לחץ, שינה ופעילות: נטען במנוחה ובשינה ומתרוקן בפעילות ובלחץ.<br><br><b>השיא היומי</b> מראה כמה נטענת, בדרך כלל עם הקימה. <b>נטען בלילה</b> הוא כמה נקודות נוספו במהלך השינה.<br><br><b>איך לקרוא:</b> שיא מעל 75 טוב. שיא מתחת ל-50 כמה ימים ברצף מעיד על התאוששות לא מספקת.",
+    "Body Battery": "מדד של Garmin (0–100) לאנרגיה הזמינה לך. הוא מחושב מ-HRV, לחץ, שינה ופעילות: נטען במנוחה ובשינה ומתרוקן בפעילות ובלחץ.<br><br><b>השיא היומי</b> מראה כמה נטענת, בדרך כלל עם הקימה. <b>נטען בלילה</b> הוא כמה נקודות נוספו במהלך השינה.<br><br><b>איך לקרוא:</b> שיא מעל 75 טוב. שיא מתחת ל-50 כמה ימים ברצף מעיד על התאוששות לא מספקת.",
     "משקל": "השקילה האחרונה שנרשמה ב-Garmin Connect.<br><br><b>השינוי ב-30 יום</b> מחושב בין הממוצע הנע של 7 ימים היום לבין זה של לפני 30 יום, ולא בין שתי שקילות בודדות. כך התנודות היומיות (מים, מלח, תכולת קיבה), שיכולות להגיע ל-1–2 ק״ג, לא מעוותות את התמונה.",
     "עומס אימון 7 ימים": "סכום <b>עומס האימונים</b> של Garmin ב-7 הימים האחרונים. עומס של אימון בודד מבוסס על EPOC, כלומר על כמה האימון \"הוציא\" מהגוף, לפי הדופק והמשך.<br><br><b>היחס</b> הוא העומס של 7 הימים האחרונים חלקי הממוצע השבועי ב-4 השבועות האחרונים (acute:chronic).<br><br><b>איך לקרוא:</b> 0.8–1.3 מאוזן. מעל 1.5 זו קפיצה חדה שמעלה את הסיכון לפציעה. מתחת ל-0.8 העומס בירידה.",
-    "צעדים ביום (ממוצע 7 ימים)": "ממוצע הצעדים היומי בשבוע האחרון, מול הממוצע ב-4 השבועות שלפניו. ממוצע מעניין יותר מיום בודד, כי הוא מנטרל ימים חריגים.<br><br><b>איך לקרוא:</b> המחקר מראה ירידה בתמותה ככל שמספר הצעדים עולה, עד בערך 8,000–10,000 צעדים ביום.",
+    "צעדים ביום": "ממוצע הצעדים היומי בשבוע האחרון, מול הממוצע ב-4 השבועות שלפניו. ממוצע מעניין יותר מיום בודד, כי הוא מנטרל ימים חריגים.<br><br><b>איך לקרוא:</b> המחקר מראה ירידה בתמותה ככל שמספר הצעדים עולה, עד בערך 8,000–10,000 צעדים ביום.",
     // insights (by key)
     readiness: "שילוב של שלושה סימנים מהלילה האחרון. כל אחד מהם נותן נקודה לחיוב או לשלילה:<br>• <b>HRV</b> בתוך טווח הבסיס שלך או מעליו (+), או מתחתיו (−)<br>• <b>דופק במנוחה</b> בממוצע שלך או מתחתיו (+), או גבוה ב-3 פעימות ומעלה (−)<br>• <b>שינה</b> של 7 שעות ומעלה (+), או פחות מ-6 שעות (−)<br><br>2 נקודות ומעלה: אפשר להתאמן חזק. 2 נקודות שליליות: עדיף יום התאוששות. זו הערכה פשוטה, לא תחליף לתחושה שלך.",
     rhr_high: "הממוצע של 3 הימים האחרונים מול הממוצע של 4 השבועות שלפניהם. ההתראה מופיעה כשהפער הוא 3 פעימות ומעלה.<br><br>עלייה כזו בדופק המנוחה היא אחד הסימנים המוקדמים והאמינים ביותר לעומס יתר או למחלה מתקרבת. לפעמים היא מופיעה יום או יומיים לפני שמרגישים משהו.",
@@ -158,7 +158,7 @@
     }
 
     const bi = lastOf("bb_high");
-    if (bi >= 0) items.push({ label: "Body Battery שיא היום", value: r0(c.bb_high[bi]), unit: "", delta: c.bb_sleep_change[bi] != null ? `נטען בלילה ${signed(c.bb_sleep_change[bi], r0)}` : c.bb_low[bi] != null ? `שפל ${r0(c.bb_low[bi])}` : "", spark: last30("bb_high"), color: "--series-1" });
+    if (bi >= 0) items.push({ label: "Body Battery", value: r0(c.bb_high[bi]), unit: "", delta: c.bb_sleep_change[bi] != null ? `שיא היום · נטען בלילה ${signed(c.bb_sleep_change[bi], r0)}` : c.bb_low[bi] != null ? `שפל ${r0(c.bb_low[bi])}` : "", spark: last30("bb_high"), color: "--series-1" });
 
     const wi = lastIdx(c.weight_kg);
     if (wi >= 0) {
@@ -171,9 +171,12 @@
     if (D.activities.length) items.push({ label: "עומס אימון 7 ימים", value: r0(acute), unit: "", delta: chronic ? `יחס לממוצע 4 שבועות ${(acute / chronic).toFixed(2)}` : "", spark: rollingSum(c.load, 7).slice(-30), color: "--series-1" });
 
     const st = mean(c.steps.slice(-7));
-    if (st != null) items.push({ label: "צעדים ביום (ממוצע 7 ימים)", value: r0(st), unit: "", delta: `${signed(pct(st, mean(c.steps.slice(-35, -7))) || 0, r0)}% מול 4 השבועות הקודמים`, spark: rolling(c.steps, 7).slice(-30), color: "--series-1" });
+    if (st != null) items.push({ label: "צעדים ביום", value: r0(st), unit: "", delta: `ממוצע 7 ימים · ${signed(pct(st, mean(c.steps.slice(-35, -7))) || 0, r0)}% מהחודש הקודם`, spark: rolling(c.steps, 7).slice(-30), color: "--series-1" });
 
-    $("#tiles").innerHTML = items.map((t, i) => `<div class="tile"><div class="label">${t.label}${infoBtn(t.label)}</div><div class="value">${t.value}${t.unit ? `<small>${t.unit}</small>` : ""}</div><div class="delta">${t.delta || ""}</div><div class="spark" id="spark-${i}"></div></div>`).join("");
+    const REC = new Set(["שינה אמש", "HRV לילי", "דופק במנוחה", "Body Battery"]);
+    const tile = (t, i) => `<div class="tile"><div class="label"><span>${t.label}</span>${infoBtn(t.label)}</div><div class="value">${t.value}${t.unit ? `<small>${t.unit}</small>` : ""}</div><div class="delta">${t.delta || ""}</div><div class="spark" id="spark-${i}"></div></div>`;
+    $("#tiles-rec").innerHTML = items.map((t, i) => (REC.has(t.label) ? tile(t, i) : "")).join("");
+    $("#tiles-act").innerHTML = items.map((t, i) => (REC.has(t.label) ? "" : tile(t, i))).join("");
     items.forEach((t, i) => C.spark(document.getElementById(`spark-${i}`), t.spark, t.color));
   }
 
@@ -352,8 +355,15 @@
 
     const order = { critical: 0, serious: 1, warning: 2, good: 3, info: 4 };
     out.sort((a, b) => order[a.level] - order[b.level]);
-    $("#insights").innerHTML = out.length ? out.map((it) => `<div class="insight ${it.level}"><div class="head">${ICONS[it.level]}<span>${it.title}</span>${infoBtn(it.key)}</div><p>${it.text}</p><div style="margin-top:8px;display:flex;gap:6px"><span class="badge">${LEVEL_LABEL[it.level]}</span><span class="badge">${it.tag}</span></div></div>`).join("")
-      : `<p class="muted">צריך עוד כמה ימים של נתונים כדי להפיק תובנות.</p>`;
+    const row = (it) => `<div class="ins-row ${it.level}">${ICONS[it.level]}<div class="ins-body"><div class="ins-title"><span>${it.title}</span>${infoBtn(it.key)}</div><div class="ins-text">${it.text}</div></div></div>`;
+    const today = out.find((it) => it.key === "readiness");
+    $("#today").innerHTML = today ? `<div class="today-card ${today.level}">${ICONS[today.level]}<div class="ins-body"><div class="today-title"><span>${today.title.replace("מוכנות להיום: ", "")}</span>${infoBtn("readiness")}</div><div class="ins-text">${today.text}</div></div><div class="today-label">היום</div></div>` : "";
+    const rest = out.filter((it) => it !== today);
+    const main = rest.filter((it) => it.level !== "info"), more = rest.filter((it) => it.level === "info");
+    $("#insights").innerHTML = main.length ? main.map(row).join("") : `<p class="muted ins-empty">${rest.length ? "אין כרגע משהו שדורש תשומת לב." : "צריך עוד כמה ימים של נתונים כדי להפיק תובנות."}</p>`;
+    $("#insights-more").innerHTML = more.map(row).join("");
+    $("#more-count").textContent = more.length ? `(${more.length})` : "";
+    $("#more-wrap").style.display = more.length ? "" : "none";
   }
 
   // ---------- sleep tab ----------

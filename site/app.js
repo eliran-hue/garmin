@@ -429,10 +429,89 @@
     const paceFmt = (v) => `${Math.floor(v)}:${String(Math.round((v % 1) * 60)).padStart(2, "0")}`;
     C.line($("#c-run"), { x: w.dates, yFmt: paceFmt, series: [{ name: "קצב", values: runs, color: "--series-1", dotsOnly: true }] });
 
-    const rows = acts.slice().reverse().slice(0, 25);
-    $("#t-activities").innerHTML = rows.length ? `<table><thead><tr><th>תאריך</th><th>סוג</th><th>שם</th><th>משך</th><th>מרחק</th><th>קצב</th><th>דופק ממוצע</th><th>עומס</th><th>אפקט אירובי</th></tr></thead><tbody>` +
-      rows.map((a) => { const g = typeGroup(a.type); return `<tr><td class="num">${a.start.slice(8, 10)}/${a.start.slice(5, 7)} ${a.start.slice(11)}</td><td><i class="type-dot" style="background:var(${g.color})"></i>${TYPE_NAMES[a.type] || a.type}</td><td>${a.name || ""}</td><td class="num">${a.duration_min ? hm(a.duration_min / 60) : "–"}</td><td class="num">${a.distance_km ? r1(a.distance_km) + " ק״מ" : "–"}</td><td class="num">${g.key === "run" && a.pace_min_km ? paceFmt(a.pace_min_km) : "–"}</td><td class="num">${r0(a.avg_hr)}</td><td class="num">${r0(a.load)}</td><td class="num">${a.te_aerobic != null ? r1(a.te_aerobic) : "–"}</td></tr>`; }).join("") + "</tbody></table>"
-      : `<p class="muted">אין אימונים בטווח הזה.</p>`;
+    activityLog();
+  }
+
+
+  // ---------- activity log (independent of the global range) ----------
+  const act = { limit: 25, sort: "start", dir: -1, wired: false };
+  const paceFmtG = (v) => `${Math.floor(v)}:${String(Math.round((v % 1) * 60)).padStart(2, "0")}`;
+  const ACT_COLS = [
+    { key: "start", label: "תאריך", fmt: (a) => `${a.start.slice(8, 10)}/${a.start.slice(5, 7)}/${a.start.slice(2, 4)} ${a.start.slice(11)}` },
+    { key: "type", label: "סוג", fmt: (a) => `<i class="type-dot" style="background:var(${typeGroup(a.type).color})"></i>${TYPE_NAMES[a.type] || a.type}` },
+    { key: "name", label: "שם", fmt: (a) => a.name || "" },
+    { key: "duration_min", label: "משך", num: true, fmt: (a) => (a.duration_min ? hm(a.duration_min / 60) : "–") },
+    { key: "distance_km", label: "מרחק", num: true, fmt: (a) => (a.distance_km ? r1(a.distance_km) + " ק״מ" : "–") },
+    { key: "pace_min_km", label: "קצב", num: true, fmt: (a) => (typeGroup(a.type).key === "run" && a.pace_min_km ? paceFmtG(a.pace_min_km) : "–") },
+    { key: "avg_hr", label: "דופק ממוצע", num: true, fmt: (a) => r0(a.avg_hr) },
+    { key: "load", label: "עומס", num: true, fmt: (a) => r0(a.load) },
+    { key: "te_aerobic", label: "אפקט אירובי", num: true, fmt: (a) => (a.te_aerobic != null ? r1(a.te_aerobic) : "–") },
+  ];
+
+  function wireActivityLog() {
+    if (act.wired) return;
+    act.wired = true;
+    const types = {};
+    state.data.activities.forEach((a) => (types[a.type] = (types[a.type] || 0) + 1));
+    const groups = TYPE_GROUPS.filter((g) => state.data.activities.some((a) => typeGroup(a.type).key === g.key));
+    $("#f-type").innerHTML = `<option value="">הכול</option>` +
+      groups.map((g) => `<option value="g:${g.key}">${g.name} (כל הסוגים)</option>`).join("") +
+      `<option disabled>──────</option>` +
+      Object.keys(types).sort((a, b) => types[b] - types[a]).map((t) => `<option value="t:${t}">${TYPE_NAMES[t] || t} (${types[t]})</option>`).join("");
+    const all = state.data.activities;
+    if (all.length) { $("#f-from").min = $("#f-to").min = all[0].date; $("#f-from").max = $("#f-to").max = all[all.length - 1].date; }
+    const redraw = () => { act.limit = 25; activityLog(); };
+    $("#act-filters").addEventListener("input", redraw);
+    $("#act-filters").addEventListener("change", redraw);
+    $("#f-reset").addEventListener("click", () => { $("#act-filters").querySelectorAll("input,select").forEach((el) => (el.value = "")); redraw(); });
+    $("#act-more").addEventListener("click", () => { act.limit += 25; activityLog(); });
+    $("#t-activities").addEventListener("click", (e) => {
+      const th = e.target.closest("th[data-k]"); if (!th) return;
+      if (act.sort === th.dataset.k) act.dir *= -1; else { act.sort = th.dataset.k; act.dir = th.dataset.k === "start" || th.dataset.num ? -1 : 1; }
+      activityLog();
+    });
+  }
+
+  function activityLog() {
+    wireActivityLog();
+    const v = (id) => $(id).value.trim();
+    const q = v("#f-q").toLowerCase(), type = v("#f-type"), from = v("#f-from"), to = v("#f-to");
+    const n = (id) => (v(id) === "" ? null : +v(id));
+    const dmin = n("#f-dmin"), dmax = n("#f-dmax"), kmin = n("#f-kmin"), kmax = n("#f-kmax");
+    let rows = state.data.activities.filter((a) => {
+      if (q && !(`${a.name || ""} ${TYPE_NAMES[a.type] || ""} ${a.type}`.toLowerCase().includes(q))) return false;
+      if (type.startsWith("g:") && typeGroup(a.type).key !== type.slice(2)) return false;
+      if (type.startsWith("t:") && a.type !== type.slice(2)) return false;
+      if (from && a.date < from) return false;
+      if (to && a.date > to) return false;
+      if (dmin != null && !(a.duration_min >= dmin)) return false;
+      if (dmax != null && !(a.duration_min <= dmax)) return false;
+      if (kmin != null && !(a.distance_km >= kmin)) return false;
+      if (kmax != null && !(a.distance_km <= kmax)) return false;
+      return true;
+    });
+    const k = act.sort, dir = act.dir;
+    rows.sort((x, y) => {
+      let a = x[k], b = y[k];
+      if (k === "type") { a = TYPE_NAMES[a] || a; b = TYPE_NAMES[b] || b; }
+      if (a == null && b == null) return 0;
+      if (a == null) return 1;
+      if (b == null) return -1;
+      return (typeof a === "number" ? a - b : String(a).localeCompare(String(b), "he")) * dir;
+    });
+    const totMin = sum(rows.map((a) => a.duration_min)), totKm = sum(rows.map((a) => a.distance_km));
+    $("#act-summary").textContent = rows.length
+      ? `${rows.length.toLocaleString("he-IL")} אימונים · ${hm(Math.round(totMin) / 60)} שעות${totKm ? ` · ${r1(totKm)} ק״מ` : ""}`
+      : "";
+    const shown = rows.slice(0, act.limit);
+    const arrow = (c) => (c.key === k ? (dir < 0 ? " ↓" : " ↑") : "");
+    $("#t-activities").innerHTML = shown.length
+      ? `<table class="act-table"><thead><tr>${ACT_COLS.map((c) => `<th data-k="${c.key}"${c.num ? ' data-num="1"' : ""}>${c.label}${arrow(c)}</th>`).join("")}</tr></thead><tbody>` +
+        shown.map((a) => `<tr>${ACT_COLS.map((c) => `<td${c.num || c.key === "start" ? ' class="num"' : ""}>${c.fmt(a)}</td>`).join("")}</tr>`).join("") + "</tbody></table>"
+      : `<p class="muted">אין אימונים שמתאימים לסינון.</p>`;
+    const left = rows.length - shown.length;
+    $("#act-more").style.display = left > 0 ? "" : "none";
+    $("#act-more").textContent = `הצג עוד (${Math.min(25, left)} מתוך ${left} שנותרו)`;
   }
 
   // ---------- weight tab ----------

@@ -171,3 +171,19 @@ details.more[open] summary::before { transform: rotate(-90deg); }
 .tile .label .info-btn { margin-inline-start: 0; }
 .ins-title .info-btn, .today-title .info-btn { margin-inline-start: 2px; }
 .info-btn { background: var(--surface-2); opacity: 1; color: var(--text-muted); }
+
+/* ---- activity log ---- */
+.act-filters { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: flex-end; margin-bottom: 10px; }
+.act-filters label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--text-muted); }
+.act-filters input, .act-filters select { font: inherit; font-size: 13px; color: var(--text-primary); background: var(--surface-2);
+  border: 1px solid var(--border); border-radius: 8px; padding: 6px 8px; min-width: 0; }
+.act-filters input[type=search] { width: 160px; }
+.act-filters input[type=number] { width: 70px; }
+.act-filters .pair { display: flex; gap: 4px; }
+.link-btn { font: inherit; font-size: 13px; background: none; border: 0; color: var(--accent); cursor: pointer; padding: 6px 4px; }
+.act-summary { margin: 2px 0 6px; }
+.act-table th[data-k] { cursor: pointer; user-select: none; }
+.act-table th[data-k]:hover { color: var(--text-primary); }
+.act-table td:nth-child(3) { white-space: normal; min-width: 140px; }
+.act-more { text-align: center; margin-top: 10px; }
+.more-btn { font: inherit; font-size: 13px; background: var(--surface-2); color: var(--text-primary); border: 0; border-radius: 8px; padding: 8px 16px; cursor: pointer; }

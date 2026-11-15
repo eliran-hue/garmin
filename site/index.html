@@ -69,7 +69,21 @@
         <div class="card"><h3>דקות פעילות עצימה בשבוע (יעד 150)</h3><div class="chart" id="c-intensity"></div></div>
         <div class="card"><h3>צעדים ביום</h3><div class="chart" id="c-steps"></div></div>
         <div class="card"><h3>קצב ריצה ממוצע (דקות לק״מ, נמוך = מהיר)</h3><div class="chart" id="c-run"></div></div>
-        <div class="card wide"><h3>אימונים אחרונים</h3><div class="table-wrap" id="t-activities"></div></div>
+        <div class="card wide">
+          <h3>יומן אימונים</h3>
+          <div class="act-filters" id="act-filters">
+            <label>חיפוש<input type="search" id="f-q" placeholder="שם האימון"></label>
+            <label>סוג<select id="f-type"><option value="">הכול</option></select></label>
+            <label>מתאריך<input type="date" id="f-from"></label>
+            <label>עד תאריך<input type="date" id="f-to"></label>
+            <label>משך (דקות)<span class="pair"><input type="number" id="f-dmin" min="0" placeholder="מ-"><input type="number" id="f-dmax" min="0" placeholder="עד"></span></label>
+            <label>מרחק (ק״מ)<span class="pair"><input type="number" id="f-kmin" min="0" step="0.1" placeholder="מ-"><input type="number" id="f-kmax" min="0" step="0.1" placeholder="עד"></span></label>
+            <button class="link-btn" id="f-reset" type="button">ניקוי</button>
+          </div>
+          <div class="act-summary muted" id="act-summary"></div>
+          <div class="table-wrap" id="t-activities"></div>
+          <div class="act-more"><button class="more-btn" id="act-more" type="button">הצג עוד</button></div>
+        </div>
       </div>
     </section>
 

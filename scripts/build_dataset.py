@@ -95,6 +95,32 @@ def sleep_score(src):
     return num(find(src, "overallSleepScore", "sleepScore", "sleepScoreValue"))
 
 
+def unwrap(obj):
+    """{"data": [x]} or [x] -> x"""
+    for _ in range(3):
+        if isinstance(obj, dict) and isinstance(obj.get("data"), list):
+            obj = obj["data"]
+        if isinstance(obj, list):
+            obj = obj[0] if obj else None
+        else:
+            break
+    return obj
+
+
+def at(obj, dotted):
+    obj = unwrap(obj)
+    for part in dotted.split("."):
+        obj = unwrap(obj)
+        if not isinstance(obj, dict):
+            return None
+        obj = obj.get(part)
+    return num(obj)
+
+
+def first(*vals):
+    return next((v for v in vals if v is not None), None)
+
+
 def grams_to_kg(v):
     if v is None:
         return None
@@ -129,28 +155,35 @@ def daily_row(day: str, raw: dict) -> dict:
     status = find(hrv, "status") if hrv else None
     row["hrv_status"] = status if isinstance(status, str) else None
 
-    row["rhr"] = find_num([raw.get("heart_rate"), summary] + sleep, "restingHeartRate", "restingHeartRateValue")
-    row["bb_high"] = find_num([summary, raw.get("body_battery")], "bodyBatteryHighestValue", "highest")
-    row["bb_low"] = find_num([summary, raw.get("body_battery")], "bodyBatteryLowestValue", "lowest")
-    row["bb_charged"] = find_num([summary, raw.get("body_battery")], "bodyBatteryChargedValue", "charged")
-    row["bb_drained"] = find_num([summary, raw.get("body_battery")], "bodyBatteryDrainedValue", "drained")
-    row["bb_sleep_change"] = find_num(sleep, "bodyBatteryChange")
-    row["stress"] = find_num([summary, raw.get("stress")], "averageStressLevel", "overallStressLevel")
-    row["steps"] = find_num([summary, raw.get("steps")], "totalSteps")
-    row["active_kcal"] = find_num([summary], "activeKilocalories")
-    mod = find_num([summary], "moderateIntensityMinutes")
-    vig = find_num([summary], "vigorousIntensityMinutes")
+    bb = raw.get("body_battery")
+    row["rhr"] = first(at(summary, "heartRate.restingValue"),
+                       find_num([raw.get("heart_rate"), summary] + sleep, "restingHeartRate", "restingHeartRateValue"))
+    row["bb_high"] = first(at(summary, "bodyBattery.maxValue"), find_num([summary], "bodyBatteryHighestValue"))
+    row["bb_low"] = first(at(summary, "bodyBattery.minValue"), find_num([summary], "bodyBatteryLowestValue"))
+    row["bb_charged"] = first(at(summary, "bodyBattery.chargedValue"), at(bb, "charged"))
+    row["bb_drained"] = first(at(summary, "bodyBattery.drainedValue"), at(bb, "drained"))
+    sleep_events = [e for e in (find(bb, "bodyBatteryActivityEvent") or []) if isinstance(e, dict) and e.get("eventType") == "SLEEP"]
+    row["bb_sleep_change"] = first(sum(num(e.get("bodyBatteryImpact")) or 0 for e in sleep_events) if sleep_events else None,
+                                   find_num(sleep, "bodyBatteryChange"))
+    row["stress"] = first(at(summary, "stress.avgLevel"), find_num([summary, raw.get("stress")], "averageStressLevel", "overallStressLevel"))
+    row["steps"] = find_num([raw.get("steps"), summary], "totalSteps")
+    row["active_kcal"] = first(at(summary, "calories.burnedActive"), find_num([summary], "activeKilocalories"))
+    mod = first(at(summary, "intensityMinutes.moderate"), find_num([summary], "moderateIntensityMinutes"))
+    vig = first(at(summary, "intensityMinutes.vigorous"), find_num([summary], "vigorousIntensityMinutes"))
     row["intensity_min"] = (mod or 0) + 2 * (vig or 0) if (mod is not None or vig is not None) else None
-    row["respiration"] = find_num(sleep + [summary], "averageRespirationValue", "avgSleepRespirationValue",
-                                  "averageRespiration")
-    row["spo2"] = find_num(sleep + [raw.get("spo2"), summary], "averageSpO2Value", "averageSpo2", "avgSleepSpO2",
-                           "averageSpO2")
+    row["respiration"] = first(find_num(sleep, "averageRespirationValue", "avgSleepRespirationValue"),
+                               at(summary, "respiration.avgValue"))
+    row["spo2"] = first(find_num(sleep, "averageSpO2Value", "averageSpo2", "avgSleepSpO2"),
+                        at(summary, "pulseOx.avgValue"), find_num([raw.get("spo2")], "averageSpO2", "averageSpo2"))
     row["sleep_stress"] = find_num(sleep, "avgSleepStress")
 
-    row["weight_kg"] = grams_to_kg(find_num([weight], "weight"))
-    row["body_fat"] = find_num([weight], "bodyFat")
-    row["muscle_kg"] = grams_to_kg(find_num([weight], "muscleMass"))
-    row["bmi"] = find_num([weight], "bmi")
+    # Only real weigh-ins on this day: the range endpoint also returns previous/next weigh-ins, which we ignore.
+    summaries = weight.get("dailyWeightSummaries") if isinstance(weight, dict) else None
+    latest = (summaries[0].get("latestWeight") if summaries and isinstance(summaries[0], dict) else None) or {}
+    row["weight_kg"] = grams_to_kg(num(latest.get("weight")))
+    row["body_fat"] = num(latest.get("bodyFat"))
+    row["muscle_kg"] = grams_to_kg(num(latest.get("muscleMass")))
+    row["bmi"] = num(latest.get("bmi"))
     row["fitness_age"] = find_num([raw.get("fitness_age")], "fitnessAge")
     row["vo2max"] = find_num([raw.get("fitness_age"), summary], "vo2Max", "vo2MaxValue", "vo2MaxPreciseValue")
     row["hydration_ml"] = find_num([raw.get("hydration")], "valueInML", "intakeInML")

@@ -77,6 +77,61 @@
     return { dates: sl(D.dates), from, col: (k) => sl(D.cols[k] || []), sl };
   }
 
+
+  // ---------- explanations for the "i" buttons ----------
+  const INFO = {
+    // tiles (by label)
+    "שינה אמש": "סך זמן השינה בלילה האחרון לפי השעון, בלי זמן הערות. <b>ציון השינה</b> (0–100) של Garmin לוקח בחשבון את משך השינה, את חלוקתה לשלבים (עמוקה, REM, קלה), את רמת הלחץ בשינה ואת ההתעוררויות. הממוצע של 7 לילות מאפשר להשוות ללילה בודד.<br><br><b>איך לקרוא:</b> למבוגרים מומלצות 7–9 שעות. ציון 80 ומעלה נחשב טוב, ומתחת ל-60 חלש.",
+    "HRV לילי": "<b>שונות קצב הלב</b> (Heart Rate Variability): כמה משתנה הזמן בין פעימות הלב, במילישניות, בממוצע לאורך הלילה. HRV גבוה מעיד בדרך כלל על מערכת עצבים רגועה ועל התאוששות טובה. HRV נמוך מעיד על עומס, לחץ, מחלה או אלכוהול.<br><br><b>טווח הבסיס</b> מחושב על ידי Garmin מ-3 השבועות האחרונים שלך. <b>משווים רק לעצמך:</b> הערך המוחלט שונה מאוד בין אנשים.",
+    "דופק במנוחה": "הדופק הנמוך ביותר ביממה, בדרך כלל בשינה. לאורך חודשים, ירידה בו מעידה על שיפור בכושר האירובי.<br><br><b>ההשוואה:</b> הערך של היום מול הממוצע של 4 השבועות שלפני 3 הימים האחרונים, כדי שעלייה של ימים אחרונים לא תסתיר את עצמה.<br><br><b>איך לקרוא:</b> 3 פעימות ומעלה מעל הממוצע שלך הן סימן מוקדם לעייפות מצטברת, מחלה בתחילתה, אלכוהול או חוסר שינה.",
+    "Body Battery שיא היום": "מדד של Garmin (0–100) לאנרגיה הזמינה לך. הוא מחושב מ-HRV, לחץ, שינה ופעילות: נטען במנוחה ובשינה ומתרוקן בפעילות ובלחץ.<br><br><b>השיא היומי</b> מראה כמה נטענת, בדרך כלל עם הקימה. <b>נטען בלילה</b> הוא כמה נקודות נוספו במהלך השינה.<br><br><b>איך לקרוא:</b> שיא מעל 75 טוב. שיא מתחת ל-50 כמה ימים ברצף מעיד על התאוששות לא מספקת.",
+    "משקל": "השקילה האחרונה שנרשמה ב-Garmin Connect.<br><br><b>השינוי ב-30 יום</b> מחושב בין הממוצע הנע של 7 ימים היום לבין זה של לפני 30 יום, ולא בין שתי שקילות בודדות. כך התנודות היומיות (מים, מלח, תכולת קיבה), שיכולות להגיע ל-1–2 ק״ג, לא מעוותות את התמונה.",
+    "עומס אימון 7 ימים": "סכום <b>עומס האימונים</b> של Garmin ב-7 הימים האחרונים. עומס של אימון בודד מבוסס על EPOC, כלומר על כמה האימון \"הוציא\" מהגוף, לפי הדופק והמשך.<br><br><b>היחס</b> הוא העומס של 7 הימים האחרונים חלקי הממוצע השבועי ב-4 השבועות האחרונים (acute:chronic).<br><br><b>איך לקרוא:</b> 0.8–1.3 מאוזן. מעל 1.5 זו קפיצה חדה שמעלה את הסיכון לפציעה. מתחת ל-0.8 העומס בירידה.",
+    "צעדים ביום (ממוצע 7 ימים)": "ממוצע הצעדים היומי בשבוע האחרון, מול הממוצע ב-4 השבועות שלפניו. ממוצע מעניין יותר מיום בודד, כי הוא מנטרל ימים חריגים.<br><br><b>איך לקרוא:</b> המחקר מראה ירידה בתמותה ככל שמספר הצעדים עולה, עד בערך 8,000–10,000 צעדים ביום.",
+    // insights (by key)
+    readiness: "שילוב של שלושה סימנים מהלילה האחרון. כל אחד מהם נותן נקודה לחיוב או לשלילה:<br>• <b>HRV</b> בתוך טווח הבסיס שלך או מעליו (+), או מתחתיו (−)<br>• <b>דופק במנוחה</b> בממוצע שלך או מתחתיו (+), או גבוה ב-3 פעימות ומעלה (−)<br>• <b>שינה</b> של 7 שעות ומעלה (+), או פחות מ-6 שעות (−)<br><br>2 נקודות ומעלה: אפשר להתאמן חזק. 2 נקודות שליליות: עדיף יום התאוששות. זו הערכה פשוטה, לא תחליף לתחושה שלך.",
+    rhr_high: "הממוצע של 3 הימים האחרונים מול הממוצע של 4 השבועות שלפניהם. ההתראה מופיעה כשהפער הוא 3 פעימות ומעלה.<br><br>עלייה כזו בדופק המנוחה היא אחד הסימנים המוקדמים והאמינים ביותר לעומס יתר או למחלה מתקרבת. לפעמים היא מופיעה יום או יומיים לפני שמרגישים משהו.",
+    sleep_week: "ממוצע שעות השינה ב-7 הלילות האחרונים, מול הממוצע ב-4 השבועות שלפניהם.<br><br><b>חוב שינה</b> הוא סכום החוסרים מול יעד של 7.5 שעות בכל לילה. לילה ארוך לא מכסה את החוסר, אז לילות מעל היעד לא מקזזים.<br><br>מתחת ל-7 שעות בממוצע מסומן בכתום. מתחת ל-6.5 שעות מסומן באדום.",
+    bedtime: "<b>סטיית התקן</b> של שעת ההירדמות בשבועיים האחרונים: בכמה דקות, בממוצע, שעת השינה סוטה מהשעה הרגילה שלך.<br><br><b>איך לקרוא:</b> עד 30 דקות טוב. מעל 60 דקות זו חוסר עקביות שפוגעת בשעון הביולוגי. מחקרים מראים שעקביות בשעת השינה חשובה לאיכות השינה כמעט כמו משך השינה.",
+    hrv_trend: "ממוצע ה-HRV ב-7 הימים האחרונים מול הממוצע ב-4 השבועות שלפניהם, באחוזים.<br><br>מגמה של כמה ימים אמינה הרבה יותר מלילה בודד. ירידה של 8% ומעלה מסומנת. עלייה של 5% ומעלה מעידה על הסתגלות טובה.",
+    acwr: "<b>Acute:Chronic Workload Ratio</b>: העומס של השבוע האחרון חלקי העומס השבועי הממוצע ב-4 השבועות האחרונים.<br><br>• <b>0.8–1.3</b>: אזור מאוזן<br>• <b>1.3–1.5</b>: עומס גבוה, לשים לב<br>• <b>מעל 1.5</b>: קפיצה חדה, סיכון מוגבר לפציעה<br>• <b>מתחת ל-0.8</b>: ירידה בעומס<br><br>החישוב מתחיל רק אחרי שיש לפחות 4 שבועות של אימונים.",
+    intensity: "<b>דקות פעילות עצימה</b> לפי Garmin ב-7 הימים האחרונים. דקה של פעילות עצימה מאוד נספרת פעמיים.<br><br>ההמלצה של ארגון הבריאות העולמי היא 150 דקות לפחות בשבוע של פעילות בינונית, או 75 דקות של פעילות עצימה מאוד.",
+    weight_trend: "<b>רגרסיה לינארית</b> על כל השקילות ב-28 הימים האחרונים. זה קו המגמה שהכי מתאים לנקודות, ותנודות יומיות לא מטעות אותו.<br><br><b>איך לקרוא:</b> בירידה במשקל, קצב של 0.25–0.75 ק״ג בשבוע נחשב מתון ובר-קיימא. מעל 0.9 ק״ג בשבוע מסומן, כי בקצב כזה עולה הסיכון לאבד מסת שריר.",
+    weight_none: "משקל מגיע מ-Garmin Connect: ממשקל חכם של Garmin (Index), או משקילה שהוזנה ידנית באפליקציה.",
+    sleep_hrv: "כל הלילות בהיסטוריה מחולקים לשתי קבוצות: לילות של 7 שעות שינה ומעלה ולילות קצרים יותר. מושווה ה-HRV הממוצע של כל קבוצה.<br><br>זה <b>מתאם ולא הוכחה לסיבתיות</b>. לילות קצרים מגיעים לפעמים יחד עם גורמים אחרים, כמו לחץ, אלכוהול או ארוחה מאוחרת.",
+    hard_hrv: "הימים מחולקים לפי עומס האימון. <b>ימים קשים</b> הם הרבע העליון של העומס. משווים את ה-HRV בלילה שאחרי ימים קשים ל-HRV בלילות שאחרי שאר הימים.<br><br>ירידה של 5% ומעלה מראה שהגוף שלך צריך זמן התאוששות אחרי אימון קשה, וכדאי לתכנן אחריו יום קל.",
+    bedtime_score: "הלילות מחולקים לפי שעת ההירדמות החציונית שלך: מחצית הלילות המוקדמים מול מחצית הלילות המאוחרים. משווים את ציון השינה הממוצע של שתי הקבוצות.<br><br>פער של 3 נקודות ומעלה נחשב משמעותי. גם כאן זה מתאם ולא הוכחה.",
+    weekday: "ממוצע שעות השינה לפי ליל השבוע. \"ליל ראשון\" הוא השינה שמתחילה במוצאי שבת ונגמרת ביום ראשון בבוקר.<br><br>עוזר לזהות דפוסים, למשל לילות קצרים לפני ימי עבודה מסוימים או אחרי יציאות.",
+  };
+  function infoBtn(key) {
+    return INFO[key] ? `<button class="info-btn" data-info="${key}" aria-label="הסבר" title="הסבר">i</button>` : "";
+  }
+  function wireInfo() {
+    const pop = document.getElementById("info-pop");
+    const close = () => { pop.classList.remove("on"); document.querySelectorAll(".info-btn.on").forEach((b) => b.classList.remove("on")); };
+    document.addEventListener("click", (e) => {
+      const b = e.target.closest(".info-btn");
+      if (!b) { if (!e.target.closest("#info-pop")) close(); return; }
+      e.stopPropagation();
+      if (b.classList.contains("on")) return close();
+      close();
+      b.classList.add("on");
+      pop.innerHTML = INFO[b.dataset.info];
+      pop.classList.add("on");
+      const r = b.getBoundingClientRect(), pw = Math.min(340, window.innerWidth - 24);
+      pop.style.width = pw + "px";
+      let left = r.right - pw; // RTL: align popover's right edge with the button
+      left = Math.max(12, Math.min(left, window.innerWidth - pw - 12));
+      const below = r.bottom + 8 + window.scrollY;
+      pop.style.left = left + window.scrollX + "px";
+      pop.style.top = below + "px";
+      const ph = pop.offsetHeight;
+      if (r.bottom + 8 + ph > window.innerHeight && r.top - ph - 8 > 0) pop.style.top = r.top - ph - 8 + window.scrollY + "px";
+    });
+    document.addEventListener("keydown", (e) => e.key === "Escape" && close());
+    window.addEventListener("resize", close);
+  }
+
   // ---------- overview ----------
   function tiles() {
     const D = state.data, c = D.cols, n = D.dates.length;
@@ -118,7 +173,7 @@
     const st = mean(c.steps.slice(-7));
     if (st != null) items.push({ label: "צעדים ביום (ממוצע 7 ימים)", value: r0(st), unit: "", delta: `${signed(pct(st, mean(c.steps.slice(-35, -7))) || 0, r0)}% מול 4 השבועות הקודמים`, spark: rolling(c.steps, 7).slice(-30), color: "--series-1" });
 
-    $("#tiles").innerHTML = items.map((t, i) => `<div class="tile"><div class="label">${t.label}</div><div class="value">${t.value}${t.unit ? `<small>${t.unit}</small>` : ""}</div><div class="delta">${t.delta || ""}</div><div class="spark" id="spark-${i}"></div></div>`).join("");
+    $("#tiles").innerHTML = items.map((t, i) => `<div class="tile"><div class="label">${t.label}${infoBtn(t.label)}</div><div class="value">${t.value}${t.unit ? `<small>${t.unit}</small>` : ""}</div><div class="delta">${t.delta || ""}</div><div class="spark" id="spark-${i}"></div></div>`).join("");
     items.forEach((t, i) => C.spark(document.getElementById(`spark-${i}`), t.spark, t.color));
   }
 
@@ -162,14 +217,14 @@
       if (signals >= 2) {
         const level = score >= 2 ? "good" : score <= -2 ? "serious" : score < 0 ? "warning" : "info";
         const title = score >= 2 ? "מוכנות להיום: אפשר להתאמן חזק" : score <= -2 ? "מוכנות להיום: עדיף יום התאוששות" : score < 0 ? "מוכנות להיום: עדיף אימון קל" : "מוכנות להיום: אימון בינוני";
-        out.push({ level, title, text: reasons.join(". ") + ".", tag: "התאוששות" });
+        out.push({ key: "readiness", level, title, text: reasons.join(". ") + ".", tag: "התאוששות" });
       }
     }
 
     // 2. Elevated resting HR (3-day)
     {
       const a = mean(recent("rhr", 3)), b = mean(recent("rhr", 31, 3));
-      if (a && b && a - b >= 3) out.push({ level: "serious", tag: "התאוששות", title: "דופק מנוחה גבוה מהרגיל ב-3 הימים האחרונים",
+      if (a && b && a - b >= 3) out.push({ key: "rhr_high", level: "serious", tag: "התאוששות", title: "דופק מנוחה גבוה מהרגיל ב-3 הימים האחרונים",
         text: `ממוצע ${r1(a)} לעומת ${r1(b)} בחודש שלפני (${signed(a - b)}). זה סימן מוכר לעייפות מצטברת, למחלה בתחילתה, לאלכוהול או לחוסר שינה. כדאי להוריד עצימות עד שהדופק יחזור לרגיל.` });
     }
 
@@ -180,7 +235,7 @@
         const debt = sum(recent("sleep_h", 7).map((h) => (h == null ? null : Math.max(0, SLEEP_TARGET - h))));
         const level = a < 6.5 ? "serious" : a < 7 ? "warning" : "good";
         const diff = b != null ? Math.round((a - b) * 60) : null;
-        out.push({ level, tag: "שינה", title: `שינה ממוצעת השבוע: ${hm(a)} שעות`,
+        out.push({ key: "sleep_week", level, tag: "שינה", title: `שינה ממוצעת השבוע: ${hm(a)} שעות`,
           text: `${diff != null ? `${diff >= 0 ? "יותר" : "פחות"} ב-${Math.abs(diff)} דקות מהממוצע שלך בחודש הקודם. ` : ""}חוב שינה מצטבר ב-7 הלילות מול יעד של ${SLEEP_TARGET} שעות: ${hm(debt)} שעות.` });
       }
     }
@@ -190,7 +245,7 @@
       const bt = recent("bedtime_min", 14), s = sd(bt);
       if (vals(bt).length >= 7 && s != null) {
         const level = s > 60 ? "warning" : s <= 30 ? "good" : "info";
-        out.push({ level, tag: "שינה", title: s > 60 ? "שעת השינה שלך לא קבועה" : "עקביות שעת השינה",
+        out.push({ key: "bedtime", level, tag: "שינה", title: s > 60 ? "שעת השינה שלך לא קבועה" : "עקביות שעת השינה",
           text: `בשבועיים האחרונים הלכת לישון בממוצע ב-${clock(mean(bt))}, בסטייה של כ-${r0(s)} דקות. ${s > 60 ? "סטייה של יותר משעה פוגעת בדרך כלל באיכות השינה. שעה קבועה, גם בסופי שבוע, היא אחד הצעדים הכי יעילים לשיפור." : s <= 30 ? "עקביות טובה מאוד." : "סביר. מתחת ל-30 דקות זה אידיאלי."}` });
       }
     }
@@ -200,7 +255,7 @@
       const a = mean(recent("hrv", 7)), b = mean(recent("hrv", 35, 7)), p = pct(a, b);
       if (p != null && vals(recent("hrv", 35, 7)).length >= 14) {
         const level = p <= -8 ? "warning" : p >= 5 ? "good" : "info";
-        out.push({ level, tag: "התאוששות", title: `מגמת HRV: ${signed(p, r0)}% השבוע`,
+        out.push({ key: "hrv_trend", level, tag: "התאוששות", title: `מגמת HRV: ${signed(p, r0)}% השבוע`,
           text: `ממוצע 7 ימים ${r0(a)} מול ${r0(b)} בחודש הקודם. ${p <= -8 ? "ירידה מתמשכת מעידה בדרך כלל על עומס, לחץ או שינה לא מספקת." : p >= 5 ? "עלייה מעידה בדרך כלל על הסתגלות טובה לאימונים ועל התאוששות טובה." : "יציב."}` });
       }
     }
@@ -215,7 +270,7 @@
         const msg = ratio > 1.5 ? "קפיצה חדה בעומס. זה הטווח שבו הסיכון לפציעה עולה. כדאי לשלב יום קל." :
           ratio > 1.3 ? "עומס גבוה מהרגיל. זה בסדר לתקופה קצרה, אבל כדאי לשים לב להתאוששות." :
           ratio >= 0.8 ? "עומס מאוזן: בונה כושר בלי קפיצות חדות." : "העומס ירד מתחת לרגיל שלך. מתאים לשבוע הורדת עומס, אבל לאורך זמן הכושר יירד.";
-        out.push({ level, tag: "אימונים", title: `יחס עומס אימון: ${ratio.toFixed(2)}`, text: `עומס 7 ימים ${r0(acute)} מול ממוצע שבועי של ${r0(chronic)} ב-4 השבועות האחרונים. ${msg}` });
+        out.push({ key: "acwr", level, tag: "אימונים", title: `יחס עומס אימון: ${ratio.toFixed(2)}`, text: `עומס 7 ימים ${r0(acute)} מול ממוצע שבועי של ${r0(chronic)} ב-4 השבועות האחרונים. ${msg}` });
       }
     }
 
@@ -224,7 +279,7 @@
       const im = recent("intensity_min", 7);
       if (vals(im).length >= 5) {
         const t = sum(im);
-        out.push({ level: t >= 150 ? "good" : "info", tag: "אימונים", title: `דקות פעילות עצימה ב-7 הימים האחרונים: ${r0(t)}`,
+        out.push({ key: "intensity", level: t >= 150 ? "good" : "info", tag: "אימונים", title: `דקות פעילות עצימה ב-7 הימים האחרונים: ${r0(t)}`,
           text: t >= 150 ? "עמדת בהמלצה של 150 דקות בשבוע." : `חסרות ${r0(150 - t)} דקות להמלצה של 150 דקות בשבוע. דקה עצימה מאוד נספרת כפול.` });
       }
     }
@@ -238,10 +293,10 @@
         const slope = xs.reduce((s, x, i) => s + (x - mx) * (ys[i] - my), 0) / xs.reduce((s, x) => s + (x - mx) ** 2, 0);
         const perWeek = slope * 7;
         const level = Math.abs(perWeek) > 0.9 ? "warning" : "info";
-        out.push({ level, tag: "משקל", title: `מגמת משקל: ${signed(perWeek, (v) => v.toFixed(2))} ק״ג בשבוע`,
+        out.push({ key: "weight_trend", level, tag: "משקל", title: `מגמת משקל: ${signed(perWeek, (v) => v.toFixed(2))} ק״ג בשבוע`,
           text: `מבוסס על ${xs.length} שקילות ב-4 השבועות האחרונים. ${Math.abs(perWeek) < 0.15 ? "המשקל יציב." : Math.abs(perWeek) > 0.9 ? "קצב שינוי מהיר. בירידה במשקל, קצב מהיר מדי מגדיל את הסיכון לאבד מסת שריר." : perWeek < 0 ? "ירידה בקצב מתון." : "עלייה בקצב מתון."}` });
       } else if (lastIdx(c.weight_kg) < 0) {
-        out.push({ level: "info", tag: "משקל", title: "אין עדיין שקילות", text: "שקילות מסונכרנות מ-Garmin Index או שנרשמות ידנית באפליקציית Connect יופיעו כאן." });
+        out.push({ key: "weight_none", level: "info", tag: "משקל", title: "אין עדיין שקילות", text: "שקילות מסונכרנות מ-Garmin Index או שנרשמות ידנית באפליקציית Connect יופיעו כאן." });
       }
     }
 
@@ -251,7 +306,7 @@
       for (let i = 0; i < n; i++) if (c.sleep_h[i] != null && c.hrv[i] != null) (c.sleep_h[i] >= 7 ? long : short).push(c.hrv[i]);
       if (long.length >= 6 && short.length >= 6) {
         const p = pct(mean(long), mean(short));
-        out.push({ level: "info", tag: "קשרים בנתונים", title: "השפעת אורך השינה על ה-HRV שלך",
+        out.push({ key: "sleep_hrv", level: "info", tag: "קשרים בנתונים", title: "השפעת אורך השינה על ה-HRV שלך",
           text: `בלילות של 7 שעות ומעלה (${long.length} לילות) ה-HRV הממוצע ${r0(mean(long))}, ובלילות קצרים יותר (${short.length}) ${r0(mean(short))}. ${p >= 3 ? `פער של ${r0(p)}% לטובת שינה ארוכה.` : p <= -3 ? "אצלך, באופן מפתיע, אין יתרון ל-HRV בלילות הארוכים." : "אין פער משמעותי."}` });
       }
     }
@@ -264,7 +319,7 @@
       for (let i = 0; i < n - 1; i++) if (c.hrv[i + 1] != null) (c.load[i] >= p75 && p75 > 0 ? hard : other).push(c.hrv[i + 1]);
       if (hard.length >= 6 && other.length >= 6) {
         const p = pct(mean(hard), mean(other));
-        out.push({ level: "info", tag: "קשרים בנתונים", title: "מה אימון קשה עושה ל-HRV בלילה שאחריו",
+        out.push({ key: "hard_hrv", level: "info", tag: "קשרים בנתונים", title: "מה אימון קשה עושה ל-HRV בלילה שאחריו",
           text: `אחרי ימי אימון קשים (רבע העליון של העומס, ${hard.length} ימים) ה-HRV בלילה שאחרי ${r0(mean(hard))}, ובשאר הימים ${r0(mean(other))} (${signed(p || 0, r0)}%). ${p <= -5 ? "הגוף שלך מגיב לאימון קשה בירידה ברורה. כדאי לתכנן יום קל אחריו." : "התאוששות טובה יחסית אחרי אימונים קשים."}` });
       }
     }
@@ -277,7 +332,7 @@
         const med = bt.slice().sort((a, b) => a - b)[Math.floor(bt.length / 2)];
         const early = sc.filter((_, i) => bt[i] <= med), late = sc.filter((_, i) => bt[i] > med);
         const d = mean(early) - mean(late);
-        out.push({ level: "info", tag: "קשרים בנתונים", title: "האם ללכת לישון מוקדם עוזר?",
+        out.push({ key: "bedtime_score", level: "info", tag: "קשרים בנתונים", title: "האם ללכת לישון מוקדם עוזר?",
           text: `בלילות שהלכת לישון עד ${clock(med)} ציון השינה הממוצע ${r0(mean(early))}, ובלילות מאוחרים יותר ${r0(mean(late))}. ${Math.abs(d) >= 3 ? `פער של ${r0(Math.abs(d))} נקודות לטובת ${d > 0 ? "השינה המוקדמת" : "השינה המאוחרת"}.` : "אין פער משמעותי."}` });
       }
     }
@@ -290,14 +345,14 @@
         const names = ["ראשון", "שני", "שלישי", "רביעי", "חמישי", "שישי", "שבת"];
         const m = by.map(mean);
         const best = m.indexOf(Math.max(...m)), worst = m.indexOf(Math.min(...m));
-        out.push({ level: "info", tag: "שינה", title: "הלילות הטובים והחלשים בשבוע",
+        out.push({ key: "weekday", level: "info", tag: "שינה", title: "הלילות הטובים והחלשים בשבוע",
           text: `הלילה הארוך ביותר שלך הוא בדרך כלל ליל ${names[best]} (${hm(m[best])} בממוצע), והקצר ביותר ליל ${names[worst]} (${hm(m[worst])}).` });
       }
     }
 
     const order = { critical: 0, serious: 1, warning: 2, good: 3, info: 4 };
     out.sort((a, b) => order[a.level] - order[b.level]);
-    $("#insights").innerHTML = out.length ? out.map((it) => `<div class="insight ${it.level}"><div class="head">${ICONS[it.level]}<span>${it.title}</span></div><p>${it.text}</p><div style="margin-top:8px;display:flex;gap:6px"><span class="badge">${LEVEL_LABEL[it.level]}</span><span class="badge">${it.tag}</span></div></div>`).join("")
+    $("#insights").innerHTML = out.length ? out.map((it) => `<div class="insight ${it.level}"><div class="head">${ICONS[it.level]}<span>${it.title}</span>${infoBtn(it.key)}</div><p>${it.text}</p><div style="margin-top:8px;display:flex;gap:6px"><span class="badge">${LEVEL_LABEL[it.level]}</span><span class="badge">${it.tag}</span></div></div>`).join("")
       : `<p class="muted">צריך עוד כמה ימים של נתונים כדי להפיק תובנות.</p>`;
   }
 
@@ -471,6 +526,7 @@
     } catch (_) {}
     document.querySelectorAll("#range button").forEach((x) => x.classList.toggle("on", +x.dataset.days === state.days));
     wire();
+    wireInfo();
     state.data = await load();
     if (!state.data) return;
     const lf = state.data.meta.last_fetch;

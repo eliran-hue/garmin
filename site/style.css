@@ -130,3 +130,13 @@ td.num { font-variant-numeric: tabular-nums; }
 .ex-list button.on { background: var(--surface-2); color: var(--accent); font-weight: 600; }
 .ex-view .chart { height: 300px; }
 .ex-stats { margin-bottom: 8px; }
+
+.info-btn { flex: none; width: 18px; height: 18px; border-radius: 50%; border: 1px solid var(--border); background: var(--surface-2);
+  color: var(--text-secondary); font: italic 600 11px/16px Georgia, serif; padding: 0; cursor: pointer; margin-inline-start: 6px; vertical-align: 1px; }
+.info-btn:hover, .info-btn.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+.tile .label { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.insight .head .info-btn { margin-inline-start: auto; }
+.info-pop { position: absolute; display: none; z-index: 20; background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--border);
+  border-radius: 10px; padding: 12px 14px; font-size: 13.5px; line-height: 1.6; box-shadow: 0 8px 28px rgba(0,0,0,.18); direction: rtl; }
+.info-pop.on { display: block; }
+.info-pop b { font-weight: 650; }

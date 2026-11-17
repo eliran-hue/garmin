@@ -46,8 +46,8 @@
    "calendarDate": "2026-11-17",
    "calories": {
     "burnedActive": 3,
-    "burnedResting": 1634,
-    "burnedTotal": 1637,
+    "burnedResting": 1639,
+    "burnedTotal": 1642,
     "consumedGoal": 1880,
     "consumedRemaining": 1883
    },
@@ -93,8 +93,8 @@
    "respiration": {
     "algorithmVersion": 200,
     "avgValue": 16,
-    "latestTimestampGmt": "2026-11-17T16:11:00.0",
-    "latestValue": 19,
+    "latestTimestampGmt": "2026-11-17T16:14:00.0",
+    "latestValue": 15,
     "maxValue": 21,
     "minValue": 8
    },
@@ -111,20 +111,20 @@
     "mediumStressDurationInMillis": 2280000,
     "mediumStressProportion": 0.03,
     "qualifier": "calm",
-    "restDurationInMillis": 48600000,
+    "restDurationInMillis": 48780000,
     "restProportion": 0.74,
-    "totalDurationInMillis": 65460000,
+    "totalDurationInMillis": 65640000,
     "uncategorizedDurationInMillis": 960000,
     "uncategorizedProportion": 0.01
    },
    "userProfilePk": 52220659,
    "uuid": "b31f8599-4092-48e3-bd96-a90851a424fc",
    "wellnessChronology": {
-    "endTimestampGmt": "2026-11-17T16:11:00.0",
-    "endTimestampLocal": "2026-11-17T18:11:00.0",
+    "endTimestampGmt": "2026-11-17T16:14:00.0",
+    "endTimestampLocal": "2026-11-17T18:14:00.0",
     "startTimestampGmt": "2026-11-16T22:00:00.0",
     "startTimestampLocal": "2026-11-17T00:00:00.0",
-    "totalDurationInMillis": 65460000
+    "totalDurationInMillis": 65640000
    }
   }
  ]

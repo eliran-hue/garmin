@@ -3,8 +3,8 @@
  "avgSleepSpO2": 99.0,
  "avgTomorrowSleepSpO2": null,
  "calendarDate": "2026-11-17",
- "endTimestampGMT": "2026-11-17T16:11:00.0",
- "endTimestampLocal": "2026-11-17T18:11:00.0",
+ "endTimestampGMT": "2026-11-17T16:14:00.0",
+ "endTimestampLocal": "2026-11-17T18:14:00.0",
  "lastSevenDaysAvgSpO2": 96.57142857142857,
  "latestSpO2": 99,
  "latestSpO2TimestampGMT": "2026-11-17T03:59:00.0",
@@ -737,6 +737,10 @@
   ],
   [
    1794931560000,
+   77.0
+  ],
+  [
+   1794931920000,
    77.0
   ]
  ],

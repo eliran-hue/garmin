@@ -1,6 +1,6 @@
 {
  "calendarDate": "2026-11-17",
- "endTimestampGMT": "2026-11-17T16:11:00.0",
+ "endTimestampGMT": "2026-11-17T16:14:00.0",
  "endTimestampLocal": "2026-11-18T00:00:00.0",
  "heartRateValueDescriptors": [
   {
@@ -2195,7 +2195,11 @@
   ],
   [
    1794931800000,
-   58
+   59
+  ],
+  [
+   1794931920000,
+   60
   ]
  ],
  "lastSevenDaysAvgRestingHeartRate": 57,

@@ -1,9 +1,15 @@
 {
-  // Cloudflare Workers static site: serves only the site/ folder (raw data in data/ is never published)
+  // Worker + static assets: serves only the site/ folder (raw data in data/ is never published).
+  // /api/* goes to worker/index.js (sync button); everything else is the static dashboard.
   "name": "garmin",
+  "main": "worker/index.js",
   "compatibility_date": "2026-11-01",
   "assets": {
     "directory": "./site",
-    "not_found_handling": "single-page-application"
-  }
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  // Daily sync at 05:17 UTC = 07:17 Israel in winter, 08:17 in summer
+  "triggers": { "crons": ["17 5 * * *"] }
 }

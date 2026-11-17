@@ -2,8 +2,8 @@ name: Garmin sync
 
 on:
   schedule:
-    # 07:17 UTC = 09:17 Israel in winter, 10:17 in summer (after the watch syncs the night's sleep)
-    - cron: "17 7 * * *"
+    # Main daily trigger is the Cloudflare Worker cron (on time). This is only a backup: GitHub's schedule is often hours late.
+    - cron: "17 13 * * *"
   workflow_dispatch:
     inputs:
       days:

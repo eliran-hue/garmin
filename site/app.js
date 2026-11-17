@@ -572,6 +572,65 @@
       { name: "ממוצע 7 ימים", values: rolling(values, 7, 3), color: "--series-1" }] });
   }
 
+
+  // ---------- sync button (talks to the Worker at /api/*) ----------
+  function updatedLine() {
+    const lf = state.data.meta.last_fetch;
+    const when = lf && lf.fetched_at ? new Date(lf.fetched_at) : null;
+    $("#updated").textContent = `עודכן ${when ? when.toLocaleString("he-IL", { dateStyle: "short", timeStyle: "short" }) : "–"} · ${state.data.dates.length} ימים · ${state.data.activities.length} אימונים`;
+  }
+  const sync = { polling: false };
+  function syncUi(mode, text) {
+    const b = $("#sync");
+    b.classList.toggle("busy", mode === "busy");
+    b.classList.toggle("ok", mode === "ok");
+    b.classList.toggle("err", mode === "err");
+    b.disabled = mode === "busy";
+    b.querySelector("span").textContent = text;
+  }
+  async function pollSync(since) {
+    if (sync.polling) return;
+    sync.polling = true;
+    syncUi("busy", "מסנכרן…");
+    const started = Date.now();
+    try {
+      while (Date.now() - started < 15 * 60 * 1000) {
+        await new Promise((r) => setTimeout(r, 8000));
+        const st = await fetch("/api/status", { cache: "no-store" }).then((r) => r.json()).catch(() => ({}));
+        if (!st.status || (since && new Date(st.created_at).getTime() < since - 10000)) continue; // our run hasn't appeared yet
+        if (st.status !== "completed") { syncUi("busy", st.status === "queued" ? "ממתין בתור…" : "מסנכרן…"); continue; }
+        if (st.conclusion === "success") {
+          const fresh = await load();
+          if (fresh) { state.data = fresh; $("#ex-list").dataset.built = ""; updatedLine(); render(); }
+          syncUi("ok", "עודכן");
+          setTimeout(() => syncUi("", "סנכרן"), 4000);
+        } else {
+          syncUi("err", "נכשל");
+          $("#sync").title = `הסנכרון נכשל. פרטים: ${st.url || "GitHub Actions"}`;
+        }
+        return;
+      }
+      syncUi("", "סנכרן");
+    } finally { sync.polling = false; }
+  }
+  async function startSync() {
+    syncUi("busy", "מתחיל…");
+    const since = Date.now();
+    let res;
+    try { res = await fetch("/api/sync", { method: "POST" }).then((r) => r.json()); } catch (e) { res = { ok: false, error: String(e) }; }
+    if (!res.ok) {
+      syncUi("err", "שגיאה");
+      $("#sync").title = res.error && res.error.includes("GITHUB_TOKEN") ? "צריך להגדיר את הסוד GITHUB_TOKEN ב-Worker ב-Cloudflare" : `שגיאה: ${res.error || "לא ידוע"}`;
+      setTimeout(() => syncUi("", "סנכרן"), 6000);
+      return;
+    }
+    pollSync(res.already ? null : since);
+  }
+  async function checkRunningSync() {
+    const st = await fetch("/api/status", { cache: "no-store" }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+    if (st && (st.status === "queued" || st.status === "in_progress")) pollSync(null);
+  }
+
   // ---------- render / wiring ----------
   function render() {
     if (!state.data) return;
@@ -598,6 +657,7 @@
       history.replaceState(null, "", "#" + state.tab);
       render();
     });
+    $("#sync").addEventListener("click", startSync);
     $("#theme").addEventListener("click", () => {
       const cur = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
       const next = cur === "dark" ? "light" : "dark";
@@ -618,9 +678,8 @@
     wireInfo();
     state.data = await load();
     if (!state.data) return;
-    const lf = state.data.meta.last_fetch;
-    const when = lf && lf.fetched_at ? new Date(lf.fetched_at) : null;
-    $("#updated").textContent = `עודכן ${when ? when.toLocaleString("he-IL", { dateStyle: "short", timeStyle: "short" }) : "–"} · ${state.data.dates.length} ימים · ${state.data.activities.length} אימונים`;
+    updatedLine();
+    checkRunningSync();
     const hash = location.hash.slice(1);
     const btn = hash && document.querySelector(`#tabs button[data-tab="${hash}"]`);
     if (btn) btn.click(); else render();

@@ -22,39 +22,49 @@
       "eventType": "RECOVERY",
       "feedbackType": "RECOVERY_BODY_BATTERY_INCREASE",
       "shortFeedback": "BODY_BATTERY_RECHARGE"
+     },
+     {
+      "bodyBatteryImpact": 2,
+      "deviceId": 3497655817,
+      "durationInMillis": 4800000,
+      "eventStartTimeGmt": "2026-11-16T10:15:12.0",
+      "eventStartTimeLocal": "2026-11-16T12:15:12.0",
+      "eventType": "RECOVERY",
+      "feedbackType": "RECOVERY_LONG_BODY_BATTERY_INCREASE",
+      "shortFeedback": "LONG_RESTFUL_PERIOD"
      }
     ],
-    "chargedValue": 30,
-    "drainedValue": 16,
+    "chargedValue": 34,
+    "drainedValue": 51,
     "dynamicFeedbackEvent": {
      "bodyBatteryLevel": "HIGH",
-     "eventTimestampGmt": "2026-11-16T08:54:46.0",
-     "feedbackLongType": "DAY_RECOVERING_AND_INACTIVE",
-     "feedbackShortType": "DAY_RECOVERING_AND_INACTIVE"
+     "eventTimestampGmt": "2026-11-16T18:00:20.0",
+     "feedbackLongType": "SLEEP_PREPARATION_RECOVERING_AND_INACTIVE",
+     "feedbackShortType": "SLEEP_PREPARATION_RECOVERING_AND_INACTIVE"
     },
     "endOfDayDynamicFeedbackEvent": {
      "bodyBatteryLevel": "HIGH",
-     "eventTimestampGmt": "2026-11-16T00:18:13.0",
+     "eventTimestampGmt": "2026-11-16T20:59:47.0",
      "feedbackLongType": "SLEEP_TIME_PASSED_RECOVERING_AND_INACTIVE",
      "feedbackShortType": "SLEEP_TIME_PASSED_RECOVERING_AND_INACTIVE"
     },
     "featureVersion": "3.0",
-    "latestValue": 63,
+    "latestValue": 32,
     "maxValue": 75,
-    "minValue": 49
+    "minValue": 32
    },
    "calendarDate": "2026-11-16",
    "calories": {
-    "burnedActive": 6,
-    "burnedResting": 1119,
-    "burnedTotal": 1125,
+    "burnedActive": 21,
+    "burnedResting": 2158,
+    "burnedTotal": 2179,
     "consumedGoal": 1880,
-    "consumedRemaining": 1886
+    "consumedRemaining": 1901
    },
    "heartRate": {
-    "maxValue": 99,
-    "minValue": 55,
-    "restingValue": 59
+    "maxValue": 100,
+    "minValue": 54,
+    "restingValue": 57
    },
    "hydration": {},
    "includesActivityData": false,
@@ -77,54 +87,54 @@
     },
     "pushes": {},
     "steps": {
-     "distanceInMeters": 405.0,
+     "distanceInMeters": 851.0,
      "goal": 400,
-     "value": 479
+     "value": 1005
     }
    },
    "pulseOx": {
     "avgAltitudeInMeters": 77.0,
     "avgValue": 96,
-    "latestTimestampGmt": "2026-11-16T03:59:00.0",
-    "latestTimestampLocal": "2026-11-16T05:59:00.0",
-    "latestValue": 97,
+    "latestTimestampGmt": "2026-11-16T21:59:00.0",
+    "latestTimestampLocal": "2026-11-16T23:59:00.0",
+    "latestValue": 91,
     "minValue": 76
    },
    "respiration": {
     "algorithmVersion": 200,
     "avgValue": 15,
-    "latestTimestampGmt": "2026-11-16T10:27:00.0",
-    "latestValue": 14,
+    "latestTimestampGmt": "2026-11-16T21:59:00.0",
+    "latestValue": 16,
     "maxValue": 21,
-    "minValue": 9
+    "minValue": 7
    },
    "source": "garmin",
    "stress": {
-    "activityDurationInMillis": 1980000,
+    "activityDurationInMillis": 3480000,
     "activityProportion": 0.04,
-    "avgLevel": 26,
-    "highStressDurationInMillis": 300000,
+    "avgLevel": 29,
+    "highStressDurationInMillis": 900000,
     "highStressProportion": 0.01,
-    "lowStressDurationInMillis": 13560000,
-    "lowStressProportion": 0.3,
-    "maxLevel": 86,
-    "mediumStressDurationInMillis": 1800000,
-    "mediumStressProportion": 0.04,
-    "qualifier": "unknown",
-    "restDurationInMillis": 26520000,
-    "restProportion": 0.59,
-    "totalDurationInMillis": 44640000,
-    "uncategorizedDurationInMillis": 480000,
+    "lowStressDurationInMillis": 32460000,
+    "lowStressProportion": 0.38,
+    "maxLevel": 96,
+    "mediumStressDurationInMillis": 6000000,
+    "mediumStressProportion": 0.07,
+    "qualifier": "balanced",
+    "restDurationInMillis": 42360000,
+    "restProportion": 0.49,
+    "totalDurationInMillis": 86160000,
+    "uncategorizedDurationInMillis": 960000,
     "uncategorizedProportion": 0.01
    },
    "userProfilePk": 52220659,
    "uuid": "3161dc4d-0e9f-4ec9-bf97-c95844283873",
    "wellnessChronology": {
-    "endTimestampGmt": "2026-11-16T10:27:00.0",
-    "endTimestampLocal": "2026-11-16T12:27:00.0",
+    "endTimestampGmt": "2026-11-16T22:00:00.0",
+    "endTimestampLocal": "2026-11-17T00:00:00.0",
     "startTimestampGmt": "2026-11-15T22:00:00.0",
     "startTimestampLocal": "2026-11-16T00:00:00.0",
-    "totalDurationInMillis": 44820000
+    "totalDurationInMillis": 86400000
    }
   }
  ]

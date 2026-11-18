@@ -1,0 +1,64 @@
+[
+ {
+  "bodyBatteryActivityEvent": [
+   {
+    "bodyBatteryImpact": 34,
+    "durationInMilliseconds": 23460000,
+    "eventStartTimeGmt": "2026-11-17T20:49:29.0",
+    "eventType": "SLEEP",
+    "feedbackType": "NONE",
+    "shortFeedback": "NONE",
+    "timezoneOffset": 7200000
+   }
+  ],
+  "bodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "MODERATE",
+   "eventTimestampGmt": "2026-11-18T03:39:28.0",
+   "feedbackLongType": "EARLY_MORNING_HIGH_MODERATE_HIGH_BB_BEFORE_SLEEP",
+   "feedbackShortType": null
+  },
+  "bodyBatteryValueDescriptorDTOList": [
+   {
+    "bodyBatteryValueDescriptorIndex": 0,
+    "bodyBatteryValueDescriptorKey": "timestamp"
+   },
+   {
+    "bodyBatteryValueDescriptorIndex": 1,
+    "bodyBatteryValueDescriptorKey": "bodyBatteryLevel"
+   }
+  ],
+  "bodyBatteryValuesArray": [
+   [
+    1794952800000,
+    36
+   ],
+   [
+    1794960000000,
+    52
+   ],
+   [
+    1794960720000,
+    52
+   ],
+   [
+    1794968460000,
+    65
+   ],
+   [
+    1794968640000,
+    65
+   ],
+   [
+    1794972060000,
+    71
+   ]
+  ],
+  "charged": 35,
+  "date": "2026-11-18",
+  "drained": 3,
+  "endTimestampGMT": "2026-11-18T04:29:00.0",
+  "endTimestampLocal": "2026-11-18T06:29:00.0",
+  "startTimestampGMT": "2026-11-17T22:00:00.0",
+  "startTimestampLocal": "2026-11-18T00:00:00.0"
+ }
+]

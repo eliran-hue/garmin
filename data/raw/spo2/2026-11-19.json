@@ -1,14 +1,14 @@
 {
  "averageSpO2": 95.0,
  "avgSleepSpO2": 96.0,
- "avgTomorrowSleepSpO2": null,
+ "avgTomorrowSleepSpO2": 97.0,
  "calendarDate": "2026-11-19",
- "endTimestampGMT": "2026-11-19T18:37:00.0",
- "endTimestampLocal": "2026-11-19T20:37:00.0",
+ "endTimestampGMT": "2026-11-19T22:00:00.0",
+ "endTimestampLocal": "2026-11-20T00:00:00.0",
  "lastSevenDaysAvgSpO2": 96.28571428571429,
- "latestSpO2": 90,
- "latestSpO2TimestampGMT": "2026-11-19T03:40:00.0",
- "latestSpO2TimestampLocal": "2026-11-19T05:40:00.0",
+ "latestSpO2": 98,
+ "latestSpO2TimestampGMT": "2026-11-19T22:00:00.0",
+ "latestSpO2TimestampLocal": "2026-11-20T00:00:00.0",
  "lowestSpO2": 87,
  "monitoringEnvironmentValues": [
   [
@@ -830,6 +830,142 @@
   [
    1795113000000,
    65.0
+  ],
+  [
+   1795113360000,
+   65.0
+  ],
+  [
+   1795113720000,
+   65.0
+  ],
+  [
+   1795114080000,
+   65.0
+  ],
+  [
+   1795114440000,
+   65.0
+  ],
+  [
+   1795114800000,
+   65.0
+  ],
+  [
+   1795115160000,
+   65.0
+  ],
+  [
+   1795115520000,
+   65.0
+  ],
+  [
+   1795115880000,
+   65.0
+  ],
+  [
+   1795116240000,
+   65.0
+  ],
+  [
+   1795116600000,
+   65.0
+  ],
+  [
+   1795116960000,
+   65.0
+  ],
+  [
+   1795117320000,
+   65.0
+  ],
+  [
+   1795117680000,
+   65.0
+  ],
+  [
+   1795118040000,
+   65.0
+  ],
+  [
+   1795118400000,
+   65.0
+  ],
+  [
+   1795118760000,
+   65.0
+  ],
+  [
+   1795119120000,
+   65.0
+  ],
+  [
+   1795119480000,
+   65.0
+  ],
+  [
+   1795119840000,
+   65.0
+  ],
+  [
+   1795120200000,
+   65.0
+  ],
+  [
+   1795120560000,
+   65.0
+  ],
+  [
+   1795120920000,
+   65.0
+  ],
+  [
+   1795121280000,
+   65.0
+  ],
+  [
+   1795121640000,
+   65.0
+  ],
+  [
+   1795122000000,
+   65.0
+  ],
+  [
+   1795122360000,
+   65.0
+  ],
+  [
+   1795122720000,
+   65.0
+  ],
+  [
+   1795123080000,
+   65.0
+  ],
+  [
+   1795123440000,
+   65.0
+  ],
+  [
+   1795123800000,
+   65.0
+  ],
+  [
+   1795124160000,
+   65.0
+  ],
+  [
+   1795124520000,
+   65.0
+  ],
+  [
+   1795124880000,
+   65.0
+  ],
+  [
+   1795125240000,
+   65.0
   ]
  ],
  "monitoringEnvironmentValuesDescriptorList": [
@@ -951,6 +1087,21 @@
    1795111200000,
    null,
    65.19999694824219
+  ],
+  [
+   1795114800000,
+   null,
+   65.19999694824219
+  ],
+  [
+   1795118400000,
+   97,
+   65.19999694824219
+  ],
+  [
+   1795122000000,
+   97,
+   65.19999694824219
   ]
  ],
  "spO2HourlyAveragesDescriptorList": [
@@ -984,9 +1135,9 @@
  ],
  "startTimestampGMT": "2026-11-18T22:00:00.0",
  "startTimestampLocal": "2026-11-19T00:00:00.0",
- "tomorrowSleepEndTimestampGMT": null,
- "tomorrowSleepEndTimestampLocal": null,
- "tomorrowSleepStartTimestampGMT": null,
- "tomorrowSleepStartTimestampLocal": null,
+ "tomorrowSleepEndTimestampGMT": "2026-11-20T04:30:32.0",
+ "tomorrowSleepEndTimestampLocal": "2026-11-20T06:30:32.0",
+ "tomorrowSleepStartTimestampGMT": "2026-11-19T20:43:32.0",
+ "tomorrowSleepStartTimestampLocal": "2026-11-19T22:43:32.0",
  "userProfilePK": 52220659
 }

@@ -37,27 +37,33 @@
     67
    ],
    [
-    1795064040000,
-    61
+    1795068000000,
+    55
    ],
    [
-    1795088700000,
-    40
+    1795096260000,
+    34
    ],
    [
-    1795088880000,
-    40
+    1795096800000,
+    34
    ],
    [
-    1795113000000,
-    23
+    1795118400000,
+    18
    ]
   ],
-  "charged": 26,
+  "charged": 32,
   "date": "2026-11-19",
-  "drained": 45,
-  "endTimestampGMT": "2026-11-19T18:37:00.0",
-  "endTimestampLocal": "2026-11-19T20:37:00.0",
+  "drained": 50,
+  "endOfDayBodyBatteryDynamicFeedbackEvent": {
+   "bodyBatteryLevel": "MODERATE",
+   "eventTimestampGmt": "2026-11-19T20:40:43.0",
+   "feedbackLongType": "SLEEP_TIME_PASSED_BALANCED_AND_INACTIVE",
+   "feedbackShortType": "SLEEP_TIME_PASSED_BALANCED_AND_INACTIVE"
+  },
+  "endTimestampGMT": "2026-11-19T22:00:00.0",
+  "endTimestampLocal": "2026-11-20T00:00:00.0",
   "startTimestampGMT": "2026-11-18T22:00:00.0",
   "startTimestampLocal": "2026-11-19T00:00:00.0"
  }

@@ -2,11 +2,11 @@
  {
   "calendarDate": "2026-11-20",
   "values": {
-   "highStressDuration": 180,
-   "lowStressDuration": 14580,
-   "mediumStressDuration": 1440,
-   "overallStressLevel": 32,
-   "restStressDuration": 7680
+   "highStressDuration": 1680,
+   "lowStressDuration": 34200,
+   "mediumStressDuration": 8460,
+   "overallStressLevel": 36,
+   "restStressDuration": 16920
   }
  }
 ]

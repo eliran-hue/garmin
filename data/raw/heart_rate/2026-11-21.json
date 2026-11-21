@@ -1,0 +1,52 @@
+{
+ "calendarDate": "2026-11-21",
+ "endTimestampGMT": "2026-11-21T04:16:00.0",
+ "endTimestampLocal": "2026-11-22T00:00:00.0",
+ "heartRateValueDescriptors": [
+  {
+   "index": 0,
+   "key": "timestamp"
+  },
+  {
+   "index": 1,
+   "key": "heartrate"
+  }
+ ],
+ "heartRateValues": [
+  [
+   1795212000000,
+   null
+  ],
+  [
+   1795233840000,
+   67
+  ],
+  [
+   1795233960000,
+   67
+  ],
+  [
+   1795234080000,
+   69
+  ],
+  [
+   1795234200000,
+   67
+  ],
+  [
+   1795234320000,
+   73
+  ],
+  [
+   1795234440000,
+   71
+  ]
+ ],
+ "lastSevenDaysAvgRestingHeartRate": null,
+ "maxHeartRate": 73,
+ "minHeartRate": 67,
+ "restingHeartRate": 66,
+ "startTimestampGMT": "2026-11-20T22:00:00.0",
+ "startTimestampLocal": "2026-11-21T00:00:00.0",
+ "userProfilePK": 52220659
+}

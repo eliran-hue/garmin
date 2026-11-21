@@ -1,0 +1,92 @@
+{
+ "data": [
+  {
+   "bodyBattery": {
+    "chargedValue": 54,
+    "drainedValue": 1,
+    "dynamicFeedbackEvent": {
+     "bodyBatteryLevel": "HIGH",
+     "eventTimestampGmt": "2026-11-21T04:04:34.0",
+     "feedbackLongType": "EARLY_MORNING_NO_DATA"
+    },
+    "featureVersion": "3.0",
+    "latestValue": 87,
+    "maxValue": 88,
+    "minValue": 34
+   },
+   "calendarDate": "2026-11-21",
+   "calories": {
+    "burnedActive": 0,
+    "burnedResting": 563,
+    "burnedTotal": 563,
+    "consumedGoal": 1880,
+    "consumedRemaining": 1880
+   },
+   "heartRate": {
+    "maxValue": 73,
+    "minValue": 67,
+    "restingValue": 66
+   },
+   "hydration": {},
+   "includesActivityData": false,
+   "includesWellnessData": true,
+   "intensityMinutes": {
+    "goal": 200,
+    "moderate": 0,
+    "vigorous": 0
+   },
+   "jetLag": {},
+   "movement": {
+    "floorsAscended": {
+     "distanceInMeters": 0.0,
+     "goal": 5,
+     "value": 0
+    },
+    "floorsDescended": {
+     "distanceInMeters": 0.0,
+     "value": 0
+    },
+    "pushes": {},
+    "steps": {
+     "goal": 1000
+    }
+   },
+   "pulseOx": {
+    "avgAltitudeInMeters": 77.0
+   },
+   "respiration": {
+    "algorithmVersion": 200,
+    "avgValue": 14,
+    "latestTimestampGmt": "2026-11-21T04:16:00.0",
+    "latestValue": 16,
+    "maxValue": 17,
+    "minValue": 12
+   },
+   "source": "garmin",
+   "stress": {
+    "activityProportion": 0.0,
+    "avgLevel": 28,
+    "highStressProportion": 0.0,
+    "lowStressDurationInMillis": 300000,
+    "lowStressProportion": 0.01,
+    "maxLevel": 42,
+    "mediumStressProportion": 0.0,
+    "qualifier": "unknown",
+    "restDurationInMillis": 420000,
+    "restProportion": 0.02,
+    "totalDurationInMillis": 22320000,
+    "uncategorizedDurationInMillis": 21600000,
+    "uncategorizedProportion": 0.97
+   },
+   "userProfilePk": 52220659,
+   "uuid": "ee5dc4a5-0345-43ff-9731-7c7ea7e646a7",
+   "wellnessChronology": {
+    "endTimestampGmt": "2026-11-21T04:16:00.0",
+    "endTimestampLocal": "2026-11-21T06:16:00.0",
+    "startTimestampGmt": "2026-11-20T22:00:00.0",
+    "startTimestampLocal": "2026-11-21T00:00:00.0",
+    "totalDurationInMillis": 22560000
+   }
+  }
+ ]
+}
